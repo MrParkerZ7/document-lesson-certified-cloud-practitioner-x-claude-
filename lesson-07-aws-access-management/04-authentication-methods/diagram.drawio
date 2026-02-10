@@ -1,0 +1,222 @@
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="Mozilla/5.0" etag="auth-methods" version="22.1.0" type="device">
+  <diagram name="AWS Authentication Methods" id="auth-methods-diagram">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="AWS Authentication Methods" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="360" y="15" width="380" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Main Container -->
+        <mxCell id="main-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="65" width="1020" height="500" as="geometry" />
+        </mxCell>
+
+        <!-- Console Authentication -->
+        <mxCell id="console-box" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="90" width="300" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="console-title" value="Console Authentication" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="130" y="100" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="console-1" value="Account ID" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="135" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="console-2" value="Username" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="135" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="console-3" value="Password" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="175" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="console-4" value="MFA Token" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="175" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="console-note" value="MFA = Recommended" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#1E8900;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="160" y="210" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="console-arrow" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="240" as="sourcePoint" />
+            <mxPoint x="270" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="console-target" value="Console" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="270" y="232" width="70" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- CLI/API Authentication -->
+        <mxCell id="cli-box" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="90" width="300" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="cli-title" value="CLI/SDK/API Authentication" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="440" y="100" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cli-1" value="Access Key ID" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cli-1-note" value="(Public)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="430" y="180" width="80" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="cli-2" value="Secret Access Key" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cli-2-note" value="(Private - PROTECT!)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#DD3522;" vertex="1" parent="1">
+          <mxGeometry x="550" y="180" width="120" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="cli-or" value="OR use IAM Roles (no keys needed!)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#1E8900;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="200" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cli-arrow" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="240" as="sourcePoint" />
+            <mxPoint x="590" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cli-target" value="AWS API" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="590" y="232" width="70" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- MFA Types -->
+        <mxCell id="mfa-box" value="" style="whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="90" width="340" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="mfa-title" value="Multi-Factor Authentication (MFA)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="760" y="100" width="240" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="mfa-desc" value="Something you know + Something you have" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="760" y="125" width="240" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="mfa-1" value="Virtual MFA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="155" width="90" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="mfa-1-desc" value="Authy, Google Auth" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="730" y="200" width="90" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="mfa-2" value="Hardware MFA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="835" y="155" width="90" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="mfa-2-desc" value="Physical Key Fob" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="835" y="200" width="90" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="mfa-3" value="FIDO2 Key" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="155" width="90" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="mfa-3-desc" value="YubiKey" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="940" y="200" width="90" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="mfa-benefit" value="MFA = HIGHLY RECOMMENDED FOR ALL USERS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="225" width="250" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- STS / Temporary Credentials -->
+        <mxCell id="sts-box" value="" style="whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="290" width="470" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="sts-title" value="Temporary Credentials (AWS STS)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="190" y="300" width="230" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="sts-comp" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="335" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sts-comp-title" value="Components" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="140" y="340" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sts-c1" value="Access Key ID" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#232F3E;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="365" width="85" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sts-c2" value="Secret Key" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#232F3E;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="365" width="85" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sts-c3" value="Session Token" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="390" width="90" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="sts-uses" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="335" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sts-uses-title" value="Use Cases" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="370" y="340" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sts-u1" value="IAM Roles" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#232F3E;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="365" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sts-u2" value="Federation" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#232F3E;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="365" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sts-u3" value="Cross-Account" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#232F3E;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="390" width="100" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Auth vs Authz -->
+        <mxCell id="compare-box" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="290" width="490" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="compare-title" value="Authentication vs Authorization" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="700" y="300" width="210" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="authn-box" value="" style="whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="335" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="authn-title" value="AUTHENTICATION" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="610" y="340" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="authn-q" value="&quot;Who are you?&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#FFFFFF;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="610" y="365" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="authn-ex" value="Username, Password, MFA" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="600" y="390" width="160" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="authz-box" value="" style="whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="335" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="authz-title" value="AUTHORIZATION" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="860" y="340" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="authz-q" value="&quot;What can you do?&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#FFFFFF;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="860" y="365" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="authz-ex" value="IAM Policies, Permissions" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="860" y="390" width="140" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Best Practices -->
+        <mxCell id="bp-box" value="" style="whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="450" width="980" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bp-title" value="Authentication Best Practices" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="420" y="458" width="240" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="bp-1" value="Enable MFA&#xa;everywhere" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#DD3522;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="495" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bp-2" value="Rotate access&#xa;keys regularly" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#DD3522;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="495" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bp-3" value="Never embed keys&#xa;in code" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#DD3522;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="495" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bp-4" value="Use IAM Roles&#xa;not access keys" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#DD3522;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="495" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bp-5" value="Strong password&#xa;policy" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#DD3522;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="495" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bp-6" value="Monitor with&#xa;CloudTrail" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#DD3522;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="495" width="130" height="40" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

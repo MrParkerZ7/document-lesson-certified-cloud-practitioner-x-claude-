@@ -1,0 +1,142 @@
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="Mozilla/5.0" etag="compliance-programs" version="22.1.0" type="device">
+  <diagram name="AWS Compliance Programs" id="compliance-diagram">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="AWS Compliance Programs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="360" y="20" width="400" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Main Container -->
+        <mxCell id="main-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="960" height="460" as="geometry" />
+        </mxCell>
+
+        <!-- Security Certifications Box -->
+        <mxCell id="security-box" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="120" width="280" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="security-title" value="Security Certifications" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="160" y="130" width="160" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cert-1" value="SOC 1/2/3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="165" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cert-2" value="ISO 27001" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="165" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cert-3" value="ISO 27017" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="205" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cert-4" value="ISO 27018" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="205" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cert-5" value="ISO 27701" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="245" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cert-6" value="CSA STAR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="245" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cert-7" value="Cyber Essentials" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="165" y="285" width="150" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Industry Compliance Box -->
+        <mxCell id="industry-box" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="120" width="280" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="industry-title" value="Industry Compliance" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="460" y="130" width="160" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ind-1" value="HIPAA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="165" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ind-2" value="PCI DSS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="165" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ind-3" value="FedRAMP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="205" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ind-4" value="GxP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="205" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ind-5" value="FERPA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="245" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ind-6" value="GLBA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="245" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ind-7" value="SOX" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="485" y="285" width="110" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Regional Compliance Box -->
+        <mxCell id="regional-box" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="120" width="320" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="regional-title" value="Regional Compliance" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="780" y="130" width="160" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="reg-1" value="GDPR (EU)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="165" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="reg-2" value="C5 (Germany)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="165" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="reg-3" value="MTCS (Singapore)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="205" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="reg-4" value="IRAP (Australia)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="205" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="reg-5" value="K-ISMS (Korea)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="245" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="reg-6" value="OSPAR (Singapore)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="245" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="reg-7" value="ENS (Spain)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="285" width="140" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- AWS Artifact Central -->
+        <mxCell id="artifact-box" value="" style="whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#FF9900;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="360" width="380" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="artifact-title" value="AWS Artifact" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="480" y="370" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="artifact-desc" value="Central Resource for Compliance Documentation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="400" y="400" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="art-1" value="Audit Reports" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#232F3E;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="430" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="art-2" value="Certifications" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#232F3E;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="430" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="art-3" value="Agreements" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#232F3E;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="430" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="art-4" value="On-Demand Self-Service Access" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#FFFFFF;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="420" y="475" width="240" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Arrows from categories to Artifact -->
+        <mxCell id="arrow1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;exitX=0.5;exitY=1;entryX=0.25;entryY=0;" edge="1" parent="1" source="security-box" target="artifact-box">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="industry-box" target="artifact-box">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow3" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;exitX=0.5;exitY=1;entryX=0.75;entryY=0;" edge="1" parent="1" source="regional-box" target="artifact-box">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,164 @@
+<mxfile host="app.diagrams.net" modified="2024-01-15T10:00:00.000Z" agent="5.0" version="21.0.0" etag="aws-local-zones">
+  <diagram name="AWS Local Zones" id="aws-local-zones">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="800" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="AWS Local Zones" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="450" y="20" width="300" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Main Container -->
+        <mxCell id="main-container" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8E8E8;strokeColor=#232F3E;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="1120" height="680" as="geometry" />
+        </mxCell>
+
+        <!-- Definition -->
+        <mxCell id="def-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="100" width="1080" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="def-text" value="Local Zones extend AWS Regions closer to large population centers for single-digit millisecond latency" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="200" y="115" width="800" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Architecture Diagram -->
+        <mxCell id="arch-title" value="Local Zone Architecture" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="450" y="175" width="300" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Parent Region -->
+        <mxCell id="region-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=3;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="210" width="400" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="region-title" value="AWS REGION (us-west-2 Oregon)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="480" y="220" width="240" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="az1" value="AZ-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="260" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="az2" value="AZ-2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="260" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="az3" value="AZ-3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="260" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="region-services" value="Full AWS Services Available" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="430" y="340" width="340" height="15" as="geometry" />
+        </mxCell>
+
+        <!-- Local Zones -->
+        <mxCell id="lz1-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#1E8900;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="400" width="240" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="lz1-title" value="LOCAL ZONE&#xa;Los Angeles" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#1E8900;" vertex="1" parent="1">
+          <mxGeometry x="150" y="410" width="140" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="lz1-latency" value="&lt; 10ms to LA users" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="455" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lz1-services" value="EC2 | EBS | VPC | ELB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1E8900;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="120" y="495" width="200" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="lz2-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#1E8900;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="400" width="240" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="lz2-title" value="LOCAL ZONE&#xa;Denver" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#1E8900;" vertex="1" parent="1">
+          <mxGeometry x="530" y="410" width="140" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="lz2-latency" value="&lt; 10ms to Denver users" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="455" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lz2-services" value="EC2 | EBS | VPC | ELB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1E8900;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="500" y="495" width="200" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="lz3-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#1E8900;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="400" width="240" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="lz3-title" value="LOCAL ZONE&#xa;Phoenix" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#1E8900;" vertex="1" parent="1">
+          <mxGeometry x="910" y="410" width="140" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="lz3-latency" value="&lt; 10ms to Phoenix users" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="455" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lz3-services" value="EC2 | EBS | VPC | ELB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1E8900;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="880" y="495" width="200" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Connection arrows -->
+        <mxCell id="conn1" value="Connected" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="370" as="sourcePoint" />
+            <mxPoint x="220" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="conn2" value="Connected" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="370" as="sourcePoint" />
+            <mxPoint x="600" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="conn3" value="Connected" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="370" as="sourcePoint" />
+            <mxPoint x="980" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Use Cases -->
+        <mxCell id="use-title" value="Use Cases (Latency-Sensitive Applications)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="400" y="560" width="400" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="use1" value="Gaming" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="590" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="use2" value="Media &amp;&#xa;Entertainment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="590" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="use3" value="Live&#xa;Streaming" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="590" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="use4" value="AR / VR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="590" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="use5" value="Real-Time&#xa;ML Inference" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="590" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="use6" value="Healthcare&#xa;Analysis" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="590" width="140" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Comparison -->
+        <mxCell id="compare-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="650" width="1080" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="comp1" value="Regions&#xa;Full Services" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;shadow=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="100" y="660" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="comp2" value="Local Zones&#xa;&lt;10ms Latency" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;shadow=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="320" y="660" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="comp3" value="Edge Locations&#xa;Content Caching" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;shadow=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="540" y="660" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="comp4" value="Outposts&#xa;AWS On-Premises" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;shadow=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="760" y="660" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="comp5" value="OPT-IN&#xa;REQUIRED" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFD700;strokeColor=none;fontColor=#232F3E;fontStyle=1;shadow=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="980" y="660" width="120" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Exam Tip -->
+        <mxCell id="exam-tip" value="EXAM TIP: Local Zones = extend regions to cities for single-digit ms latency. Must OPT-IN. Subset of services (EC2, EBS). For gaming, media, AR/VR, streaming." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;fontStyle=0;shadow=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="60" y="725" width="1080" height="30" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

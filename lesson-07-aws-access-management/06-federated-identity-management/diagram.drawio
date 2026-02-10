@@ -1,0 +1,203 @@
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="Mozilla/5.0" etag="federated-identity" version="22.1.0" type="device">
+  <diagram name="Federated Identity Management" id="federation-diagram">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="Federated Identity Management" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="340" y="15" width="400" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Main Container -->
+        <mxCell id="main-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="65" width="1020" height="500" as="geometry" />
+        </mxCell>
+
+        <!-- Federation Flow -->
+        <mxCell id="flow-box" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="90" width="980" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-title" value="How Federation Works" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="470" y="100" width="160" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="user-box" value="Corporate&#xa;User" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="140" width="100" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="170" as="sourcePoint" />
+            <mxPoint x="280" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label1" value="1. Authenticate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="210" y="145" width="80" height="15" as="geometry" />
+        </mxCell>
+
+        <mxCell id="idp-box" value="Identity Provider&#xa;(ADFS, Okta, etc.)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="140" width="130" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="170" as="sourcePoint" />
+            <mxPoint x="500" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label2" value="2. SAML Assertion" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="430" y="145" width="90" height="15" as="geometry" />
+        </mxCell>
+
+        <mxCell id="sts-box" value="AWS STS&#xa;AssumeRoleWithSAML" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="140" width="140" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow3" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="170" as="sourcePoint" />
+            <mxPoint x="730" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label3" value="3. Temp Creds" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="660" y="145" width="80" height="15" as="geometry" />
+        </mxCell>
+
+        <mxCell id="creds-box" value="Temporary&#xa;Credentials" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="140" width="100" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow4" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="850" y="170" as="sourcePoint" />
+            <mxPoint x="920" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label4" value="4. Access" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="850" y="145" width="80" height="15" as="geometry" />
+        </mxCell>
+
+        <mxCell id="aws-box" value="AWS&#xa;Resources" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="140" width="100" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Federation Types -->
+        <mxCell id="types-box" value="" style="whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="260" width="480" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="types-title" value="Federation Types" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="240" y="270" width="140" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="type-1" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="305" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="type-1-title" value="SAML 2.0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="120" y="310" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="type-1-desc" value="Enterprise SSO&#xa;ADFS, Okta, Ping&#xa;Standard protocol" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="100" y="335" width="120" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="type-2" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="305" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="type-2-title" value="Web Identity" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="275" y="310" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="type-2-desc" value="Social Login&#xa;Google, Facebook&#xa;Mobile/Web apps" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="260" y="335" width="120" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="type-3" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="305" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="type-3-title" value="Custom Broker" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="420" y="310" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="type-3-desc" value="Custom auth&#xa;Direct STS calls&#xa;Complex scenarios" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="420" y="335" width="100" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Cognito Section -->
+        <mxCell id="cognito-box" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="260" width="480" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="cognito-title" value="Amazon Cognito (Recommended for Web/Mobile)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="660" y="270" width="300" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="cog-idps" value="" style="whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="305" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cog-idps-title" value="Identity Providers" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="640" y="310" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="idp-1" value="Google" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#232F3E;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="605" y="335" width="60" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="idp-2" value="Facebook" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#232F3E;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="675" y="335" width="60" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="idp-3" value="Amazon" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#232F3E;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="605" y="365" width="60" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="idp-4" value="Apple" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#232F3E;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="675" y="365" width="60" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="idp-5" value="SAML/OIDC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="745" y="335" width="30" height="55" as="geometry" />
+        </mxCell>
+
+        <mxCell id="cog-features" value="" style="whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="305" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cog-feat-title" value="Cognito Features" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="870" y="310" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="feat-1" value="User Pools" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#232F3E;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="825" y="335" width="85" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="feat-2" value="Identity Pools" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#232F3E;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="335" width="85" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="feat-3" value="Custom UI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#232F3E;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="825" y="365" width="85" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="feat-4" value="MFA Support" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#232F3E;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="365" width="85" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Benefits -->
+        <mxCell id="benefits-box" value="" style="whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="440" width="980" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="benefits-title" value="Federation Benefits" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="470" y="450" width="160" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ben-1" value="No IAM Users Needed" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#1E8900;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="485" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ben-2" value="Single Identity Source" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#1E8900;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="485" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ben-3" value="Temporary Credentials" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#1E8900;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="485" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ben-4" value="Auto Deprovisioning" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#1E8900;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="485" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ben-5" value="Centralized Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#1E8900;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="485" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ben-6" value="Compliance Ready" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#1E8900;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="485" width="130" height="40" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,196 @@
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="Mozilla/5.0" etag="least-privilege" version="22.1.0" type="device">
+  <diagram name="Principle of Least Privilege" id="least-privilege-diagram">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="Principle of Least Privilege" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="360" y="15" width="380" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Main Container -->
+        <mxCell id="main-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="65" width="1020" height="500" as="geometry" />
+        </mxCell>
+
+        <!-- Before/After Comparison -->
+        <mxCell id="before-box" value="" style="whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="90" width="230" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="before-title" value="TOO MUCH ACCESS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="100" y="100" width="170" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="before-icon" value="Admin Access" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=12;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="135" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="before-list" value="Full EC2 access&#xa;Full S3 access&#xa;Full RDS access&#xa;Full IAM access&#xa;Full Lambda access" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="100" y="180" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="before-risk" value="HIGH RISK" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#DD3522;fontSize=11;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="255" width="120" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Arrow -->
+        <mxCell id="arrow" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#FF9900;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="190" as="sourcePoint" />
+            <mxPoint x="380" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow-text" value="Apply Least&#xa;Privilege" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=2;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="310" y="210" width="80" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- After Box -->
+        <mxCell id="after-box" value="" style="whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="90" width="230" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="after-title" value="LEAST PRIVILEGE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="430" y="100" width="170" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="after-icon" value="Specific Permissions" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=12;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="435" y="135" width="160" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="after-list" value="ec2:StartInstances&#xa;ec2:StopInstances&#xa;s3:GetObject (bucket-x)&#xa;lambda:InvokeFunction" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="430" y="180" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="after-risk" value="LOW RISK" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#1E8900;fontSize=11;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="455" y="255" width="120" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Benefits Box -->
+        <mxCell id="benefits-box" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="90" width="400" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="benefits-title" value="Benefits of Least Privilege" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="755" y="100" width="190" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="benefit-1" value="Reduced Blast Radius" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="135" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="benefit-2" value="Compliance Ready" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="135" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="benefit-3" value="Better Audit Trail" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="175" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="benefit-4" value="Defense in Depth" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="175" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="benefit-5" value="Credential Protection" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="215" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="benefit-6" value="Incident Containment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="215" width="170" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Implementation Steps -->
+        <mxCell id="impl-box" value="" style="whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="310" width="560" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="impl-title" value="Implementation Steps" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="260" y="320" width="180" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="step-1" value="1. Start Empty" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="355" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="step-1-desc" value="No permissions" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="90" y="405" width="100" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="step-arrow1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FFFFFF;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="380" as="sourcePoint" />
+            <mxPoint x="230" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="step-2" value="2. Identify Tasks" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="355" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="step-2-desc" value="What do they need?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="240" y="405" width="100" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="step-arrow2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FFFFFF;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="380" as="sourcePoint" />
+            <mxPoint x="380" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="step-3" value="3. Add Minimum" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="355" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="step-3-desc" value="Only required perms" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="390" y="405" width="100" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="step-arrow3" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FFFFFF;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="380" as="sourcePoint" />
+            <mxPoint x="530" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="step-4" value="4. Review &amp; Audit" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="355" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="step-4-desc" value="Remove unused" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="510" y="405" width="100" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- AWS Tools Box -->
+        <mxCell id="tools-box" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="310" width="400" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="tools-title" value="AWS Tools for Least Privilege" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="745" y="320" width="210" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tool-1" value="IAM Access Analyzer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="355" width="170" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="tool-1-desc" value="Find unused permissions" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="670" y="390" width="170" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tool-2" value="IAM Access Advisor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="355" width="170" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="tool-2-desc" value="Last accessed data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="860" y="390" width="170" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Common Mistakes -->
+        <mxCell id="mistakes-box" value="" style="whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="460" width="980" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="mistakes-title" value="Common Mistakes to Avoid" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="440" y="468" width="200" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="mistake-1" value='Using * for Actions&#xa;"Action": "*"' style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#DD3522;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="500" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mistake-2" value='Using * for Resources&#xa;"Resource": "*"' style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#DD3522;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="500" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mistake-3" value="Copying Admin Policies&#xa;for all users" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#DD3522;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="500" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mistake-4" value="Never Reviewing&#xa;permissions over time" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#DD3522;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="500" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mistake-5" value="Sharing Credentials&#xa;between users" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#DD3522;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="500" width="160" height="40" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

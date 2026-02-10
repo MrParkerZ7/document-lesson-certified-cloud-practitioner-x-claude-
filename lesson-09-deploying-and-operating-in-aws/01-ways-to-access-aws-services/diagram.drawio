@@ -1,0 +1,216 @@
+<mxfile host="app.diagrams.net" modified="2024-01-15T10:00:00.000Z" agent="5.0" version="21.0.0" etag="ways-to-access-aws">
+  <diagram name="Ways to Access AWS Services" id="ways-to-access-aws">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="800" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="Ways to Access AWS Services" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="400" y="20" width="400" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Main Container -->
+        <mxCell id="main-container" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8E8E8;strokeColor=#232F3E;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="1120" height="680" as="geometry" />
+        </mxCell>
+
+        <!-- AWS Cloud -->
+        <mxCell id="aws-cloud" value="AWS CLOUD" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=18;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="100" width="240" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Four Access Methods -->
+        <mxCell id="console-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="180" width="240" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="console-title" value="AWS MANAGEMENT CONSOLE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="60" y="190" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="console-icon" value="Web Browser" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="230" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="console-f1" value="Visual Interface" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF9900;shadow=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="80" y="285" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="console-f2" value="Point &amp; Click" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF9900;shadow=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="185" y="285" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="console-f3" value="Best for: Learning, Ad-hoc tasks" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF9900;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="80" y="325" width="205" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="console-f4" value="Auth: Username + Password + MFA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF9900;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="80" y="360" width="205" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="cli-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="180" width="240" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="cli-title" value="AWS CLI" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="320" y="190" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cli-icon" value="Command Line" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="230" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cli-f1" value="Scripting" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF9900;shadow=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="340" y="285" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cli-f2" value="Automation" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF9900;shadow=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="445" y="285" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cli-f3" value="Best for: Scripts, Quick commands" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF9900;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="340" y="325" width="205" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cli-f4" value="Auth: Access Keys / IAM Roles" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF9900;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="340" y="360" width="205" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="sdk-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="180" width="240" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="sdk-title" value="AWS SDKs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="580" y="190" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sdk-icon" value="Programming" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="230" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sdk-f1" value="Python" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF9900;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="600" y="285" width="50" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="sdk-f2" value="Java" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF9900;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="655" y="285" width="45" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="sdk-f3" value="JS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF9900;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="705" y="285" width="35" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="sdk-f4" value=".NET" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF9900;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="745" y="285" width="55" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="sdk-f5" value="Best for: App Development" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF9900;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="600" y="325" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sdk-f6" value="Auth: Access Keys / IAM Roles" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF9900;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="600" y="360" width="200" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="cloudshell-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="180" width="240" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="cloudshell-title" value="AWS CLOUDSHELL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="840" y="190" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cloudshell-icon" value="Browser CLI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="230" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cloudshell-f1" value="Pre-installed" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF9900;shadow=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="860" y="285" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cloudshell-f2" value="FREE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;shadow=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="965" y="285" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cloudshell-f3" value="Best for: Quick CLI in Console" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF9900;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="860" y="325" width="205" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cloudshell-f4" value="Auth: Console Session" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF9900;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="860" y="360" width="205" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Arrows to APIs -->
+        <mxCell id="arrow1" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="410" as="sourcePoint" />
+            <mxPoint x="180" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow2" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="410" as="sourcePoint" />
+            <mxPoint x="440" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow3" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="410" as="sourcePoint" />
+            <mxPoint x="700" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow4" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="410" as="sourcePoint" />
+            <mxPoint x="960" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- AWS APIs Layer -->
+        <mxCell id="api-container" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="480" width="1080" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="api-title" value="AWS APIs (All access methods use APIs underneath)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="350" y="495" width="500" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="api-feat1" value="REST APIs" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="520" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="api-feat2" value="Signature V4 Auth" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="520" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="api-feat3" value="Service Endpoints" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="520" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="api-feat4" value="HTTPS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="520" width="150" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Arrow to AWS Services -->
+        <mxCell id="arrow-services" value="" style="endArrow=classic;html=1;strokeWidth=4;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="570" as="sourcePoint" />
+            <mxPoint x="600" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- AWS Services -->
+        <mxCell id="services-container" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="630" width="1080" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="services-title" value="AWS SERVICES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="500" y="640" width="200" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="svc1" value="EC2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="680" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="svc2" value="S3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="680" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="svc3" value="Lambda" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="680" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="svc4" value="RDS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="680" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="svc5" value="DynamoDB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="680" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="svc6" value="VPC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="680" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="svc7" value="IAM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="680" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="svc8" value="CloudWatch" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="680" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="svc9" value="..." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;shadow=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="930" y="680" width="80" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Exam Tip -->
+        <mxCell id="exam-tip" value="EXAM TIP: Console for visual, CLI for scripting, SDKs for apps, CloudShell is FREE - All methods use AWS APIs underneath" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;fontStyle=0;shadow=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="200" y="425" width="800" height="35" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

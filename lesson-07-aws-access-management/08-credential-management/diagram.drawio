@@ -1,0 +1,199 @@
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="Mozilla/5.0" etag="credential-management" version="22.1.0" type="device">
+  <diagram name="Credential Management" id="credential-diagram">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="AWS Credential Management" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="370" y="15" width="360" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Main Container -->
+        <mxCell id="main-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="65" width="1020" height="500" as="geometry" />
+        </mxCell>
+
+        <!-- Credential Types -->
+        <mxCell id="types-box" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="90" width="300" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="types-title" value="Credential Types" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="155" y="100" width="130" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="type-1" value="Console Password" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="135" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="type-2" value="Access Keys" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="135" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="type-3" value="SSH Keys" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="175" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="type-4" value="DB Credentials" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="175" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="type-5" value="API Keys" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="215" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="type-6" value="Certificates" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="215" width="120" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Storage Services -->
+        <mxCell id="storage-box" value="" style="whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="90" width="320" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="storage-title" value="Credential Storage Services" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="450" y="100" width="200" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="sm-box" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="135" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sm-title" value="Secrets Manager" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="420" y="140" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sm-f1" value="Auto-rotation" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="165" width="100" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="sm-f2" value="RDS integration" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#232F3E;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="192" width="100" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="sm-f3" value="$0.40/secret/mo" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#232F3E;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="219" width="100" height="22" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ps-box" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="135" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ps-title" value="Parameter Store" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="570" y="140" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ps-f1" value="Free tier" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="165" width="100" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="ps-f2" value="Config + Secrets" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#232F3E;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="192" width="100" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="ps-f3" value="SecureString" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#232F3E;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="219" width="100" height="22" as="geometry" />
+        </mxCell>
+
+        <!-- Monitoring -->
+        <mxCell id="monitor-box" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="90" width="320" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="monitor-title" value="Credential Monitoring" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="820" y="100" width="140" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="mon-1" value="IAM Credential Report" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="135" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="mon-2" value="CloudTrail" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="895" y="135" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="mon-3" value="IAM Access Analyzer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="180" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="mon-4" value="GuardDuty" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="895" y="180" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="mon-5" value="AWS Config" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="225" width="140" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Key Rotation -->
+        <mxCell id="rotation-box" value="" style="whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="290" width="640" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rotation-title" value="Access Key Rotation Process" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="280" y="300" width="200" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="step-1" value="1. Create&#xa;New Key" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#1E8900;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="335" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FFFFFF;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="362" as="sourcePoint" />
+            <mxPoint x="240" y="362" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="step-2" value="2. Update&#xa;Applications" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#1E8900;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="335" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FFFFFF;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="362" as="sourcePoint" />
+            <mxPoint x="400" y="362" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="step-3" value="3. Test&#xa;Access" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#1E8900;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="335" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-3" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FFFFFF;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="362" as="sourcePoint" />
+            <mxPoint x="560" y="362" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="step-4" value="4. Delete&#xa;Old Key" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#DD3522;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="335" width="100" height="55" as="geometry" />
+        </mxCell>
+
+        <!-- Best Practices -->
+        <mxCell id="bp-box" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="290" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bp-title" value="Best Practices" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="840" y="300" width="100" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="bp-1" value="Use IAM Roles" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="335" width="130" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="bp-2" value="Enable MFA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="895" y="335" width="130" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="bp-3" value="Rotate Regularly" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="370" width="130" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="bp-4" value="Delete Unused" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="895" y="370" width="130" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Don'ts -->
+        <mxCell id="donts-box" value="" style="whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="430" width="980" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="donts-title" value="NEVER DO THIS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="470" y="440" width="160" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="dont-1" value="Embed keys in code" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#DD3522;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="475" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dont-2" value="Commit to Git/repos" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#DD3522;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="475" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dont-3" value="Share credentials" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#DD3522;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="475" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dont-4" value="Store in plain text" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#DD3522;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="475" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dont-5" value="Use root access keys" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#DD3522;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="475" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dont-6" value="Keep unused keys" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#DD3522;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="475" width="130" height="50" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

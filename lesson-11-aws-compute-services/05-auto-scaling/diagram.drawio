@@ -1,0 +1,282 @@
+<mxfile host="app.diagrams.net" modified="2024-01-15T10:00:00.000Z" agent="Claude" version="21.6.5">
+  <diagram name="Auto Scaling" id="auto-scaling-diagram">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="AWS Auto Scaling" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#232F3E;" parent="1" vertex="1">
+          <mxGeometry x="450" y="20" width="500" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Main Container -->
+        <mxCell id="main-container" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8E8E8;strokeColor=#232F3E;strokeWidth=2;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="80" width="1300" height="780" as="geometry" />
+        </mxCell>
+
+        <!-- Auto Scaling Concept -->
+        <mxCell id="concept-box" value="AUTO SCALING CONCEPT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=14;verticalAlign=top;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="100" width="600" height="200" as="geometry" />
+        </mxCell>
+
+        <mxCell id="low-demand" value="LOW DEMAND" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;fontStyle=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="100" y="130" width="100" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ec2-min" value="EC2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="110" y="160" width="70" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="min-label" value="(Min)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="120" y="210" width="50" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="scale-out-arrow" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#FF9900;flowAnimation=1;shadow=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="185" as="sourcePoint" />
+            <mxPoint x="280" y="185" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="scale-out-label" value="SCALE OUT" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF9900;fontStyle=1;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="200" y="165" width="80" height="15" as="geometry" />
+        </mxCell>
+
+        <mxCell id="peak-demand" value="PEAK DEMAND" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;fontStyle=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="320" y="130" width="100" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ec2-1" value="EC2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="290" y="160" width="70" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ec2-2" value="EC2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="160" width="70" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ec2-3" value="EC2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="160" width="70" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="max-label" value="(Max)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="365" y="210" width="50" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="scale-in-arrow" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#FF9900;flowAnimation=1;shadow=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="185" as="sourcePoint" />
+            <mxPoint x="620" y="185" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="scale-in-label" value="SCALE IN" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF9900;fontStyle=1;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="545" y="165" width="70" height="15" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ec2-back" value="EC2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="540" y="240" width="70" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="auto-label" value="Automatically adjusts capacity based on demand" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;fontStyle=2;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="150" y="265" width="400" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Components -->
+        <mxCell id="components-box" value="AUTO SCALING COMPONENTS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=14;verticalAlign=top;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="700" y="100" width="630" height="200" as="geometry" />
+        </mxCell>
+
+        <mxCell id="launch-template" value="LAUNCH TEMPLATE&#xa;&#xa;What to launch:&#xa;• AMI&#xa;• Instance type&#xa;• Key pair&#xa;• Security groups" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;align=left;spacingLeft=10;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="720" y="140" width="180" height="140" as="geometry" />
+        </mxCell>
+
+        <mxCell id="asg" value="AUTO SCALING GROUP&#xa;&#xa;Where &amp; how many:&#xa;• VPC, Subnets&#xa;• Min capacity&#xa;• Max capacity&#xa;• Desired capacity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#7D3C98;strokeColor=none;fontColor=#FFFFFF;align=left;spacingLeft=10;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="920" y="140" width="180" height="140" as="geometry" />
+        </mxCell>
+
+        <mxCell id="policies" value="SCALING POLICIES&#xa;&#xa;When to scale:&#xa;• Target tracking&#xa;• Step scaling&#xa;• Scheduled&#xa;• Predictive" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;align=left;spacingLeft=10;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="140" width="180" height="140" as="geometry" />
+        </mxCell>
+
+        <mxCell id="comp-arrow1" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="910" y="210" as="sourcePoint" />
+            <mxPoint x="920" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="comp-arrow2" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1110" y="210" as="sourcePoint" />
+            <mxPoint x="1120" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Target Tracking -->
+        <mxCell id="target-box" value="TARGET TRACKING SCALING" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=14;verticalAlign=top;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="320" width="500" height="200" as="geometry" />
+        </mxCell>
+
+        <mxCell id="target-desc" value="&quot;Keep average CPU utilization at 50%&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;fontStyle=2;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="90" y="345" width="350" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- CPU Graph -->
+        <mxCell id="graph-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF9900;strokeWidth=2;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="375" width="350" height="120" as="geometry" />
+        </mxCell>
+
+        <mxCell id="y-axis" value="CPU%" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#232F3E;fontStyle=1;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="100" y="375" width="40" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="target-line" style="endArrow=none;html=1;strokeWidth=3;strokeColor=#1E8900;dashed=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="435" as="sourcePoint" />
+            <mxPoint x="440" y="435" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="target-50" value="50% TARGET" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#1E8900;fontStyle=1;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="445" y="425" width="80" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="high-zone" value="Scale Out ↑" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#DD3522;fontStyle=1;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="140" y="395" width="80" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="low-zone" value="Scale In ↓" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#2E86AB;fontStyle=1;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="140" y="460" width="80" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Scaling Policies Table -->
+        <mxCell id="policies-box" value="SCALING POLICY TYPES" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=14;verticalAlign=top;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="320" width="730" height="200" as="geometry" />
+        </mxCell>
+
+        <mxCell id="target-tracking" value="TARGET TRACKING&#xa;&#xa;Maintain target metric&#xa;e.g., 50% CPU&#xa;Simplest option" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="620" y="360" width="160" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="step-scaling" value="STEP SCALING&#xa;&#xa;Scale in steps&#xa;Based on alarms&#xa;Complex scenarios" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#7D3C98;strokeColor=none;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="800" y="360" width="160" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="scheduled" value="SCHEDULED&#xa;&#xa;Scale at times&#xa;Predictable patterns&#xa;e.g., 9 AM weekdays" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2E86AB;strokeColor=none;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="980" y="360" width="160" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="predictive" value="PREDICTIVE&#xa;&#xa;ML-based forecast&#xa;Proactive scaling&#xa;Learns patterns" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="1160" y="360" width="150" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- With Load Balancer -->
+        <mxCell id="elb-box" value="AUTO SCALING + LOAD BALANCER" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=14;verticalAlign=top;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="540" width="600" height="200" as="geometry" />
+        </mxCell>
+
+        <mxCell id="users" value="Users" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#232F3E;strokeWidth=2;fontColor=#232F3E;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="580" width="80" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="elb" value="Elastic Load&#xa;Balancer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="230" y="570" width="100" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="asg-box" value="Auto Scaling Group" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;fontColor=#232F3E;fontStyle=1;verticalAlign=top;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="560" width="270" height="160" as="geometry" />
+        </mxCell>
+
+        <mxCell id="asg-ec2-1" value="EC2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="600" width="70" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="asg-ec2-2" value="EC2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="485" y="600" width="70" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="asg-ec2-3" value="EC2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="570" y="600" width="70" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="az-labels" value="AZ-1          AZ-2          AZ-3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#232F3E;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="400" y="660" width="240" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="user-elb-arrow" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="600" as="sourcePoint" />
+            <mxPoint x="220" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="elb-asg-arrow" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="600" as="sourcePoint" />
+            <mxPoint x="370" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- ASG Settings -->
+        <mxCell id="settings-box" value="ASG CAPACITY SETTINGS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=14;verticalAlign=top;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="700" y="540" width="630" height="200" as="geometry" />
+        </mxCell>
+
+        <mxCell id="min-cap" value="MINIMUM&#xa;&#xa;Minimum instances&#xa;Always running&#xa;e.g., 1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2E86AB;strokeColor=none;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="720" y="580" width="140" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="desired-cap" value="DESIRED&#xa;&#xa;Target capacity&#xa;Current goal&#xa;e.g., 2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="880" y="580" width="140" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="max-cap" value="MAXIMUM&#xa;&#xa;Maximum instances&#xa;Upper limit&#xa;e.g., 10" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="580" width="140" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="free-note" value="Auto Scaling is FREE - you only pay for EC2 instances!" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="605" width="110" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Exam Tips -->
+        <mxCell id="exam-tips-box" value="KEY EXAM TIPS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=3;fontColor=#232F3E;fontStyle=1;fontSize=14;verticalAlign=top;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="760" width="1260" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tip1" value="✓ Launch Template = what to launch (AMI, instance type)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#232F3E;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="90" y="790" width="330" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tip2" value="✓ Auto Scaling Group = where and how many" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#232F3E;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="90" y="810" width="330" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tip3" value="✓ Target Tracking = simplest policy (maintain 50% CPU)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#232F3E;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="450" y="790" width="330" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tip4" value="✓ Scheduled = scale at specific times" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#232F3E;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="450" y="810" width="330" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tip5" value="✓ Works with ELB for HA" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#232F3E;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="820" y="790" width="200" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tip6" value="✓ Auto Scaling is FREE!" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#232F3E;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="820" y="810" width="200" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tip7" value="✓ Predictive = ML forecasting" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#232F3E;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="790" width="200" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tip8" value="✓ Cooldown prevents rapid scaling" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#232F3E;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="810" width="200" height="20" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,254 @@
+<mxfile host="app.diagrams.net" modified="2024-01-15T10:00:00.000Z" agent="Claude" version="21.6.5">
+  <diagram name="Elastic Load Balancing" id="elb-diagram">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="Elastic Load Balancing (ELB)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#232F3E;" parent="1" vertex="1">
+          <mxGeometry x="400" y="20" width="600" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Main Container -->
+        <mxCell id="main-container" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8E8E8;strokeColor=#232F3E;strokeWidth=2;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="80" width="1300" height="780" as="geometry" />
+        </mxCell>
+
+        <!-- ELB Types -->
+        <mxCell id="types-box" value="LOAD BALANCER TYPES" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=14;verticalAlign=top;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="100" width="1260" height="160" as="geometry" />
+        </mxCell>
+
+        <mxCell id="alb" value="APPLICATION LB (ALB)&#xa;&#xa;Layer 7 (HTTP/HTTPS)&#xa;Path &amp; host routing&#xa;WebSocket support&#xa;Best for: Web apps" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="140" width="200" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="nlb" value="NETWORK LB (NLB)&#xa;&#xa;Layer 4 (TCP/UDP/TLS)&#xa;Ultra-low latency&#xa;Static IP per AZ&#xa;Best for: High performance" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2E86AB;strokeColor=none;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="140" width="200" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="gwlb" value="GATEWAY LB (GWLB)&#xa;&#xa;Layer 3 (IP packets)&#xa;Virtual appliances&#xa;GENEVE protocol&#xa;Best for: Firewalls, IDS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#7D3C98;strokeColor=none;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="530" y="140" width="200" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="classic" value="CLASSIC LB (CLB)&#xa;&#xa;Layer 4 &amp; 7&#xa;Legacy - Deprecated&#xa;Avoid for new apps&#xa;Use ALB or NLB instead" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="750" y="140" width="200" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="comparison" value="COMPARISON&#xa;&#xa;ALB: Content routing ✓&#xa;NLB: Static IP ✓&#xa;NLB: Millions RPS ✓&#xa;GWLB: Appliances ✓" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;align=left;spacingLeft=10;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="970" y="140" width="200" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- ALB Detail -->
+        <mxCell id="alb-detail-box" value="APPLICATION LOAD BALANCER (ALB)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=14;verticalAlign=top;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="280" width="600" height="200" as="geometry" />
+        </mxCell>
+
+        <mxCell id="alb-desc" value="Layer 7 - Content-based routing" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;fontStyle=2;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="90" y="305" width="350" height="15" as="geometry" />
+        </mxCell>
+
+        <mxCell id="client-req" value="Client&#xa;Requests" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#232F3E;strokeWidth=2;fontColor=#232F3E;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="340" width="80" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="alb-icon" value="ALB&#xa;Route by&#xa;path/host" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="230" y="330" width="100" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="api-tg" value="/api/*&#xa;API TG" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="390" y="330" width="80" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="images-tg" value="/images/*&#xa;Image TG" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="490" y="330" width="80" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="orders-tg" value="/orders/*&#xa;Order TG" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="590" y="330" width="80" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="alb-arrow1" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="365" as="sourcePoint" />
+            <mxPoint x="220" y="365" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="alb-arrow2" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="345" as="sourcePoint" />
+            <mxPoint x="380" y="345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="alb-arrow3" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="365" as="sourcePoint" />
+            <mxPoint x="480" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="alb-arrow4" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="380" as="sourcePoint" />
+            <mxPoint x="580" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="alb-features" value="ALB Features:&#xa;• Path-based routing (/api/*, /web/*)&#xa;• Host-based routing (api.example.com)&#xa;• HTTP/2, WebSocket support&#xa;• Authentication (Cognito, OIDC)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;fontColor=#232F3E;align=left;spacingLeft=10;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="400" width="300" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- NLB Detail -->
+        <mxCell id="nlb-detail-box" value="NETWORK LOAD BALANCER (NLB)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=14;verticalAlign=top;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="700" y="280" width="630" height="200" as="geometry" />
+        </mxCell>
+
+        <mxCell id="nlb-desc" value="Layer 4 - Connection-based, ultra-low latency" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;fontStyle=2;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="720" y="305" width="350" height="15" as="geometry" />
+        </mxCell>
+
+        <mxCell id="nlb-features1" value="STATIC IP&#xa;One IP per AZ&#xa;Elastic IP support" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2E86AB;strokeColor=none;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="720" y="330" width="140" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="nlb-features2" value="PERFORMANCE&#xa;Millions RPS&#xa;Microsecond latency" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2E86AB;strokeColor=none;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="880" y="330" width="140" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="nlb-features3" value="PROTOCOLS&#xa;TCP, UDP, TLS&#xa;Preserve source IP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2E86AB;strokeColor=none;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="330" width="140" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="nlb-vs-alb" value="When to use NLB over ALB:&#xa;• Need static IP or Elastic IP&#xa;• Ultra-low latency required&#xa;• Non-HTTP protocols (TCP/UDP)&#xa;• Millions of requests per second" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#2E86AB;strokeWidth=2;fontColor=#232F3E;align=left;spacingLeft=10;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="720" y="410" width="350" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Target Groups -->
+        <mxCell id="tg-box" value="TARGET GROUPS &amp; HEALTH CHECKS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=14;verticalAlign=top;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="500" width="600" height="160" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tg-types" value="TARGET TYPES&#xa;&#xa;• Instance (EC2)&#xa;• IP addresses&#xa;• Lambda (ALB only)&#xa;• ALB (NLB only)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;align=left;spacingLeft=10;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="540" width="160" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="health-checks" value="HEALTH CHECKS&#xa;&#xa;• HTTP/HTTPS/TCP&#xa;• Path: /health&#xa;• Interval: 30s&#xa;• Threshold: 2-10" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;align=left;spacingLeft=10;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="270" y="540" width="160" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tg-routing" value="ROUTING&#xa;&#xa;LB receives traffic&#xa;→ Evaluates rules&#xa;→ Routes to TG&#xa;→ Health targets only" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#7D3C98;strokeColor=none;fontColor=#FFFFFF;align=left;spacingLeft=10;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="540" width="160" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- ELB + Auto Scaling -->
+        <mxCell id="elb-asg-box" value="ELB + AUTO SCALING" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=14;verticalAlign=top;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="700" y="500" width="630" height="160" as="geometry" />
+        </mxCell>
+
+        <mxCell id="users-icon" value="Users" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#232F3E;strokeWidth=2;fontColor=#232F3E;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="730" y="560" width="70" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="elb-icon" value="ELB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="850" y="550" width="80" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="asg-container" value="Auto Scaling Group" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;fontColor=#232F3E;fontStyle=1;verticalAlign=top;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="980" y="535" width="330" height="110" as="geometry" />
+        </mxCell>
+
+        <mxCell id="asg-ec2-1" value="EC2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="570" width="60" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="asg-ec2-2" value="EC2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="570" width="60" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="asg-ec2-3" value="EC2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="1160" y="570" width="60" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="asg-ec2-4" value="EC2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="1240" y="570" width="60" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="az-labels2" value="AZ-1       AZ-2       AZ-1       AZ-2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#232F3E;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="615" width="300" height="15" as="geometry" />
+        </mxCell>
+
+        <mxCell id="users-elb-arrow" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="580" as="sourcePoint" />
+            <mxPoint x="840" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="elb-asg-arrow" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="940" y="580" as="sourcePoint" />
+            <mxPoint x="970" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Key Features -->
+        <mxCell id="features-box" value="KEY FEATURES" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=14;verticalAlign=top;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="680" width="600" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ssl" value="SSL TERMINATION&#xa;Decrypt at LB&#xa;ACM certificates" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="710" width="140" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="sticky" value="STICKY SESSIONS&#xa;User→Same target&#xa;Session affinity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="250" y="710" width="140" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="cross-zone" value="CROSS-ZONE&#xa;Distribute across AZs&#xa;Default ON for ALB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#7D3C98;strokeColor=none;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="410" y="710" width="140" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Exam Tips -->
+        <mxCell id="exam-tips-box" value="KEY EXAM TIPS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=3;fontColor=#232F3E;fontStyle=1;fontSize=14;verticalAlign=top;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="700" y="680" width="630" height="160" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tip1" value="✓ ALB = Layer 7, HTTP/HTTPS, path/host-based routing" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#232F3E;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="720" y="715" width="350" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tip2" value="✓ NLB = Layer 4, TCP/UDP, ultra-low latency, static IP" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#232F3E;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="720" y="740" width="350" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tip3" value="✓ GWLB = Layer 3, for virtual appliances (firewalls)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#232F3E;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="720" y="765" width="350" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tip4" value="✓ Target Groups = route traffic to EC2, IP, or Lambda" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#232F3E;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="720" y="790" width="350" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tip5" value="✓ Health checks route to healthy targets only" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#232F3E;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="715" width="270" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tip6" value="✓ Works with Auto Scaling for elasticity" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#232F3E;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="740" width="270" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tip7" value="✓ SSL termination offloads encryption" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#232F3E;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="765" width="270" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tip8" value="✓ Classic LB is legacy - use ALB/NLB" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#232F3E;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="790" width="270" height="20" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

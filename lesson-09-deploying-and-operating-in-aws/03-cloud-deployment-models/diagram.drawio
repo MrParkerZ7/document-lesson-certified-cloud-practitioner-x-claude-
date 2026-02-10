@@ -1,0 +1,260 @@
+<mxfile host="app.diagrams.net" modified="2024-01-15T10:00:00.000Z" agent="5.0" version="21.0.0" etag="cloud-deployment-models">
+  <diagram name="Cloud Deployment Models" id="cloud-deployment-models">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="800" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="Cloud Deployment Models" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="400" y="20" width="400" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Main Container -->
+        <mxCell id="main-container" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8E8E8;strokeColor=#232F3E;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="1120" height="680" as="geometry" />
+        </mxCell>
+
+        <!-- Public Cloud -->
+        <mxCell id="public-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="100" width="340" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="public-title" value="PUBLIC CLOUD" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="150" y="110" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="public-desc" value="Shared resources from cloud provider" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="110" y="140" width="240" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="public-cloud-icon" value="AWS / Azure / GCP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="170" width="220" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="pub1" value="Multi-tenant" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF9900;shadow=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="80" y="230" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pub2" value="Pay-as-you-go" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF9900;shadow=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="190" y="230" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pub3" value="Scalable" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF9900;shadow=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="300" y="230" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pub4" value="Global Reach" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF9900;shadow=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="80" y="275" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pub5" value="No CapEx" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF9900;shadow=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="190" y="275" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pub6" value="200+ Services" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF9900;shadow=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="300" y="275" width="80" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="pub-benefit" value="Best for: Agility, Cost, Innovation" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;shadow=1;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="320" width="300" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Private Cloud -->
+        <mxCell id="private-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="100" width="340" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="private-title" value="PRIVATE CLOUD" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="510" y="110" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="private-desc" value="Dedicated to single organization" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="470" y="140" width="240" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="private-cloud-icon" value="On-Premises / Outposts" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="170" width="220" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="priv1" value="Single-tenant" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#DD3522;shadow=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="440" y="230" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="priv2" value="Full Control" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#DD3522;shadow=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="550" y="230" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="priv3" value="Dedicated" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#DD3522;shadow=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="660" y="230" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="priv4" value="Compliance" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#DD3522;shadow=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="440" y="275" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="priv5" value="Data Control" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#DD3522;shadow=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="550" y="275" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="priv6" value="Legacy Apps" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#DD3522;shadow=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="660" y="275" width="80" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="priv-benefit" value="Best for: Control, Compliance, Security" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;shadow=1;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="320" width="300" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Hybrid Cloud -->
+        <mxCell id="hybrid-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="100" width="380" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="hybrid-title" value="HYBRID CLOUD" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="890" y="110" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hybrid-desc" value="Public + Private Connected" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="850" y="140" width="240" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="hybrid-pub" value="Public Cloud" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;shadow=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="800" y="175" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="hybrid-conn" value="VPN / Direct Connect" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="920" y="175" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="hybrid-priv" value="Private Cloud" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;shadow=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="175" width="80" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="hybrid-arrow1" value="" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="910" y="192" as="sourcePoint" />
+            <mxPoint x="910" y="192" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="hyb1" value="Best of Both" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1E8900;shadow=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="800" y="230" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hyb2" value="Flexible" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1E8900;shadow=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="910" y="230" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hyb3" value="Gradual Migration" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1E8900;shadow=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="230" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hyb4" value="Cloud Bursting" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1E8900;shadow=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="800" y="275" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hyb5" value="Data Locality" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1E8900;shadow=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="910" y="275" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hyb6" value="DR Site" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1E8900;shadow=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="275" width="80" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="hyb-benefit" value="Best for: Migration, Compliance + Agility" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;shadow=1;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="320" width="340" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Hybrid Architecture Detail -->
+        <mxCell id="arch-title" value="Hybrid Cloud Architecture" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="450" y="400" width="300" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arch-container" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#232F3E;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="440" width="1080" height="180" as="geometry" />
+        </mxCell>
+
+        <!-- On-premises -->
+        <mxCell id="onprem-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCCC;strokeColor=#DD3522;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="460" width="300" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="onprem-title" value="ON-PREMISES (Private)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#DD3522;" vertex="1" parent="1">
+          <mxGeometry x="140" y="465" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="onprem1" value="Legacy Apps" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="100" y="500" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="onprem2" value="Databases" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="190" y="500" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="onprem3" value="Sensitive Data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="280" y="500" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="onprem4" value="AWS Outposts" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="100" y="550" width="260" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Connection -->
+        <mxCell id="conn-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#1E8900;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="460" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="conn-title" value="CONNECTION" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#1E8900;" vertex="1" parent="1">
+          <mxGeometry x="470" y="465" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="conn1" value="Site-to-Site VPN" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="440" y="500" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="conn2" value="Direct Connect" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="440" y="540" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="conn3" value="Transit Gateway" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="440" y="580" width="160" height="15" as="geometry" />
+        </mxCell>
+
+        <!-- AWS Cloud -->
+        <mxCell id="aws-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="460" width="460" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="aws-title" value="AWS CLOUD (Public)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="830" y="465" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aws1" value="Modern Apps" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="680" y="500" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="aws2" value="Burst Capacity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="780" y="500" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="aws3" value="Analytics" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="880" y="500" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="aws4" value="DR Site" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="980" y="500" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="aws5" value="30+ Regions" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="680" y="550" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="aws6" value="200+ Services" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="780" y="550" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="aws7" value="Pay-as-you-go" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="880" y="550" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="aws8" value="Global Scale" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;shadow=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="980" y="550" width="120" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Connection Arrows -->
+        <mxCell id="arch-arrow1" value="" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=3;strokeColor=#1E8900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="530" as="sourcePoint" />
+            <mxPoint x="410" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arch-arrow2" value="" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=3;strokeColor=#1E8900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="530" as="sourcePoint" />
+            <mxPoint x="650" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Comparison Table -->
+        <mxCell id="compare-title" value="Comparison" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="500" y="640" width="200" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="comp-pub" value="Public: Lowest Cost, Highest Scale" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;shadow=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="60" y="670" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="comp-priv" value="Private: Full Control, Compliance" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;shadow=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="360" y="670" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="comp-hyb" value="Hybrid: Flexible, Best of Both" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;shadow=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="660" y="670" width="280" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Exam Tip -->
+        <mxCell id="exam-tip" value="EXAM TIP: AWS = Public Cloud. AWS Outposts = AWS in your data center. Direct Connect = dedicated private connection. VPN = encrypted over internet." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;fontStyle=0;shadow=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="60" y="715" width="1080" height="35" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

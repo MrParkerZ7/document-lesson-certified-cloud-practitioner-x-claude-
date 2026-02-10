@@ -1,0 +1,275 @@
+<mxfile host="app.diagrams.net" modified="2024-01-15T10:00:00.000Z" agent="Claude" version="21.6.5">
+  <diagram name="Serverless Computing" id="serverless-computing-diagram">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="Serverless Computing &amp; AWS Lambda" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#232F3E;" parent="1" vertex="1">
+          <mxGeometry x="400" y="20" width="600" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Main Container -->
+        <mxCell id="main-container" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8E8E8;strokeColor=#232F3E;strokeWidth=2;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="80" width="1300" height="780" as="geometry" />
+        </mxCell>
+
+        <!-- What is Serverless -->
+        <mxCell id="serverless-box" value="WHAT IS SERVERLESS?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=14;verticalAlign=top;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="100" width="600" height="180" as="geometry" />
+        </mxCell>
+
+        <mxCell id="traditional" value="TRADITIONAL&#xa;&#xa;You manage:&#xa;• Servers&#xa;• OS &amp; patching&#xa;• Capacity&#xa;• Scaling&#xa;• Availability" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;align=left;spacingLeft=15;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="140" width="180" height="120" as="geometry" />
+        </mxCell>
+
+        <mxCell id="vs" value="VS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;fontStyle=1;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="290" y="180" width="40" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="serverless" value="SERVERLESS&#xa;&#xa;You manage:&#xa;• Code only!&#xa;&#xa;AWS manages:&#xa;• Infrastructure&#xa;• Scaling&#xa;• High availability" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;align=left;spacingLeft=15;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="140" width="180" height="120" as="geometry" />
+        </mxCell>
+
+        <mxCell id="serverless-summary" value="Focus on CODE,&#xa;not infrastructure!" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;fontColor=#232F3E;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="160" width="100" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- Lambda Section -->
+        <mxCell id="lambda-box" value="AWS LAMBDA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=14;verticalAlign=top;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="700" y="100" width="630" height="180" as="geometry" />
+        </mxCell>
+
+        <mxCell id="lambda-desc" value="Run code without provisioning or managing servers" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;fontStyle=2;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="720" y="130" width="590" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Event Sources -->
+        <mxCell id="event-sources" value="EVENT SOURCES&#xa;• API Gateway&#xa;• S3 Events&#xa;• DynamoDB&#xa;• CloudWatch&#xa;• SNS/SQS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="720" y="160" width="130" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Lambda Function -->
+        <mxCell id="lambda-function" value="LAMBDA&#xa;FUNCTION&#xa;&#xa;Your Code&#xa;(Python, Node.js,&#xa;Java, Go, etc.)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#7D3C98;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="920" y="160" width="140" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Outputs -->
+        <mxCell id="outputs" value="OUTPUTS&#xa;• S3&#xa;• DynamoDB&#xa;• SNS/SQS&#xa;• Other services" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="1130" y="160" width="130" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Arrows -->
+        <mxCell id="arrow1" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#FF9900;flowAnimation=1;shadow=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="860" y="210" as="sourcePoint" />
+            <mxPoint x="910" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arrow2" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#FF9900;flowAnimation=1;shadow=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1070" y="210" as="sourcePoint" />
+            <mxPoint x="1120" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Lambda Features -->
+        <mxCell id="features-box" value="LAMBDA KEY FEATURES" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=14;verticalAlign=top;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="300" width="450" height="200" as="geometry" />
+        </mxCell>
+
+        <mxCell id="feature1" value="⏱️ Max Execution: 15 minutes" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="340" width="200" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="feature2" value="💾 Memory: 128 MB - 10 GB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="340" width="200" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="feature3" value="🔄 Auto-scaling concurrent executions" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="390" width="200" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="feature4" value="💰 Pay per request + duration" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="390" width="200" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="feature5" value="🎯 Event-driven architecture" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#7D3C98;strokeColor=none;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="440" width="200" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="feature6" value="🌐 Multiple language runtimes" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#7D3C98;strokeColor=none;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="440" width="200" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Lambda Pricing -->
+        <mxCell id="pricing-box" value="LAMBDA PRICING" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=14;verticalAlign=top;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="300" width="300" height="200" as="geometry" />
+        </mxCell>
+
+        <mxCell id="pricing1" value="REQUESTS&#xa;$0.20 per 1M requests" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="570" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="pricing-plus" value="+" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;fontStyle=1;fontSize=24;" parent="1" vertex="1">
+          <mxGeometry x="700" y="350" width="30" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="pricing2" value="DURATION&#xa;Per 1ms compute time" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="710" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="free-tier" value="FREE TIER: 1M requests/month" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="570" y="420" width="260" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Cold vs Warm Start -->
+        <mxCell id="startup-box" value="COLD START vs WARM START" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=14;verticalAlign=top;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="880" y="300" width="450" height="200" as="geometry" />
+        </mxCell>
+
+        <mxCell id="cold-start" value="COLD START&#xa;&#xa;• New container initialized&#xa;• Initial latency (ms to seconds)&#xa;• Happens when no warm container" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;align=left;spacingLeft=10;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="900" y="340" width="200" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="warm-start" value="WARM START&#xa;&#xa;• Reuses existing container&#xa;• Much faster execution&#xa;• Container stays warm briefly" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;align=left;spacingLeft=10;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="1110" y="340" width="200" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="startup-note" value="Tip: Use Provisioned Concurrency to eliminate cold starts" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;fontStyle=2;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="920" y="460" width="350" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Serverless Architecture -->
+        <mxCell id="arch-box" value="SERVERLESS WEB APPLICATION ARCHITECTURE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=14;verticalAlign=top;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="520" width="700" height="200" as="geometry" />
+        </mxCell>
+
+        <mxCell id="users" value="👤 Users" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#232F3E;strokeWidth=2;fontColor=#232F3E;fontStyle=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="570" width="80" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="cloudfront" value="CloudFront&#xa;(CDN)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="560" width="90" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="s3-static" value="S3&#xa;(Static)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#7D3C98;strokeColor=none;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="640" width="90" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="api-gw" value="API Gateway&#xa;(REST API)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="330" y="560" width="100" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="lambda-arch" value="Lambda&#xa;(Backend)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#7D3C98;strokeColor=none;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="560" width="100" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="dynamodb" value="DynamoDB&#xa;(Database)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2E86AB;strokeColor=none;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="610" y="560" width="100" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Architecture Arrows -->
+        <mxCell id="arch-arrow1" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="590" as="sourcePoint" />
+            <mxPoint x="200" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arch-arrow2" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="590" as="sourcePoint" />
+            <mxPoint x="330" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arch-arrow3" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="590" as="sourcePoint" />
+            <mxPoint x="470" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arch-arrow4" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="590" as="sourcePoint" />
+            <mxPoint x="610" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arch-arrow5" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#7D3C98;flowAnimation=1;shadow=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="245" y="620" as="sourcePoint" />
+            <mxPoint x="245" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arch-note" value="All components serverless - no servers to manage!" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;fontStyle=1;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="300" y="690" width="350" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Other Serverless Services -->
+        <mxCell id="other-box" value="OTHER SERVERLESS SERVICES" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=14;verticalAlign=top;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="800" y="520" width="530" height="200" as="geometry" />
+        </mxCell>
+
+        <mxCell id="step-functions" value="Step Functions&#xa;Workflow orchestration" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="820" y="560" width="150" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="eventbridge" value="EventBridge&#xa;Serverless event bus" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="990" y="560" width="150" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="sqs-serverless" value="SQS/SNS&#xa;Serverless messaging" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#7D3C98;strokeColor=none;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="1160" y="560" width="150" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="s3-serverless" value="S3&#xa;Object storage" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="820" y="630" width="150" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="dynamodb-serverless" value="DynamoDB&#xa;NoSQL database" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="990" y="630" width="150" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="aurora-serverless" value="Aurora Serverless&#xa;Relational database" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="1160" y="630" width="150" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Exam Tips -->
+        <mxCell id="exam-tips-box" value="KEY EXAM TIPS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=3;fontColor=#232F3E;fontStyle=1;fontSize=14;verticalAlign=top;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="740" width="1260" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tip1" value="✓ Lambda = Run code without servers, max 15 min execution" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#232F3E;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="90" y="775" width="350" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tip2" value="✓ Pay per request + compute duration (1ms billing)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#232F3E;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="90" y="800" width="350" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tip3" value="✓ Event-driven: triggered by S3, API Gateway, DynamoDB, etc." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#232F3E;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="480" y="775" width="350" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tip4" value="✓ Serverless = you manage code, AWS manages everything else" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#232F3E;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="480" y="800" width="350" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tip5" value="✓ API Gateway creates REST APIs" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#232F3E;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="880" y="775" width="250" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tip6" value="✓ Step Functions orchestrates workflows" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#232F3E;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="880" y="800" width="250" height="20" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

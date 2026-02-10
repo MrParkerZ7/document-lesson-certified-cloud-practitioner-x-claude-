@@ -1,0 +1,210 @@
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="Mozilla/5.0" etag="geo-industry-compliance" version="22.1.0" type="device">
+  <diagram name="Geographic and Industry Compliance" id="geo-compliance-diagram">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="Geographic and Industry Compliance" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="320" y="15" width="450" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- World Map Container -->
+        <mxCell id="map-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="70" width="1000" height="280" as="geometry" />
+        </mxCell>
+
+        <!-- Americas -->
+        <mxCell id="americas-box" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="90" width="280" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="americas-title" value="AMERICAS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="160" y="100" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="am-1" value="FedRAMP (US Gov)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="140" width="110" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="am-2" value="HIPAA (Healthcare)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="140" width="110" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="am-3" value="SOX (Financial)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="175" width="110" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="am-4" value="CCPA (California)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="175" width="110" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="am-5" value="PCI DSS (Payments)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="210" width="110" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="am-6" value="GLBA (Finance)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="210" width="110" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="am-regions" value="Regions: us-east-1, us-west-2, ca-central-1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="100" y="250" width="240" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- EMEA -->
+        <mxCell id="emea-box" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="90" width="280" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="emea-title" value="EMEA" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="480" y="100" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="emea-1" value="GDPR (EU Privacy)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="140" width="110" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="emea-2" value="C5 (Germany)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="140" width="110" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="emea-3" value="ENS (Spain)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="175" width="110" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="emea-4" value="Cyber Essentials (UK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="175" width="110" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="emea-5" value="NIS Directive" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="210" width="110" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="emea-6" value="ePrivacy" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="210" width="110" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="emea-regions" value="Regions: eu-west-1, eu-central-1, eu-north-1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="400" y="250" width="240" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- APAC -->
+        <mxCell id="apac-box" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="90" width="360" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="apac-title" value="ASIA-PACIFIC" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="800" y="100" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="apac-1" value="MTCS (Singapore)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="140" width="100" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="apac-2" value="IRAP (Australia)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="140" width="100" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="apac-3" value="K-ISMS (Korea)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="140" width="100" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="apac-4" value="APPI (Japan)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="175" width="100" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="apac-5" value="PDPA (Singapore)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="175" width="100" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="apac-6" value="PIPA (Korea)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="175" width="100" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="apac-7" value="Privacy Act (AU)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="210" width="100" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="apac-8" value="OSPAR (SG)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="210" width="100" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="apac-9" value="DPDP (India)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="210" width="100" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="apac-regions" value="Regions: ap-southeast-1, ap-northeast-1, ap-south-1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="730" y="250" width="280" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Industry Compliance Section -->
+        <mxCell id="industry-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="370" width="1000" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="industry-title" value="Industry-Specific Compliance" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="420" y="380" width="250" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Healthcare -->
+        <mxCell id="healthcare" value="" style="whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="420" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="hc-title" value="Healthcare" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="120" y="425" width="100" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="hc-1" value="HIPAA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#232F3E;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="455" width="70" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="hc-2" value="HITECH" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#232F3E;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="455" width="70" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="hc-3" value="BAA Required" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="100" y="490" width="140" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Financial -->
+        <mxCell id="financial" value="" style="whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="420" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="fin-title" value="Financial" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="330" y="425" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="fin-1" value="PCI DSS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#232F3E;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="455" width="70" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="fin-2" value="SOX" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#232F3E;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="455" width="70" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="fin-3" value="GLBA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#232F3E;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="490" width="70" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Government -->
+        <mxCell id="government" value="" style="whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="420" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="gov-title" value="Government" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="520" y="425" width="100" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gov-1" value="FedRAMP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#232F3E;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="495" y="455" width="70" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gov-2" value="FISMA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#232F3E;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="575" y="455" width="70" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gov-3" value="DoD SRG" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#232F3E;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="535" y="490" width="70" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Education -->
+        <mxCell id="education" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="420" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="edu-title" value="Education" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="720" y="425" width="100" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="edu-1" value="FERPA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="695" y="455" width="70" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="edu-2" value="COPPA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="775" y="455" width="70" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="edu-3" value="Student Data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="700" y="490" width="140" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Life Sciences -->
+        <mxCell id="lifesci" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="420" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ls-title" value="Life Sciences" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="900" y="425" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ls-1" value="GxP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="895" y="455" width="60" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ls-2" value="FDA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="965" y="455" width="60" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ls-3" value="21 CFR Part 11" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="900" y="490" width="120" height="20" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,268 @@
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="Mozilla/5.0" etag="security-services" version="22.1.0" type="device">
+  <diagram name="AWS Security Services" id="security-services-diagram">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="AWS Security Services" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="400" y="15" width="300" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Main Container -->
+        <mxCell id="main-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="65" width="1020" height="530" as="geometry" />
+        </mxCell>
+
+        <!-- Threat Detection Row -->
+        <mxCell id="threat-title" value="Threat Detection &amp; Response" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="70" y="80" width="220" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="guardduty" value="" style="whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="110" width="230" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="gd-title" value="Amazon GuardDuty" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="100" y="115" width="170" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gd-desc" value="Threat Detection" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="100" y="140" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gd-f1" value="ML-based analysis" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#232F3E;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="165" width="95" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="gd-f2" value="VPC Flow Logs" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#232F3E;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="165" width="95" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="gd-f3" value="CloudTrail analysis" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#232F3E;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="192" width="100" height="22" as="geometry" />
+        </mxCell>
+
+        <mxCell id="inspector" value="" style="whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="110" width="230" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="insp-title" value="Amazon Inspector" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="350" y="115" width="170" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="insp-desc" value="Vulnerability Assessment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="350" y="140" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="insp-f1" value="EC2 scanning" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#232F3E;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="165" width="95" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="insp-f2" value="Container scan" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#232F3E;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="165" width="95" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="insp-f3" value="Lambda functions" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#232F3E;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="192" width="100" height="22" as="geometry" />
+        </mxCell>
+
+        <mxCell id="sechub" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="110" width="230" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="sh-title" value="AWS Security Hub" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="600" y="115" width="170" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="sh-desc" value="Centralized Security View" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="600" y="140" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sh-f1" value="Aggregates findings" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="585" y="165" width="95" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="sh-f2" value="Compliance checks" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="165" width="95" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="sh-f3" value="CIS, PCI standards" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="635" y="192" width="100" height="22" as="geometry" />
+        </mxCell>
+
+        <mxCell id="detective" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="110" width="230" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="det-title" value="Amazon Detective" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="850" y="115" width="170" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="det-desc" value="Security Investigation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="850" y="140" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="det-f1" value="Log analysis" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="835" y="165" width="95" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="det-f2" value="Visualization" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="165" width="95" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="det-f3" value="Root cause analysis" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="885" y="192" width="100" height="22" as="geometry" />
+        </mxCell>
+
+        <!-- Network Protection Row -->
+        <mxCell id="network-title" value="Network &amp; Application Protection" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="70" y="240" width="250" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="waf" value="" style="whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="270" width="230" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="waf-title" value="AWS WAF" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="130" y="275" width="110" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="waf-desc" value="Web Application Firewall" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="100" y="300" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="waf-f1" value="SQL injection" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#232F3E;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="325" width="95" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="waf-f2" value="XSS protection" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#232F3E;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="325" width="95" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="waf-f3" value="Bot control" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#232F3E;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="352" width="100" height="22" as="geometry" />
+        </mxCell>
+
+        <mxCell id="shield" value="" style="whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="270" width="230" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="shield-title" value="AWS Shield" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="380" y="275" width="110" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="shield-desc" value="DDoS Protection" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="350" y="300" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="shield-f1" value="Standard (Free)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#232F3E;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="325" width="95" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="shield-f2" value="Advanced (Paid)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#232F3E;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="325" width="95" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="shield-f3" value="24/7 DRT support" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#232F3E;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="352" width="100" height="22" as="geometry" />
+        </mxCell>
+
+        <mxCell id="fwmgr" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="270" width="230" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="fwmgr-title" value="AWS Firewall Manager" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="590" y="275" width="190" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="fwmgr-desc" value="Central Firewall Management" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="600" y="300" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fwmgr-f1" value="Cross-account" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="585" y="325" width="95" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="fwmgr-f2" value="Policy rules" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="325" width="95" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="fwmgr-f3" value="Organizations" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="635" y="352" width="100" height="22" as="geometry" />
+        </mxCell>
+
+        <mxCell id="netfw" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="270" width="230" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="netfw-title" value="AWS Network Firewall" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="850" y="275" width="170" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="netfw-desc" value="Managed VPC Firewall" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="850" y="300" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="netfw-f1" value="Stateful rules" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="835" y="325" width="95" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="netfw-f2" value="Stateless rules" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="325" width="95" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="netfw-f3" value="Deep inspection" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="885" y="352" width="100" height="22" as="geometry" />
+        </mxCell>
+
+        <!-- Data Protection Row -->
+        <mxCell id="data-title" value="Data Protection" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="70" y="400" width="150" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="kms" value="" style="whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="430" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="kms-title" value="AWS KMS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="105" y="435" width="110" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="kms-desc" value="Key Management" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="95" y="460" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kms-f1" value="Encryption keys" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#232F3E;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="485" width="75" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="kms-f2" value="Rotation" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#232F3E;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="165" y="485" width="70" height="22" as="geometry" />
+        </mxCell>
+
+        <mxCell id="secrets" value="" style="whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="430" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="secrets-title" value="Secrets Manager" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="290" y="435" width="140" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="secrets-desc" value="Credential Storage" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="295" y="460" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="secrets-f1" value="Auto rotation" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#232F3E;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="485" width="75" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="secrets-f2" value="DB creds" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#232F3E;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="485" width="70" height="22" as="geometry" />
+        </mxCell>
+
+        <mxCell id="acm" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="430" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="acm-title" value="AWS ACM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="505" y="435" width="110" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="acm-desc" value="Certificate Manager" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="495" y="460" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="acm-f1" value="SSL/TLS certs" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="485" y="485" width="75" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="acm-f2" value="Auto renew" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="565" y="485" width="70" height="22" as="geometry" />
+        </mxCell>
+
+        <mxCell id="macie" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="430" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="macie-title" value="Amazon Macie" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="700" y="435" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="macie-desc" value="Sensitive Data Discovery" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="690" y="460" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="macie-f1" value="Find PII" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="685" y="485" width="75" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="macie-f2" value="S3 scanning" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="765" y="485" width="70" height="22" as="geometry" />
+        </mxCell>
+
+        <mxCell id="cloudhsm" value="" style="whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="430" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hsm-title" value="AWS CloudHSM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="900" y="435" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="hsm-desc" value="Hardware Security Module" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="890" y="460" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hsm-f1" value="Dedicated HW" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#232F3E;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="885" y="485" width="75" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="hsm-f2" value="FIPS 140-2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#232F3E;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="965" y="485" width="70" height="22" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

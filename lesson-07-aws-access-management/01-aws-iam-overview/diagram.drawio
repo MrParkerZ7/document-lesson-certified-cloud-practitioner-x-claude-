@@ -1,0 +1,196 @@
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="Mozilla/5.0" etag="iam-overview" version="22.1.0" type="device">
+  <diagram name="AWS IAM Overview" id="iam-overview-diagram">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="AWS Identity and Access Management (IAM)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="300" y="15" width="500" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Main Container -->
+        <mxCell id="main-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="65" width="1020" height="500" as="geometry" />
+        </mxCell>
+
+        <!-- Users Section -->
+        <mxCell id="users-box" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="90" width="220" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="users-title" value="IAM Users" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="130" y="100" width="100" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="users-desc" value="Individual Identities" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="110" y="125" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="user-icon-1" value="Developer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="155" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="user-icon-2" value="Admin" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="155" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="user-icon-3" value="Analyst" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="195" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="user-icon-4" value="Auditor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="195" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="users-feature" value="Long-term credentials&#xa;Password + Access Keys" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="100" y="235" width="160" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Groups Section -->
+        <mxCell id="groups-box" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="90" width="220" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="groups-title" value="IAM Groups" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="365" y="100" width="110" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="groups-desc" value="Collections of Users" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="350" y="125" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="group-1" value="Developers Group" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="155" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="group-2" value="Admins Group" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="195" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="group-3" value="ReadOnly Group" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="235" width="180" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Roles Section -->
+        <mxCell id="roles-box" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="90" width="220" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="roles-title" value="IAM Roles" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="610" y="100" width="100" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="roles-desc" value="Temporary Credentials" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="590" y="125" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="role-1" value="EC2 Instance Role" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="155" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="role-2" value="Lambda Exec Role" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="195" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="role-3" value="Cross-Account Role" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="235" width="180" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Policies Section -->
+        <mxCell id="policies-box" value="" style="whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="90" width="260" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="policies-title" value="IAM Policies" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="870" y="100" width="100" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="policies-desc" value="JSON Permission Documents" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="840" y="125" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="policy-json" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="155" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="json-content" value="{&#xa;  &quot;Effect&quot;: &quot;Allow&quot;,&#xa;  &quot;Action&quot;: &quot;s3:*&quot;,&#xa;  &quot;Resource&quot;: &quot;*&quot;&#xa;}" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#1E8900;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="820" y="165" width="200" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Arrows connecting to policies -->
+        <mxCell id="arrow1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="300" as="sourcePoint" />
+            <mxPoint x="180" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="300" as="sourcePoint" />
+            <mxPoint x="420" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow3" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="300" as="sourcePoint" />
+            <mxPoint x="660" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- AWS Resources Section -->
+        <mxCell id="resources-box" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="350" width="700" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="resources-title" value="AWS Resources (Protected by IAM)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="280" y="360" width="280" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="res-1" value="EC2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="395" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="res-2" value="S3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="395" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="res-3" value="RDS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="395" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="res-4" value="Lambda" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="395" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="res-5" value="DynamoDB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="395" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="res-6" value="VPC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="565" y="395" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="res-7" value="IAM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="395" width="80" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Key Features -->
+        <mxCell id="features-box" value="" style="whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="350" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="features-title" value="IAM Key Features" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="850" y="360" width="140" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="feat-1" value="FREE Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="395" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="feat-2" value="GLOBAL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="395" width="100" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Best Practices -->
+        <mxCell id="bp-box" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="470" width="980" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bp-title" value="IAM Best Practices" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="475" y="475" width="150" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="bp-1" value="Enable MFA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="510" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bp-2" value="Use Groups" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="510" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bp-3" value="Least Privilege" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="510" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bp-4" value="Use Roles" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="465" y="510" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bp-5" value="Rotate Keys" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="510" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bp-6" value="No Root User" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="715" y="510" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bp-7" value="Audit Access" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="510" width="110" height="30" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
