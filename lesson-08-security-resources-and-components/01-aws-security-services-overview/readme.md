@@ -1,4 +1,4 @@
-# AWS Security Services Overview
+# 🛡️ AWS Security Services Overview
 
 ## Introduction
 
@@ -118,7 +118,7 @@ AWS provides a comprehensive suite of security services to help protect your clo
 | Manage secrets | Secrets Manager |
 | Find sensitive data | Macie |
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - **GuardDuty** = threat detection using ML
 - **Inspector** = vulnerability scanning (EC2, containers, Lambda)
@@ -129,7 +129,7 @@ AWS provides a comprehensive suite of security services to help protect your clo
 - **Shield Standard** = free DDoS protection for all customers
 - Know which services are **free** (Shield Standard, IAM) vs **paid**
 
-## Key Terms
+## 🔑 Key Terms
 
 | Term | Definition |
 |------|------------|
@@ -141,7 +141,7 @@ AWS provides a comprehensive suite of security services to help protect your clo
 | WAF | Web Application Firewall |
 | Shield | DDoS protection service |
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. AWS provides security services across identity, detection, protection, and compliance
 2. GuardDuty uses machine learning for intelligent threat detection

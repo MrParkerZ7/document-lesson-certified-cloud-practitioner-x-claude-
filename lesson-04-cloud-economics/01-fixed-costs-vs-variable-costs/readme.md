@@ -1,4 +1,4 @@
-# Fixed Costs vs Variable Costs
+# 💰 Fixed Costs vs Variable Costs
 
 ## Overview
 
@@ -128,7 +128,7 @@ AWS offers options that trade variable costs for predictable costs:
 
 These are still more flexible than traditional IT fixed costs.
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - AWS shifts IT from **fixed costs** to **variable costs**
 - **Variable costs** = pay for what you use
@@ -136,7 +136,7 @@ These are still more flexible than traditional IT fixed costs.
 - AWS **Auto Scaling** enables true variable cost model
 - Know that **Reserved Instances** trade flexibility for savings
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. **Traditional IT** = Fixed costs (pay regardless of usage)
 2. **AWS Cloud** = Variable costs (pay for what you use)

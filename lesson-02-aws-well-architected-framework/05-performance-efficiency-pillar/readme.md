@@ -1,4 +1,4 @@
-# Performance Efficiency Pillar
+# ⚡ Performance Efficiency Pillar
 
 ## Overview
 
@@ -142,7 +142,7 @@ Best practices for performance testing:
 3. **Stress testing** - Test beyond expected limits
 4. **Synthetic monitoring** - Continuous testing from multiple locations
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - Know the different **EC2 instance types** (compute, memory, storage optimized)
 - Understand **EBS volume types** and their use cases
@@ -151,7 +151,7 @@ Best practices for performance testing:
 - **Read Replicas** offload read traffic from primary database
 - **Lambda** is the go-to serverless compute option
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. **Right-size resources** - Don't over or under provision
 2. **Use caching** - CloudFront, ElastiCache reduce latency

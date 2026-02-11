@@ -1,4 +1,4 @@
-# Migration Strategies - The 7 R's
+# 🔄 Migration Strategies - The 7 R's
 
 ## Overview
 
@@ -159,7 +159,7 @@ AWS defines **7 migration strategies** (commonly called the "7 R's") for moving 
 | **Replatform** | AWS DMS (Database Migration Service), AWS Schema Conversion Tool |
 | **Refactor** | AWS Microservice Extractor, AWS App2Container |
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - **Remember all 7 R's**: Retire, Retain, Rehost, Relocate, Repurchase, Replatform, Refactor
 - **Rehost** = Lift and Shift (most common for quick migrations)
@@ -169,7 +169,7 @@ AWS defines **7 migration strategies** (commonly called the "7 R's") for moving 
 - **Retire** and **Retain** reduce scope of migration
 - Know the **AWS Application Migration Service** for rehost migrations
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. **7 R's** provide a framework for migration decisions
 2. **Rehost** is fastest but provides fewest cloud benefits

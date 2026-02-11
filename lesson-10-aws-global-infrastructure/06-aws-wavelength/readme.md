@@ -1,4 +1,4 @@
-# AWS Wavelength
+# 📶 AWS Wavelength
 
 ## Introduction
 
@@ -167,7 +167,7 @@ AWS Wavelength brings AWS compute and storage services to the edge of 5G network
 | Regional | Specific metro areas only |
 | Capacity | Smaller than regions |
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - **Wavelength** = AWS at the edge of **5G networks**
 - For **mobile** and **IoT** applications
@@ -177,7 +177,7 @@ AWS Wavelength brings AWS compute and storage services to the edge of 5G network
 - Different from **Local Zones** (near cities) and **Outposts** (on-premises)
 - **Ultra-low latency** for 5G devices
 
-## Key Terms
+## 🔑 Key Terms
 
 | Term | Definition |
 |------|------------|
@@ -187,7 +187,7 @@ AWS Wavelength brings AWS compute and storage services to the edge of 5G network
 | Edge Computing | Processing near data source |
 | IoT | Internet of Things devices |
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. Wavelength embeds AWS in 5G carrier networks
 2. Designed for ultra-low latency mobile applications

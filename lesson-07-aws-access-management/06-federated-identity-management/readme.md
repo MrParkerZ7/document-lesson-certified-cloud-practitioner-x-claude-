@@ -1,4 +1,4 @@
-# Federated Identity Management
+# 🔗 Federated Identity Management
 
 ## Introduction
 
@@ -170,7 +170,7 @@ Recommended for web and mobile identity federation.
 5. **Set appropriate session duration** for temporary credentials
 6. **Monitor federated access** with CloudTrail
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - **Federation** = external users accessing AWS
 - **SAML 2.0** = enterprise federation standard
@@ -180,7 +180,7 @@ Recommended for web and mobile identity federation.
 - Know that **IAM Identity Center** uses federation
 - **Web identity federation** = social logins (Google, Facebook)
 
-## Key Terms
+## 🔑 Key Terms
 
 | Term | Definition |
 |------|------------|
@@ -192,7 +192,7 @@ Recommended for web and mobile identity federation.
 | Assertion | Authentication statement from IdP |
 | OIDC | OpenID Connect |
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. Federation allows external users to access AWS without IAM users
 2. SAML 2.0 is the standard for enterprise federation

@@ -1,4 +1,4 @@
-# AWS Responsibilities - Security OF the Cloud
+# ☁️ AWS Responsibilities - Security OF the Cloud
 
 ## Overview
 
@@ -309,7 +309,7 @@ AWS continuously invests in security:
 - **Regular third-party audits** and penetration testing
 - **Security automation** at massive scale
 
-## Exam Tips
+## 🎯 Exam Tips
 
 > **Tip 1**: Physical security is 100% AWS responsibility - customers never access data centers
 
@@ -341,7 +341,7 @@ AWS continuously invests in security:
 **Question**: Who provides protection against infrastructure-level DDoS attacks?
 **Answer**: **AWS** via **AWS Shield Standard** (free, automatic protection)
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. **AWS secures all physical infrastructure** - data centers, hardware, networking
 2. **AWS maintains the hypervisor and host OS** - customers cannot access these

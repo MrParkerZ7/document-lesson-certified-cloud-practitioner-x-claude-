@@ -1,4 +1,4 @@
-# AWS Regions
+# 🌍 AWS Regions
 
 ## Introduction
 
@@ -144,7 +144,7 @@ Each region is completely independent:
 | GovCloud | Special regions for government |
 | China regions | Separate from global regions |
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - **Region** = geographic area with multiple AZs
 - Each region is **completely isolated** from others
@@ -155,7 +155,7 @@ Each region is completely independent:
 - Cross-region **data transfer costs money**
 - Currently **30+ regions** worldwide
 
-## Key Terms
+## 🔑 Key Terms
 
 | Term | Definition |
 |------|------------|
@@ -165,7 +165,7 @@ Each region is completely independent:
 | Cross-Region Replication | Copying data between regions |
 | Data Residency | Keeping data in specific location |
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. AWS has 30+ regions worldwide
 2. Each region contains multiple Availability Zones

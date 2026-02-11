@@ -1,4 +1,4 @@
-# CapEx vs OpEx
+# 💰 CapEx vs OpEx
 
 ## Overview
 
@@ -151,7 +151,7 @@ Understanding the difference between **Capital Expenditure (CapEx)** and **Opera
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - **CapEx** = Upfront, own the asset, depreciate over time
 - **OpEx** = Ongoing, pay for use, expense immediately
@@ -160,7 +160,7 @@ Understanding the difference between **Capital Expenditure (CapEx)** and **Opera
 - **Reserved Instances** can be considered more like CapEx (upfront payment for future use)
 - Know that cloud shifts IT spending model fundamentally
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. **CapEx** is upfront investment in assets you own
 2. **OpEx** is ongoing operational costs

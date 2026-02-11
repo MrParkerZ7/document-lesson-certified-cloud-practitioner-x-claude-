@@ -1,4 +1,4 @@
-# On-Premises vs Cloud Cost Comparison
+# 💰 On-Premises vs Cloud Cost Comparison
 
 ## Overview
 
@@ -130,7 +130,7 @@ When comparing TCO, consider:
 | **Time to market** | Weeks/months | Minutes |
 | **Global reach** | Build data centers | Deploy instantly |
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - **TCO** includes more than just hardware costs
 - AWS typically reduces TCO by **30-50%**
@@ -139,7 +139,7 @@ When comparing TCO, consider:
 - Cloud shifts costs from **CapEx to OpEx**
 - Consider **staff reallocation** benefits
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. **TCO analysis** must include all costs, not just hardware
 2. On-premises has many **hidden and indirect costs**

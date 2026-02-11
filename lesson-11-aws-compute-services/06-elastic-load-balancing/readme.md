@@ -1,4 +1,4 @@
-# Elastic Load Balancing (ELB)
+# ⚖️ Elastic Load Balancing (ELB)
 
 ## Introduction
 
@@ -246,7 +246,7 @@ Elastic Load Balancing automatically distributes incoming application traffic ac
 +------------------------------------------------------------------+
 ```
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - **ALB** = Layer 7, HTTP/HTTPS, path/host-based routing
 - **NLB** = Layer 4, TCP/UDP, ultra-low latency, static IP
@@ -259,7 +259,7 @@ Elastic Load Balancing automatically distributes incoming application traffic ac
 - **Sticky Sessions** = route user to same instance
 - ELB works with **Auto Scaling** for elasticity
 
-## Key Terms
+## 🔑 Key Terms
 
 | Term | Definition |
 |------|------------|
@@ -271,7 +271,7 @@ Elastic Load Balancing automatically distributes incoming application traffic ac
 | SSL Termination | Decrypt SSL/TLS at load balancer |
 | Sticky Session | Bind user session to specific target |
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. ELB distributes traffic across multiple targets for high availability
 2. ALB is Layer 7 for HTTP/HTTPS with content-based routing

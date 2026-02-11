@@ -1,4 +1,4 @@
-# AWS Compliance Programs
+# 📋 AWS Compliance Programs
 
 ## Introduction
 
@@ -100,7 +100,7 @@ AWS Compliance Programs are third-party certifications, attestations, and audit 
 4. **Continuous Compliance** - AWS maintains certifications continuously
 5. **Global Coverage** - Meet regional requirements worldwide
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - Know that **AWS Artifact** is where you access compliance reports
 - Understand that compliance is a **shared responsibility**
@@ -108,7 +108,7 @@ AWS Compliance Programs are third-party certifications, attestations, and audit 
 - Know that **HIPAA compliance** requires a BAA (Business Associate Agreement)
 - Understand that customers inherit **infrastructure compliance** from AWS
 
-## Key Terms
+## 🔑 Key Terms
 
 | Term | Definition |
 |------|------------|
@@ -119,7 +119,7 @@ AWS Compliance Programs are third-party certifications, attestations, and audit 
 | BAA | Business Associate Agreement (HIPAA requirement) |
 | Attestation | Third-party validation of compliance |
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. AWS maintains over 143 security standards and compliance certifications
 2. Compliance is a shared responsibility between AWS and customers

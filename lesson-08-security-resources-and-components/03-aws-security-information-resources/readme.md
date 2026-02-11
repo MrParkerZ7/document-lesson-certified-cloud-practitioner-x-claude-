@@ -1,4 +1,4 @@
-# AWS Security Information Resources
+# 📚 AWS Security Information Resources
 
 ## Introduction
 
@@ -160,7 +160,7 @@ Annual AWS conference dedicated to cloud security.
 5. **Take** AWS security training courses
 6. **Monitor** Security Bulletins for your services
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - **AWS Security Center** = central hub for all security info
 - **Security Blog** = latest updates and tutorials
@@ -170,7 +170,7 @@ Annual AWS conference dedicated to cloud security.
 - **re:Inforce** = annual security conference
 - Know where to find security whitepapers and documentation
 
-## Key Terms
+## 🔑 Key Terms
 
 | Term | Definition |
 |------|------------|
@@ -181,7 +181,7 @@ Annual AWS conference dedicated to cloud security.
 | re:Inforce | AWS annual security conference |
 | Skill Builder | AWS training platform |
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. AWS Security Center is the main hub for security information
 2. Well-Architected Framework Security Pillar provides design principles

@@ -1,4 +1,4 @@
-# Geographic and Industry Compliance
+# 🌍 Geographic and Industry Compliance
 
 ## Introduction
 
@@ -155,7 +155,7 @@ Different regions and industries have specific compliance requirements that orga
 | Amazon Macie | Data discovery | Identify sensitive data |
 | AWS CloudTrail | Activity logging | Audit trail for compliance |
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - Know that **GDPR** applies to EU data protection
 - Remember **HIPAA** requires a **BAA** from AWS Artifact
@@ -164,7 +164,7 @@ Different regions and industries have specific compliance requirements that orga
 - **PCI DSS** is required for payment card processing
 - AWS provides **regional compliance** certifications
 
-## Key Terms
+## 🔑 Key Terms
 
 | Term | Definition |
 |------|------------|
@@ -175,7 +175,7 @@ Different regions and industries have specific compliance requirements that orga
 | PCI DSS | Payment Card Industry Data Security Standard |
 | PHI | Protected Health Information (HIPAA) |
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. Different regions have different compliance requirements (GDPR, HIPAA, PDPA)
 2. AWS Region selection determines where your data resides

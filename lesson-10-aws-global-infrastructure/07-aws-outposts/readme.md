@@ -1,4 +1,4 @@
-# AWS Outposts
+# 🏗️ AWS Outposts
 
 ## Introduction
 
@@ -163,7 +163,7 @@ AWS Outposts brings native AWS services, infrastructure, and operating models to
 | Physical space | Requires data center space |
 | Cost | Upfront commitment |
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - **Outposts** = AWS hardware in **your data center**
 - AWS **owns and manages** the hardware
@@ -174,7 +174,7 @@ AWS Outposts brings native AWS services, infrastructure, and operating models to
 - Different from **Local Zones** (AWS locations near cities)
 - Different from **Wavelength** (5G edge)
 
-## Key Terms
+## 🔑 Key Terms
 
 | Term | Definition |
 |------|------------|
@@ -184,7 +184,7 @@ AWS Outposts brings native AWS services, infrastructure, and operating models to
 | Service Link | Connection to AWS region |
 | Local Gateway | On-premises network connection |
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. Outposts brings AWS infrastructure to your data center
 2. AWS owns, delivers, installs, and manages the hardware

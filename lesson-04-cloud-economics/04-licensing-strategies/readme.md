@@ -1,4 +1,4 @@
-# Licensing Strategies in AWS
+# 📋 Licensing Strategies in AWS
 
 ## Overview
 
@@ -263,7 +263,7 @@ Some software licenses require physical server visibility (socket/core counting)
 | **Management overhead** | Higher | Lower |
 | **Total Cost** | Calculate carefully | Straightforward |
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - **BYOL** = Bring Your Own License - use existing licenses on AWS
 - **License Included** = AWS includes license in service price
@@ -274,7 +274,7 @@ Some software licenses require physical server visibility (socket/core counting)
 - Know that **Windows Server BYOL requires Dedicated Hosts**
 - **License Manager** works across AWS and on-premises
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. **BYOL** allows using existing licenses on AWS to reduce costs
 2. **License Included** simplifies management with pay-as-you-go licensing

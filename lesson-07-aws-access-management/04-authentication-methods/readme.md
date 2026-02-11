@@ -1,4 +1,4 @@
-# AWS Authentication Methods
+# 🔑 AWS Authentication Methods
 
 ## Introduction
 
@@ -177,7 +177,7 @@ STS provides temporary credentials for:
 5. No access keys stored in code!
 ```
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - Know the difference between **authentication** and **authorization**
 - **Password** = console access; **Access keys** = programmatic access
@@ -187,7 +187,7 @@ STS provides temporary credentials for:
 - **STS** provides temporary credentials
 - **Access Key ID** is public; **Secret Access Key** is private
 
-## Key Terms
+## 🔑 Key Terms
 
 | Term | Definition |
 |------|------------|
@@ -199,7 +199,7 @@ STS provides temporary credentials for:
 | STS | Security Token Service |
 | Session Token | Part of temporary credentials |
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. Authentication verifies identity; authorization determines permissions
 2. Console uses username/password; CLI/API uses access keys

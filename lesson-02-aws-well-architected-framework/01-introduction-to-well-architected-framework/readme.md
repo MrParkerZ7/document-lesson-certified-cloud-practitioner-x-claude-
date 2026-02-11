@@ -1,4 +1,4 @@
-# Introduction to AWS Well-Architected Framework
+# 🏗️ Introduction to AWS Well-Architected Framework
 
 ## Overview
 
@@ -84,7 +84,7 @@ The Well-Architected Framework includes general design principles:
 | **Drive architectures using data** | Make decisions based on metrics |
 | **Improve through game days** | Simulate events to test responses |
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - The Well-Architected Framework has **6 pillars** (Sustainability was added in 2021)
 - The **Well-Architected Tool** is free to use in the AWS Console
@@ -92,7 +92,7 @@ The Well-Architected Framework includes general design principles:
 - There are no "right" answers - it's about **trade-offs** for your specific needs
 - AWS provides **Well-Architected Partner Program** for professional reviews
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. The Framework provides a **consistent approach** to evaluate cloud architectures
 2. It consists of **six pillars** covering all aspects of cloud design

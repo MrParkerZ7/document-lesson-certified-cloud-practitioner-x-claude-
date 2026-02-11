@@ -1,4 +1,4 @@
-# Value Proposition of AWS Cloud
+# ☁️ Value Proposition of AWS Cloud
 
 ## Introduction
 
@@ -94,14 +94,14 @@ Deploy your application in multiple AWS Regions around the world with just a few
 | Global Reach | Build data centers | Select regions |
 | Failure Risk | High (capital locked) | Low (pay-as-you-go) |
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - Understand the **six advantages** of cloud computing
 - Know the difference between **CapEx** (capital expense) and **OpEx** (operational expense)
 - Remember that AWS allows you to **focus on business** rather than infrastructure
 - **Economies of scale** is a key differentiator for AWS
 
-## Key Terms
+## 🔑 Key Terms
 
 | Term | Definition |
 |------|------------|

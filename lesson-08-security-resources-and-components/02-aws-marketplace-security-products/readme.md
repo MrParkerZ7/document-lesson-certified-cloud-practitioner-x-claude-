@@ -1,4 +1,4 @@
-# AWS Marketplace Security Products
+# 🏪 AWS Marketplace Security Products
 
 ## Introduction
 
@@ -163,7 +163,7 @@ Organizations can create a curated catalog of approved products.
 | Filter by pricing | Hourly, annual, free tier |
 | AWS Partner Network | Filter by APN status |
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - **AWS Marketplace** = third-party software catalog
 - Products are **pre-configured** for AWS
@@ -173,7 +173,7 @@ Organizations can create a curated catalog of approved products.
 - Many products offer **free trials**
 - Know common security product categories
 
-## Key Terms
+## 🔑 Key Terms
 
 | Term | Definition |
 |------|------------|
@@ -184,7 +184,7 @@ Organizations can create a curated catalog of approved products.
 | Private Marketplace | Curated catalog for organizations |
 | ISV | Independent Software Vendor |
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. AWS Marketplace offers third-party security products optimized for AWS
 2. Products can be deployed as AMIs, SaaS, or containers

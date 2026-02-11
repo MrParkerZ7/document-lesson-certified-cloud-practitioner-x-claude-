@@ -1,4 +1,4 @@
-# Encryption Options on AWS
+# 🔐 Encryption Options on AWS
 
 ## Introduction
 
@@ -163,7 +163,7 @@ Dedicated hardware security module for:
 4. **Use customer managed keys** for sensitive workloads
 5. **Encrypt in transit** - Use TLS 1.2 or higher
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - **KMS** is the primary key management service on AWS
 - Know the difference between **SSE-S3, SSE-KMS, and SSE-C**
@@ -172,7 +172,7 @@ Dedicated hardware security module for:
 - **KMS keys** can be AWS managed or customer managed
 - Encryption **in transit** uses TLS/SSL protocols
 
-## Key Terms
+## 🔑 Key Terms
 
 | Term | Definition |
 |------|------------|
@@ -184,7 +184,7 @@ Dedicated hardware security module for:
 | TLS | Transport Layer Security |
 | Envelope Encryption | Encrypting data key with master key |
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. AWS provides encryption at rest and in transit for all services
 2. AWS KMS is the central key management service

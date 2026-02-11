@@ -1,4 +1,4 @@
-# Credential Management
+# 🔑 Credential Management
 
 ## Introduction
 
@@ -175,7 +175,7 @@ Manage SSL/TLS certificates for AWS services.
 | GuardDuty | Detect compromised credentials |
 | Config | Track IAM configuration changes |
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - **Secrets Manager** = best for database credentials with auto-rotation
 - **Parameter Store** = configuration and secrets (cheaper)
@@ -186,7 +186,7 @@ Manage SSL/TLS certificates for AWS services.
 - Know the difference between **Secrets Manager** and **Parameter Store**
 - **MFA** should be enabled for all users
 
-## Key Terms
+## 🔑 Key Terms
 
 | Term | Definition |
 |------|------------|
@@ -197,7 +197,7 @@ Manage SSL/TLS certificates for AWS services.
 | ACM | AWS Certificate Manager |
 | SecureString | Encrypted parameter in Parameter Store |
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. Never embed credentials in code or commit to version control
 2. Use IAM roles instead of access keys when possible

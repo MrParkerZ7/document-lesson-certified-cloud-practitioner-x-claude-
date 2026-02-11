@@ -1,4 +1,4 @@
-# AWS Container Services
+# 📦 AWS Container Services
 
 ## Introduction
 
@@ -218,7 +218,7 @@ Container services on AWS allow you to run containerized applications without ma
 | Serverless containers | Fargate |
 | Store container images | ECR |
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - **ECS** = AWS-native container orchestration, simpler to use
 - **EKS** = Managed Kubernetes, for K8s expertise or multi-cloud
@@ -229,7 +229,7 @@ Container services on AWS allow you to run containerized applications without ma
 - **Containers** are lightweight, share host OS, faster than VMs
 - Choose **ECS for simplicity**, **EKS for Kubernetes portability**
 
-## Key Terms
+## 🔑 Key Terms
 
 | Term | Definition |
 |------|------------|
@@ -242,7 +242,7 @@ Container services on AWS allow you to run containerized applications without ma
 | Pod | Kubernetes unit of deployment (one or more containers) |
 | Task | ECS unit of deployment |
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. Containers are lightweight alternatives to VMs, sharing host OS
 2. ECS is AWS-native container orchestration, simple to use

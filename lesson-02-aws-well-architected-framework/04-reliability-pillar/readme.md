@@ -1,4 +1,4 @@
-# Reliability Pillar
+# ✅ Reliability Pillar
 
 ## Overview
 
@@ -125,7 +125,7 @@ The **Reliability** pillar focuses on ensuring a workload performs its intended 
 - **RPO** (Recovery Point Objective) - Maximum acceptable data loss
 - **RTO** (Recovery Time Objective) - Maximum acceptable downtime
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - **Multi-AZ** deployments provide **High Availability**
 - **S3** offers 99.999999999% (11 9's) **durability**
@@ -134,7 +134,7 @@ The **Reliability** pillar focuses on ensuring a workload performs its intended 
 - **Backup** strategies vary by cost and recovery speed
 - **Service Quotas** can limit your deployments
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. **Automate recovery** - Use health checks and auto-recovery
 2. **Test failures** - Regular game days and chaos engineering

@@ -23,18 +23,58 @@ lesson-XX-topic-name/
 - Include exam-focused content with key concepts, definitions, and comparisons
 - Use markdown tables for structured information
 - Include ASCII art diagrams for visual representation
-- Add "Exam Tips" sections highlighting what to remember for the test
-- End with "Key Takeaways" as numbered bullet points
+- Add "🎯 Exam Tips" sections highlighting what to remember for the test
+- End with "💡 Key Takeaways" as numbered bullet points
+- Use icon symbols in titles and section headers for visual recognition
+
+**Icon Symbols Guide:**
+| Icon | Category | Usage |
+|------|----------|-------|
+| ☁️ | Cloud | General cloud concepts, AWS overview |
+| 🔐 | Security | IAM, encryption, access control |
+| 🛡️ | Protection | Shield, WAF, compliance, governance |
+| 💰 | Cost | Pricing, billing, cost optimization |
+| 🌍 | Global | Regions, AZs, edge locations |
+| ⚡ | Performance | Lambda, serverless, speed |
+| 📊 | Analytics | CloudWatch, monitoring, metrics |
+| 💾 | Storage | S3, EBS, EFS, storage services |
+| 🖥️ | Compute | EC2, instances, processing |
+| 🔗 | Networking | VPC, connectivity, Route 53 |
+| 📦 | Containers | ECS, EKS, Docker |
+| 🗄️ | Database | RDS, DynamoDB, database services |
+| 🤖 | AI/ML | SageMaker, Rekognition, AI services |
+| 🔄 | Migration | Migration strategies, sync |
+| 📈 | Scaling | Auto Scaling, elasticity |
+| 🏗️ | Architecture | Well-Architected Framework |
+| ✅ | Best Practice | Recommendations, guidelines |
+| ⚠️ | Warning | Important notes, cautions |
+| 🎯 | Exam Tips | Test focus areas |
+| 💡 | Takeaways | Key insights, summary |
+| 🔑 | Key Concepts | Core definitions, credentials |
 
 ### diagram.drawio Styling Requirements
 
 All diagrams must follow this AWS-themed styling:
 
 **Color Scheme:**
-- `#FF9900` - AWS Orange (primary accent, arrows, highlights)
-- `#232F3E` - AWS Dark Blue (containers, service blocks)
-- `#1E8900` - Green (positive/benefits, OpEx, cloud advantages)
-- `#DD3522` - Red (security, warnings, CapEx, traditional IT)
+- `#FF9900` - AWS Orange (primary accent, arrows, highlights) 🟠
+- `#232F3E` - AWS Dark Blue (containers, service blocks) 🔵
+- `#1E8900` - Green (positive/benefits, OpEx, cloud advantages) 🟢
+- `#DD3522` - Red (security, warnings, CapEx, traditional IT) 🔴
+
+**Icon Symbols in Diagrams:**
+Use text labels with icons for visual clarity in diagram elements:
+- `☁️` Cloud services and AWS icons
+- `🔐` Security components
+- `💰` Cost-related elements
+- `🌍` Global/regional elements
+- `⚡` Performance/serverless
+- `💾` Storage components
+- `🖥️` Compute resources
+- `🔗` Network connections
+- `🗄️` Database elements
+- `✅` Benefits/advantages
+- `❌` Drawbacks/limitations
 
 **Required Style Attributes:**
 - Container/group boxes: `rounded=0;shadow=1;`

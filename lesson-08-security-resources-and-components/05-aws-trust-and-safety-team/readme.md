@@ -1,4 +1,4 @@
-# AWS Trust and Safety Team
+# 🤝 AWS Trust and Safety Team
 
 ## Introduction
 
@@ -166,7 +166,7 @@ AWS has an Acceptable Use Policy that all customers must follow.
 | AWS Security | AWS infrastructure security |
 | Customer Security | Customer's own security |
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - **Trust and Safety Team** handles abuse reports and complaints
 - Report abuse to **abuse@amazonaws.com** or via the abuse form
@@ -176,7 +176,7 @@ AWS has an Acceptable Use Policy that all customers must follow.
 - AWS can **suspend or terminate** accounts for serious violations
 - Follow the **Acceptable Use Policy** (AUP)
 
-## Key Terms
+## 🔑 Key Terms
 
 | Term | Definition |
 |------|------------|
@@ -186,7 +186,7 @@ AWS has an Acceptable Use Policy that all customers must follow.
 | Remediation | Actions to fix abuse issues |
 | Suspension | Temporary account restriction |
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. AWS Trust and Safety Team handles abuse-related issues
 2. Report abuse via email (abuse@amazonaws.com) or the abuse form

@@ -1,4 +1,4 @@
-# Multi-Region Strategies
+# 🌐 Multi-Region Strategies
 
 ## Introduction
 
@@ -179,7 +179,7 @@ Multi-region deployment strategies enable organizations to achieve high availabi
 | 6 | Test failover procedures |
 | 7 | Document runbooks |
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - **Active-Passive** = one region active, one standby
 - **Active-Active** = multiple regions serving traffic
@@ -191,7 +191,7 @@ Multi-region deployment strategies enable organizations to achieve high availabi
 - **DynamoDB Global Tables** = multi-region, multi-active
 - **Global Accelerator** = static IPs with optimized routing
 
-## Key Terms
+## 🔑 Key Terms
 
 | Term | Definition |
 |------|------------|
@@ -202,7 +202,7 @@ Multi-region deployment strategies enable organizations to achieve high availabi
 | RPO | Recovery Point Objective |
 | Failover | Switching to backup system |
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. Multi-region provides disaster recovery and global performance
 2. Active-passive is cost-effective, active-active offers higher availability

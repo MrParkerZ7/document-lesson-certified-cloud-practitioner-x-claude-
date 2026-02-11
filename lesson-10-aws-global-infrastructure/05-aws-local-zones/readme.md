@@ -1,4 +1,4 @@
-# AWS Local Zones
+# 📍 AWS Local Zones
 
 ## Introduction
 
@@ -152,7 +152,7 @@ AWS Local Zones are a type of infrastructure deployment that places compute, sto
 | Opt-in required | Must enable |
 | Higher costs | Premium pricing |
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - **Local Zones** = extend regions to cities for low latency
 - **Single-digit millisecond** latency to end users
@@ -162,7 +162,7 @@ AWS Local Zones are a type of infrastructure deployment that places compute, sto
 - Different from **edge locations** (caching) and **Outposts** (on-premises)
 - Connected to **parent region** for full services
 
-## Key Terms
+## 🔑 Key Terms
 
 | Term | Definition |
 |------|------------|
@@ -171,7 +171,7 @@ AWS Local Zones are a type of infrastructure deployment that places compute, sto
 | Opt-in | Must explicitly enable |
 | Single-digit ms | < 10 millisecond latency |
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. Local Zones extend regions to population centers
 2. Enable single-digit millisecond latency to end users

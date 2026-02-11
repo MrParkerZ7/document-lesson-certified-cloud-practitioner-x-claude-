@@ -1,4 +1,4 @@
-# Operational Excellence Pillar
+# ⚙️ Operational Excellence Pillar
 
 ## Overview
 
@@ -104,7 +104,7 @@ After Operational Excellence:
 - **Deployment Frequency** - How often you deploy
 - **Lead Time for Changes** - Time from code commit to production
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - Operational Excellence is about **running and monitoring** systems effectively
 - **Infrastructure as Code** (CloudFormation) is a key concept
@@ -112,7 +112,7 @@ After Operational Excellence:
 - **CloudWatch** is the primary monitoring service
 - Remember the four focus areas: Organization, Prepare, Operate, Evolve
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. **Automate everything** - Use Infrastructure as Code
 2. **Monitor continuously** - Use CloudWatch, X-Ray, CloudTrail

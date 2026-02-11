@@ -1,4 +1,4 @@
-# Customer Responsibilities - Security IN the Cloud
+# 👤 Customer Responsibilities - Security IN the Cloud
 
 ## Overview
 
@@ -361,7 +361,7 @@ AWS provides tools to help customers fulfill their responsibilities:
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-## Exam Tips
+## 🎯 Exam Tips
 
 > **Tip 1**: Data encryption and classification is ALWAYS customer responsibility - even in managed services
 
@@ -397,7 +397,7 @@ AWS provides tools to help customers fulfill their responsibilities:
 **Question**: Root account compromised because MFA wasn't enabled. Who is responsible?
 **Answer**: **Customer** - MFA configuration is customer responsibility
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. **Data is ALWAYS customer responsibility** - classification, encryption, backup
 2. **IAM is ALWAYS customer responsibility** - users, roles, policies, MFA

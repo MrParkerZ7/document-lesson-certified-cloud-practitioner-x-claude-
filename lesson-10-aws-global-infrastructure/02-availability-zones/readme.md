@@ -1,4 +1,4 @@
-# Availability Zones
+# 🏢 Availability Zones
 
 ## Introduction
 
@@ -177,7 +177,7 @@ Note: us-east-1a in one account may map to a different physical AZ than us-east-
 | Data replication | Synchronous | Asynchronous |
 | Cost | Lower data transfer | Higher data transfer |
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - **AZ** = one or more data centers with independent power/cooling
 - Each region has **minimum 2 AZs** (typically 3-6)
@@ -188,7 +188,7 @@ Note: us-east-1a in one account may map to a different physical AZ than us-east-
 - **S3** automatically stores data across multiple AZs
 - **EBS volumes** are AZ-specific
 
-## Key Terms
+## 🔑 Key Terms
 
 | Term | Definition |
 |------|------------|
@@ -198,7 +198,7 @@ Note: us-east-1a in one account may map to a different physical AZ than us-east-
 | Synchronous Replication | Real-time data copy between AZs |
 | AZ-ID | Consistent identifier across accounts |
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. Availability Zones are isolated infrastructure within a region
 2. Each AZ has independent power, cooling, and networking

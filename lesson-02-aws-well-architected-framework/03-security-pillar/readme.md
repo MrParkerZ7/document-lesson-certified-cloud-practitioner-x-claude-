@@ -1,4 +1,4 @@
-# Security Pillar
+# 🔐 Security Pillar
 
 ## Overview
 
@@ -129,7 +129,7 @@ Remember: Security is a **shared responsibility** between AWS and the customer.
 | Managed service security | Application security |
 | | Data encryption |
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - **Least privilege** is a fundamental security principle
 - **MFA** should be enabled, especially for root account
@@ -138,7 +138,7 @@ Remember: Security is a **shared responsibility** between AWS and the customer.
 - **CloudTrail** logs API calls, **GuardDuty** detects threats
 - Security is a **shared responsibility**
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. **Defense in depth** - Apply security at all layers
 2. **Least privilege** - Give minimum permissions necessary

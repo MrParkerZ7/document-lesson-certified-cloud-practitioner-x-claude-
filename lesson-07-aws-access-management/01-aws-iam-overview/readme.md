@@ -1,4 +1,4 @@
-# AWS IAM Overview
+# 🔐 AWS IAM Overview
 
 ## Introduction
 
@@ -145,7 +145,7 @@ JSON documents that define permissions.
 | Policies | Yes | Yes | Define permissions |
 | MFA | Yes | Yes | Extra security |
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - IAM is **global** - not region-specific
 - IAM is **free** to use
@@ -156,7 +156,7 @@ JSON documents that define permissions.
 - **Deny** always wins over Allow
 - Know the difference between **authentication** (who you are) and **authorization** (what you can do)
 
-## Key Terms
+## 🔑 Key Terms
 
 | Term | Definition |
 |------|------------|
@@ -167,7 +167,7 @@ JSON documents that define permissions.
 | Principal | Entity that can request actions on AWS resources |
 | ARN | Amazon Resource Name - unique identifier |
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. IAM controls authentication and authorization for AWS resources
 2. Users are for individuals; groups organize users; roles provide temporary access

@@ -1,4 +1,4 @@
-# Economies of Scale
+# 📈 Economies of Scale
 
 ## Overview
 
@@ -334,7 +334,7 @@ AWS designs custom ARM-based processors for better price/performance:
 - Compliance certifications included
 - Security team of thousands
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - **Economies of scale** = bigger scale = lower costs
 - AWS passes **savings to customers** through price reductions
@@ -345,7 +345,7 @@ AWS designs custom ARM-based processors for better price/performance:
 - The **flywheel effect** creates a virtuous cycle
 - Know that **scale benefits** are a key value proposition of cloud
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. **Economies of scale** mean AWS can operate more efficiently than individual companies
 2. AWS **bulk purchases** hardware, power, and facilities at lower costs

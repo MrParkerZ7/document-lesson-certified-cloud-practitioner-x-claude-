@@ -1,4 +1,4 @@
-# Benefits of Automation
+# ⚙️ Benefits of Automation
 
 ## Overview
 
@@ -333,7 +333,7 @@ Prioritize automation for:
 └─────────────────────────────────────────────────────────────────────────┘
 ```
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - **CloudFormation** = Infrastructure as Code, templates (JSON/YAML), stacks
 - **Systems Manager** = operational automation, patching, run commands
@@ -345,7 +345,7 @@ Prioritize automation for:
 - **Parameter Store** securely stores configuration and secrets
 - IaC enables **repeatable** and **consistent** deployments
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. **Automation reduces operational costs** by eliminating manual labor
 2. **CloudFormation** enables Infrastructure as Code for consistent provisioning

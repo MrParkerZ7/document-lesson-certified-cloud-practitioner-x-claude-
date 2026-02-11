@@ -1,4 +1,4 @@
-# Serverless Computing
+# ⚡ Serverless Computing
 
 ## Introduction
 
@@ -197,7 +197,7 @@ Serverless computing allows you to build and run applications without thinking a
 | Concurrent executions | 1,000 (default, can increase) |
 | Environment variables | 4 KB total |
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - **Lambda** = run code without servers, pay per request + duration
 - **Max execution time** = 15 minutes (not suitable for long-running tasks)
@@ -209,7 +209,7 @@ Serverless computing allows you to build and run applications without thinking a
 - Lambda is **event-driven** - code runs in response to events
 - **Serverless = you manage code, AWS manages everything else**
 
-## Key Terms
+## 🔑 Key Terms
 
 | Term | Definition |
 |------|------------|
@@ -221,7 +221,7 @@ Serverless computing allows you to build and run applications without thinking a
 | Invocation | Single execution of a Lambda function |
 | Concurrency | Number of simultaneous executions |
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. Serverless means you focus on code, AWS manages infrastructure
 2. Lambda runs code without provisioning servers

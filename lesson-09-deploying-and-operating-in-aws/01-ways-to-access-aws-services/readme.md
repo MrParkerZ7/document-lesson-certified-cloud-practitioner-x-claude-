@@ -1,4 +1,4 @@
-# Ways to Access AWS Services
+# 🔗 Ways to Access AWS Services
 
 ## Introduction
 
@@ -184,7 +184,7 @@ All access methods use AWS APIs underneath.
 +------------------------------------------------------------------+
 ```
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - **Console** = web-based GUI, good for visual management
 - **CLI** = command-line, good for scripting and automation
@@ -194,7 +194,7 @@ All access methods use AWS APIs underneath.
 - **Access keys** = ID + secret for programmatic access
 - **IAM roles** preferred over access keys for EC2, Lambda
 
-## Key Terms
+## 🔑 Key Terms
 
 | Term | Definition |
 |------|------------|
@@ -205,7 +205,7 @@ All access methods use AWS APIs underneath.
 | Access Keys | Credentials for programmatic access |
 | API | Application Programming Interface |
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. AWS provides multiple access methods: Console, CLI, SDKs, CloudShell
 2. The Console is best for visual management and learning

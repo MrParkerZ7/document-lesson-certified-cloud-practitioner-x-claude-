@@ -1,4 +1,4 @@
-# Amazon CloudFront
+# ⚡ Amazon CloudFront
 
 ## Introduction
 
@@ -157,7 +157,7 @@ Amazon CloudFront is a fast content delivery network (CDN) service that securely
 | WAF | Web application firewall |
 | Lambda@Edge | Edge computing |
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - **CloudFront** = CDN for low-latency content delivery
 - Uses **400+ edge locations** worldwide
@@ -168,7 +168,7 @@ Amazon CloudFront is a fast content delivery network (CDN) service that securely
 - **Signed URLs** for private content
 - **Geo-restriction** blocks or allows by country
 
-## Key Terms
+## 🔑 Key Terms
 
 | Term | Definition |
 |------|------------|
@@ -179,7 +179,7 @@ Amazon CloudFront is a fast content delivery network (CDN) service that securely
 | TTL | Time To Live (cache duration) |
 | OAC | Origin Access Control |
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. CloudFront is AWS's global CDN service
 2. Content is cached at 400+ edge locations

@@ -1,4 +1,4 @@
-# AWS Migration Tools
+# 🛠️ AWS Migration Tools
 
 ## Overview
 
@@ -177,7 +177,7 @@ On-Premises Server          AWS Application Migration Service           AWS
 └─────────────────────────────────────────────────────────────────────────┘
 ```
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - **AWS Application Migration Service (MGN)** is for lift-and-shift server migrations
 - **AWS DMS** migrates databases with minimal downtime
@@ -187,7 +187,7 @@ On-Premises Server          AWS Application Migration Service           AWS
 - **Migration Hub** provides a central dashboard for tracking
 - Know the difference between **homogeneous** (same engine) and **heterogeneous** (different engine) database migrations
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. **Migration Hub** is your central tracking dashboard
 2. **Application Discovery Service** helps plan migrations

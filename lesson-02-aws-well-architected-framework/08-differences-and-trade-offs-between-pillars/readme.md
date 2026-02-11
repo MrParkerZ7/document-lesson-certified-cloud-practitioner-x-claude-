@@ -1,4 +1,4 @@
-# Differences and Trade-offs Between Pillars
+# ⚖️ Differences and Trade-offs Between Pillars
 
 ## Overview
 
@@ -173,7 +173,7 @@ Step 3: Make Informed Decisions
 5. **Review periodically** - Business needs change over time
 6. **Use the Well-Architected Tool** - Identify improvements
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - Questions may present scenarios requiring **trade-off decisions**
 - **Security** is generally the highest priority pillar
@@ -182,7 +182,7 @@ Step 3: Make Informed Decisions
 - The **Well-Architected Tool** helps identify and balance trade-offs
 - **Business requirements** should drive pillar prioritization
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. **All pillars are important** - but priorities vary by workload
 2. **Trade-offs are inevitable** - make them consciously

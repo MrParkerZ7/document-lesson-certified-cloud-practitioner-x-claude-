@@ -1,4 +1,4 @@
-# AWS Trusted Advisor Security Checks
+# ✅ AWS Trusted Advisor Security Checks
 
 ## Introduction
 
@@ -175,7 +175,7 @@ Trusted Advisor can trigger automated responses:
 5. **Automate remediation** where possible
 6. **Document exceptions** for yellow/red items
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - **Trusted Advisor** provides real-time best practice recommendations
 - **7 core checks are free** for all accounts, including key security checks
@@ -185,7 +185,7 @@ Trusted Advisor can trigger automated responses:
 - **Cannot replace** specialized security services like GuardDuty
 - Trusted Advisor checks **account-wide** configuration
 
-## Key Terms
+## 🔑 Key Terms
 
 | Term | Definition |
 |------|------------|
@@ -195,7 +195,7 @@ Trusted Advisor can trigger automated responses:
 | Check Status | Green, Yellow, Red, or Gray indicator |
 | Business Support | Support tier with all Trusted Advisor checks |
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. Trusted Advisor provides security best practice recommendations
 2. Seven core security checks are free for all AWS accounts

@@ -1,4 +1,4 @@
-# Benefits of Cloud Migration
+# ✅ Benefits of Cloud Migration
 
 ## Overview
 
@@ -174,7 +174,7 @@ Traditional IT Deployment:        AWS Cloud Deployment:
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - Know the **6 main benefits**: Cost, Speed, Global, Security, Resilience, Innovation
 - **TCO reduction** is a major driver for migration
@@ -183,7 +183,7 @@ Traditional IT Deployment:        AWS Cloud Deployment:
 - **Shared Responsibility Model** improves security posture
 - **200+ services** enable rapid innovation
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. **Cost savings** through pay-as-you-go and right-sizing
 2. **Agility** with instant provisioning and global deployment

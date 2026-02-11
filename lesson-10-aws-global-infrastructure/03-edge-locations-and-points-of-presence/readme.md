@@ -1,4 +1,4 @@
-# Edge Locations and Points of Presence
+# 📍 Edge Locations and Points of Presence
 
 ## Introduction
 
@@ -151,7 +151,7 @@ Run code at edge locations to customize content delivery.
 | Countries | 90+ |
 | Cities | 300+ |
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - **Edge locations** = content caching (NOT for running EC2)
 - **400+** edge locations vs **30+** regions
@@ -161,7 +161,7 @@ Run code at edge locations to customize content delivery.
 - **Lambda@Edge** runs code at edge locations
 - Edge locations provide **DDoS protection** via Shield
 
-## Key Terms
+## 🔑 Key Terms
 
 | Term | Definition |
 |------|------------|
@@ -172,7 +172,7 @@ Run code at edge locations to customize content delivery.
 | Cache Hit | Content found in cache |
 | Cache Miss | Content not in cache, fetch from origin |
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. Edge locations cache content closer to end users
 2. AWS has 400+ edge locations in 90+ countries

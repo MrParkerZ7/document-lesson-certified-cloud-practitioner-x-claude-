@@ -1,4 +1,4 @@
-# Amazon EC2 (Elastic Compute Cloud)
+# 🖥️ Amazon EC2 (Elastic Compute Cloud)
 
 ## Introduction
 
@@ -165,7 +165,7 @@ Amazon EC2 provides secure, resizable compute capacity in the cloud. It is the b
 | Spread | Instances on distinct hardware | Critical applications |
 | Partition | Groups of instances on separate racks | Distributed databases |
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - **Instance types** start with a letter (family), followed by generation number and size
 - **On-Demand** = pay as you go, no commitment, highest flexibility
@@ -177,7 +177,7 @@ Amazon EC2 provides secure, resizable compute capacity in the cloud. It is the b
 - **EBS** = persistent storage, **Instance Store** = ephemeral storage
 - **User Data** = bootstrap scripts run at instance launch
 
-## Key Terms
+## 🔑 Key Terms
 
 | Term | Definition |
 |------|------------|
@@ -189,7 +189,7 @@ Amazon EC2 provides secure, resizable compute capacity in the cloud. It is the b
 | EBS | Elastic Block Store, persistent storage |
 | Spot Instance | Discounted unused EC2 capacity |
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. EC2 provides resizable virtual servers in the cloud
 2. Instance types are categorized by family (compute, memory, storage, etc.)

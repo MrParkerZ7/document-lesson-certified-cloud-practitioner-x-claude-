@@ -1,4 +1,4 @@
-# AWS Artifact
+# 📄 AWS Artifact
 
 ## Introduction
 
@@ -150,7 +150,7 @@ Required for HIPAA compliance when handling Protected Health Information (PHI):
 | EU data processing | DPA agreement | Meet GDPR requirements |
 | Government contracts | FedRAMP reports | Demonstrate federal compliance |
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - **AWS Artifact** is the portal for compliance reports and agreements
 - **BAA** must be signed through Artifact for HIPAA compliance
@@ -158,7 +158,7 @@ Required for HIPAA compliance when handling Protected Health Information (PHI):
 - Agreements can be managed at **account or organization level**
 - Know that Artifact provides **on-demand, self-service** access
 
-## Key Terms
+## 🔑 Key Terms
 
 | Term | Definition |
 |------|------------|
@@ -169,7 +169,7 @@ Required for HIPAA compliance when handling Protected Health Information (PHI):
 | SOC Report | Service Organization Control audit |
 | NDA | Non-Disclosure Agreement |
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. AWS Artifact is a free, self-service portal for compliance documentation
 2. Two main sections: Reports (audit documents) and Agreements (legal documents)

@@ -1,4 +1,4 @@
-# Principle of Least Privilege
+# 🔒 Principle of Least Privilege
 
 ## Introduction
 
@@ -191,7 +191,7 @@ Service Control Policies provide guardrails:
 }
 ```
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - **Least privilege** = minimum permissions needed
 - Start with **no permissions** and add what's needed
@@ -201,7 +201,7 @@ Service Control Policies provide guardrails:
 - **Review permissions** regularly
 - Know that least privilege is a **security best practice**
 
-## Key Terms
+## 🔑 Key Terms
 
 | Term | Definition |
 |------|------------|
@@ -212,7 +212,7 @@ Service Control Policies provide guardrails:
 | Resource-level | Permissions on specific resources |
 | Action-level | Permissions on specific operations |
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. Grant only the minimum permissions necessary to perform a task
 2. Start with no permissions and add incrementally

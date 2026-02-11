@@ -1,4 +1,4 @@
-# Shared Responsibilities - Areas of Joint Accountability
+# 🤝 Shared Responsibilities - Areas of Joint Accountability
 
 ## Overview
 
@@ -377,7 +377,7 @@ Security awareness is a shared responsibility that requires both parties to educ
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-## Exam Tips
+## 🎯 Exam Tips
 
 > **Tip 1**: Patch management is shared - AWS patches infrastructure, customer patches their systems
 
@@ -409,7 +409,7 @@ Security awareness is a shared responsibility that requires both parties to educ
 **Question**: Who trains customer developers on AWS security best practices?
 **Answer**: **Customer** (AWS provides training resources, customer implements training programs)
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. **Patch management is shared** - AWS patches infrastructure, customers patch their systems
 2. **Configuration is shared** - AWS provides options, customers make configuration choices

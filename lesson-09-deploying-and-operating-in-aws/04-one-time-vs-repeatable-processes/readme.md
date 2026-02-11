@@ -1,4 +1,4 @@
-# One-Time vs Repeatable Processes
+# 🔄 One-Time vs Repeatable Processes
 
 ## Introduction
 
@@ -199,7 +199,7 @@ Automate operational tasks.
 | Scalability | Limited | High |
 | Auditability | Difficult | Easy |
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - **Repeatable processes** = automated, consistent, documented
 - **CloudFormation** = repeatable infrastructure deployment
@@ -210,7 +210,7 @@ Automate operational tasks.
 - Production should use **repeatable processes**
 - **Infrastructure as Code** converts manual to repeatable
 
-## Key Terms
+## 🔑 Key Terms
 
 | Term | Definition |
 |------|------------|
@@ -221,7 +221,7 @@ Automate operational tasks.
 | Runbook | Documented procedures for operations |
 | Event-Driven | Actions triggered by events |
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. One-time processes are manual and difficult to reproduce consistently
 2. Repeatable processes are automated, documented, and consistent

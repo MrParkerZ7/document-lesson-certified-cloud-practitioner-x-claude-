@@ -1,4 +1,4 @@
-# Right-Sizing Resources
+# 📊 Right-Sizing Resources
 
 ## Overview
 
@@ -300,7 +300,7 @@ Current State:
 | **Trusted Advisor** | Idle/underutilized resources | Various | Depends on Support Plan |
 | **CloudWatch** | Raw metrics | Customizable | Pay per metric |
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - **Right-sizing** = matching instance size to workload requirements
 - **AWS Compute Optimizer** = ML-based recommendations for optimal sizing
@@ -311,7 +311,7 @@ Current State:
 - **Graviton** instances offer better price/performance (ARM-based)
 - **T-series** instances are burstable and good for variable workloads
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. **Right-sizing** eliminates waste by matching resources to actual needs
 2. **AWS Compute Optimizer** uses ML to analyze and recommend optimal configurations

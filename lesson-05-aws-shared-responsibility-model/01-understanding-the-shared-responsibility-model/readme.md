@@ -1,4 +1,4 @@
-# Understanding the AWS Shared Responsibility Model
+# 🛡️ Understanding the AWS Shared Responsibility Model
 
 ## Overview
 
@@ -180,7 +180,7 @@ Legend: Customer = Customer Responsibility | AWS = AWS Responsibility
 **Question**: AWS network infrastructure faces DDoS attack. Who protects it?
 **Answer**: **AWS** - Infrastructure protection is AWS responsibility
 
-## Exam Tips
+## 🎯 Exam Tips
 
 > **Tip 1**: Remember the phrase "IN vs OF" - Customer is IN, AWS is OF
 
@@ -194,7 +194,7 @@ Legend: Customer = Customer Responsibility | AWS = AWS Responsibility
 
 > **Tip 6**: "Managed" services mean AWS takes MORE responsibility, not ALL
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. **The shared responsibility model divides security between AWS and customers**
 2. **AWS secures the cloud infrastructure (Security OF the Cloud)**

@@ -1,4 +1,4 @@
-# Sustainability Pillar
+# 🌱 Sustainability Pillar
 
 ## Overview
 
@@ -152,7 +152,7 @@ Long-term Strategy:
 | Cooling and power efficiency | Data lifecycle management |
 | | Choosing sustainable options |
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - Sustainability is the **newest pillar** (added in 2021)
 - **Right-sizing** and **Auto Scaling** reduce waste
@@ -162,7 +162,7 @@ Long-term Strategy:
 - **Customer Carbon Footprint Tool** tracks emissions
 - The goal is to **maximize utilization** and **minimize waste**
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. **Understand impact** - Use Carbon Footprint Tool
 2. **Right-size resources** - Don't over-provision

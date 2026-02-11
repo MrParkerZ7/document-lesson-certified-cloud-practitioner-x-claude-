@@ -1,4 +1,4 @@
-# Agility and Flexibility
+# ⚡ Agility and Flexibility
 
 ## Introduction
 
@@ -235,7 +235,7 @@ You focus on:
 - Growing business
 - Innovation
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - **Agility** = speed and ease of change
 - **Flexibility** = options and no lock-in
@@ -244,7 +244,7 @@ You focus on:
 - Remember **200+ services** provide technology flexibility
 - **Pay-as-you-go** = no long-term commitments
 
-## Key Terms
+## 🔑 Key Terms
 
 | Term | Definition |
 |------|------------|

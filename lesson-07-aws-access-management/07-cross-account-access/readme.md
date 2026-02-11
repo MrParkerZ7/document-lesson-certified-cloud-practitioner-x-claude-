@@ -1,4 +1,4 @@
-# Cross-Account Access
+# 🔄 Cross-Account Access
 
 ## Introduction
 
@@ -182,7 +182,7 @@ External ID prevents the "confused deputy" problem when granting third-party acc
 }
 ```
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - **IAM roles** are the recommended method for cross-account access
 - **Trust policy** defines who can assume the role
@@ -192,7 +192,7 @@ External ID prevents the "confused deputy" problem when granting third-party acc
 - **AWS Organizations** simplifies multi-account management
 - No credentials are shared - only temporary credentials are used
 
-## Key Terms
+## 🔑 Key Terms
 
 | Term | Definition |
 |------|------------|
@@ -203,7 +203,7 @@ External ID prevents the "confused deputy" problem when granting third-party acc
 | Resource-Based Policy | Policy attached to a resource |
 | RAM | Resource Access Manager |
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. Cross-account access uses IAM roles, not shared credentials
 2. Trust policies define which accounts can assume a role

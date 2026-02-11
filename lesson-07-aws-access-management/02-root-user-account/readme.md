@@ -1,4 +1,4 @@
-# AWS Root User Account
+# 👤 AWS Root User Account
 
 ## Introduction
 
@@ -153,7 +153,7 @@ Set up alerts for root user activity:
 | API calls | CloudTrail + CloudWatch | Monitor root actions |
 | Billing alerts | AWS Budgets | Track spending |
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - Root user has **unrestricted access** - cannot be limited
 - **Enable MFA** on root user immediately
@@ -163,7 +163,7 @@ Set up alerts for root user activity:
 - Root user credentials = **email address + password**
 - Root user is the **only identity** that can close an AWS account
 
-## Key Terms
+## 🔑 Key Terms
 
 | Term | Definition |
 |------|------------|
@@ -174,7 +174,7 @@ Set up alerts for root user activity:
 | Access Keys | Credentials for programmatic AWS access |
 | Account Settings | Configuration only root can change |
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. Root user has complete, unrestricted access to the AWS account
 2. Enable MFA on root user immediately after account creation

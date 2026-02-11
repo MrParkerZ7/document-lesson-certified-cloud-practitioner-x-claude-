@@ -1,4 +1,4 @@
-# Cloud Deployment Models
+# ☁️ Cloud Deployment Models
 
 ## Introduction
 
@@ -177,7 +177,7 @@ Using multiple public cloud providers.
 | Hybrid Cloud | Gradual migration, data locality |
 | Multi-Cloud | Best of each provider, redundancy |
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - **Public Cloud** = AWS, shared infrastructure, multi-tenant
 - **Private Cloud** = dedicated to single organization
@@ -188,7 +188,7 @@ Using multiple public cloud providers.
 - Know the **benefits and use cases** for each model
 - AWS is a **public cloud** provider
 
-## Key Terms
+## 🔑 Key Terms
 
 | Term | Definition |
 |------|------------|
@@ -199,7 +199,7 @@ Using multiple public cloud providers.
 | Cloud Bursting | Scaling to public cloud during peaks |
 | AWS Outposts | AWS infrastructure on-premises |
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. Public cloud offers shared, multi-tenant resources with pay-as-you-go pricing
 2. Private cloud provides dedicated resources for a single organization

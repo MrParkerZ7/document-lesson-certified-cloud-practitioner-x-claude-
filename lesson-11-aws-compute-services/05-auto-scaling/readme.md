@@ -1,4 +1,4 @@
-# AWS Auto Scaling
+# 📈 AWS Auto Scaling
 
 ## Introduction
 
@@ -222,7 +222,7 @@ AWS Auto Scaling automatically adjusts the number of compute resources to mainta
 | Benefit | Rolling updates with no downtime |
 | Control | Minimum healthy percentage |
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - **Auto Scaling Group (ASG)** = manages EC2 instance capacity
 - **Launch Template** = what to launch (AMI, instance type, etc.)
@@ -235,7 +235,7 @@ AWS Auto Scaling automatically adjusts the number of compute resources to mainta
 - **Cooldown period** = prevents rapid scaling
 - Auto Scaling is **free** - you only pay for EC2 instances
 
-## Key Terms
+## 🔑 Key Terms
 
 | Term | Definition |
 |------|------------|
@@ -246,7 +246,7 @@ AWS Auto Scaling automatically adjusts the number of compute resources to mainta
 | Cooldown | Wait period between scaling actions |
 | Desired Capacity | Target number of running instances |
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. Auto Scaling adjusts capacity automatically based on demand
 2. Launch Templates define what to launch (AMI, instance type)

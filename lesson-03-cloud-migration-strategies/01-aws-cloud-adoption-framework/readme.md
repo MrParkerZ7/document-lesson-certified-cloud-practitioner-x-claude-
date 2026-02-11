@@ -1,4 +1,4 @@
-# AWS Cloud Adoption Framework (AWS CAF)
+# 🏗️ AWS Cloud Adoption Framework (AWS CAF)
 
 ## Overview
 
@@ -154,7 +154,7 @@ AWS CAF organizes guidance into six areas of focus, called **Perspectives**. Eac
 | **Launch** | Deliver pilot initiatives with value |
 | **Scale** | Expand production pilots and business value |
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - AWS CAF has **6 Perspectives**: Business, People, Governance, Platform, Security, Operations
 - **Business capabilities** (left): Business, People, Governance
@@ -163,7 +163,7 @@ AWS CAF organizes guidance into six areas of focus, called **Perspectives**. Eac
 - **4 transformation domains**: Technology, Process, Organization, Product
 - **4 transformation phases**: Envision, Align, Launch, Scale
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. AWS CAF helps organizations **structure their cloud adoption** journey
 2. **Six Perspectives** cover both business and technical considerations

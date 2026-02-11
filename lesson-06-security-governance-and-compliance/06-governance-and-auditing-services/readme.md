@@ -1,4 +1,4 @@
-# Governance and Auditing Services
+# 📊 Governance and Auditing Services
 
 ## Introduction
 
@@ -187,7 +187,7 @@ AWS Audit Manager helps continuously audit AWS usage to simplify risk assessment
 | Organizations | Account governance | SCPs, OUs |
 | Systems Manager | Operations management | Patching, inventory |
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - **CloudTrail** = records API calls (who did what, when)
 - **Config** = tracks resource configurations and compliance
@@ -199,7 +199,7 @@ AWS Audit Manager helps continuously audit AWS usage to simplify risk assessment
   - CloudTrail = activity (API calls)
   - Config = state (configuration)
 
-## Key Terms
+## 🔑 Key Terms
 
 | Term | Definition |
 |------|------------|
@@ -211,7 +211,7 @@ AWS Audit Manager helps continuously audit AWS usage to simplify risk assessment
 | SCP | Service Control Policy (Organizations) |
 | Conformance Pack | Collection of Config rules |
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. CloudTrail records all API calls and can store logs in S3
 2. AWS Config tracks resource configurations and evaluates compliance

@@ -1,4 +1,4 @@
-# Managed Services Value
+# ☁️ Managed Services Value
 
 ## Overview
 
@@ -298,7 +298,7 @@ AWS managed services include:
 └─────────────────────────────────────────────────────────────────────────┘
 ```
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - **Managed services** reduce operational overhead significantly
 - **RDS** is a key example - compare to self-managed DB on EC2
@@ -309,7 +309,7 @@ AWS managed services include:
 - **Time to market** is faster with managed services
 - Know examples: RDS, DynamoDB, Lambda, ElastiCache, S3
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. **Managed services** significantly reduce operational overhead
 2. **TCO** is often lower with managed services despite higher service cost

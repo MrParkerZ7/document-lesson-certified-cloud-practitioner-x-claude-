@@ -1,4 +1,4 @@
-# Infrastructure as Code (IaC)
+# 📝 Infrastructure as Code (IaC)
 
 ## Introduction
 
@@ -181,7 +181,7 @@ Third-party IaC tool with multi-cloud support.
 | Multi-cloud | Terraform |
 | Quick prototyping | Console (then convert to IaC) |
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - **CloudFormation** = AWS-native IaC, uses JSON/YAML templates
 - **CDK** = write infrastructure in programming languages
@@ -192,7 +192,7 @@ Third-party IaC tool with multi-cloud support.
 - **Drift detection** = find manual changes to stack resources
 - IaC enables **consistency** and **repeatability**
 
-## Key Terms
+## 🔑 Key Terms
 
 | Term | Definition |
 |------|------------|
@@ -204,7 +204,7 @@ Third-party IaC tool with multi-cloud support.
 | SAM | Serverless Application Model |
 | Drift | Changes outside of template |
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. IaC enables consistent, repeatable infrastructure deployments
 2. CloudFormation is AWS's native IaC service using YAML/JSON

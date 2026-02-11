@@ -1,4 +1,4 @@
-# Elasticity and Scalability
+# 📈 Elasticity and Scalability
 
 ## Introduction
 
@@ -214,7 +214,7 @@ Serverless services provide automatic elasticity without managing infrastructure
 | **Automation** | No manual intervention needed |
 | **Efficiency** | Resources match actual demand |
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - **Elasticity** = automatic + dynamic scaling
 - **Scalability** = ability to handle growth
@@ -223,7 +223,7 @@ Serverless services provide automatic elasticity without managing infrastructure
 - **Serverless** services provide maximum elasticity
 - Elasticity helps with **cost optimization**
 
-## Key Terms
+## 🔑 Key Terms
 
 | Term | Definition |
 |------|------------|

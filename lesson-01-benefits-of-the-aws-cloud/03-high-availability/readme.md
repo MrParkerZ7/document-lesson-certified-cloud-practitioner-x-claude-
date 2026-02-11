@@ -1,4 +1,4 @@
-# High Availability
+# ✅ High Availability
 
 ## Introduction
 
@@ -201,7 +201,7 @@ AWS managed services handle HA automatically:
 | Amazon S3 | 99.99% |
 | AWS Lambda | 99.95% |
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - **Multi-AZ** deployment is key for high availability
 - Know that **ELB** distributes traffic and provides health checks
@@ -209,7 +209,7 @@ AWS managed services handle HA automatically:
 - **Managed services** often have built-in HA features
 - Regions are **isolated**; AZs are **connected but separated**
 
-## Key Terms
+## 🔑 Key Terms
 
 | Term | Definition |
 |------|------------|

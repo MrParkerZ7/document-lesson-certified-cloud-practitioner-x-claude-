@@ -1,4 +1,4 @@
-# AWS IAM Identity Center
+# 🔐 AWS IAM Identity Center
 
 ## Introduction
 
@@ -159,7 +159,7 @@ Select User/Group -> Select Account(s) -> Select Permission Set(s)
 | No built-in SSO | Built-in SSO portal |
 | Complex cross-account | Simple multi-account access |
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - **IAM Identity Center** = recommended for workforce access
 - Formerly called **AWS Single Sign-On (SSO)**
@@ -170,7 +170,7 @@ Select User/Group -> Select Account(s) -> Select Permission Set(s)
 - Users access through **user portal**
 - Provides **temporary credentials** (not long-term access keys)
 
-## Key Terms
+## 🔑 Key Terms
 
 | Term | Definition |
 |------|------------|
@@ -181,7 +181,7 @@ Select User/Group -> Select Account(s) -> Select Permission Set(s)
 | SAML | Protocol for SSO with business applications |
 | AWS Organizations | Multi-account management service |
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. IAM Identity Center is the recommended way to manage workforce access
 2. It enables single sign-on across all AWS accounts and applications

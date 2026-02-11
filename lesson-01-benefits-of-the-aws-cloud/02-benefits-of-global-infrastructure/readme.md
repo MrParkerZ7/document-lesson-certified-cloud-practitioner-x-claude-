@@ -1,4 +1,4 @@
-# Benefits of Global Infrastructure
+# 🌍 Benefits of Global Infrastructure
 
 ## Introduction
 
@@ -175,7 +175,7 @@ Decision Flow:
 +------------------+
 ```
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - Know the hierarchy: **Regions > Availability Zones > Edge Locations**
 - Understand that **regions are isolated** from each other
@@ -183,7 +183,7 @@ Decision Flow:
 - **Edge locations** are used for caching and CDN
 - **Data does not automatically replicate** across regions
 
-## Key Terms
+## 🔑 Key Terms
 
 | Term | Definition |
 |------|------------|

@@ -1,4 +1,4 @@
-# Cost Optimization Pillar
+# 💰 Cost Optimization Pillar
 
 ## Overview
 
@@ -145,7 +145,7 @@ The **Cost Optimization** pillar focuses on avoiding unnecessary costs, understa
 | **S3 Glacier Flexible** | Archive, minutes to hours | $ |
 | **S3 Glacier Deep Archive** | Long-term archive | ¢ |
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - Know the **EC2 pricing models** (On-Demand, Reserved, Spot, Savings Plans)
 - **Savings Plans** are more flexible than Reserved Instances
@@ -155,7 +155,7 @@ The **Cost Optimization** pillar focuses on avoiding unnecessary costs, understa
 - **S3 Lifecycle policies** can automatically move data to cheaper tiers
 - **Trusted Advisor** provides cost optimization recommendations
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. **Pay for what you use** - Consumption-based pricing
 2. **Commit for savings** - Reserved Instances or Savings Plans

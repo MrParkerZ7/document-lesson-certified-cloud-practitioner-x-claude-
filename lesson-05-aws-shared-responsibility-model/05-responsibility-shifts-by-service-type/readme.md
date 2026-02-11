@@ -1,4 +1,4 @@
-# Responsibility Shifts by Service Type
+# 🔄 Responsibility Shifts by Service Type
 
 ## Overview
 
@@ -415,7 +415,7 @@ With SaaS/Fully Managed services, AWS handles almost everything except customer 
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-## Exam Tips
+## 🎯 Exam Tips
 
 > **Tip 1**: Moving from IaaS → PaaS → SaaS means LESS customer responsibility and MORE AWS responsibility
 
@@ -451,7 +451,7 @@ With SaaS/Fully Managed services, AWS handles almost everything except customer 
 **Question**: Who is responsible for scaling DynamoDB tables?
 **Answer**: **AWS** (if using on-demand mode) - DynamoDB is fully managed
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. **IaaS = Most customer responsibility** - You manage OS, applications, patching
 2. **PaaS = Shared responsibility** - AWS manages platform, you manage data/config

@@ -1,4 +1,4 @@
-# Other AWS Compute Services
+# 🖥️ Other AWS Compute Services
 
 ## Introduction
 
@@ -219,7 +219,7 @@ Beyond EC2, containers, and Lambda, AWS offers additional compute services for s
 | ParallelCluster | HPC clusters | Scientific computing |
 | Compute Optimizer | Rightsizing | Cost optimization |
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - **AWS Batch** = managed batch processing, automatically scales
 - **Lightsail** = simple, fixed-price VPS for beginners (like Heroku for AWS)
@@ -231,7 +231,7 @@ Beyond EC2, containers, and Lambda, AWS offers additional compute services for s
 - **ParallelCluster** = HPC cluster management
 - **EFA** = high-performance networking for HPC
 
-## Key Terms
+## 🔑 Key Terms
 
 | Term | Definition |
 |------|------------|
@@ -242,7 +242,7 @@ Beyond EC2, containers, and Lambda, AWS offers additional compute services for s
 | Right-sizing | Matching resources to workload |
 | EFA | Elastic Fabric Adapter |
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. AWS Batch manages batch computing with auto-scaling
 2. Lightsail provides simple, fixed-price virtual servers for beginners

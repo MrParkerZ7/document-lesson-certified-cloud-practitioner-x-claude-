@@ -1,4 +1,4 @@
-# AWS Security Services
+# 🛡️ AWS Security Services
 
 ## Introduction
 
@@ -184,7 +184,7 @@ Discover and protect sensitive data.
 | Shield | DDoS protection | Protect against DDoS |
 | Macie | Data discovery | Find sensitive data |
 
-## Exam Tips
+## 🎯 Exam Tips
 
 - **GuardDuty** = threat detection (uses ML, monitors logs)
 - **Inspector** = vulnerability assessment (EC2, containers, Lambda)
@@ -195,7 +195,7 @@ Discover and protect sensitive data.
 - **Macie** = discovers sensitive data in S3
 - **Secrets Manager** = stores and rotates credentials
 
-## Key Terms
+## 🔑 Key Terms
 
 | Term | Definition |
 |------|------------|
@@ -208,7 +208,7 @@ Discover and protect sensitive data.
 | Detective | Security investigation service |
 | ACM | AWS Certificate Manager |
 
-## Key Takeaways
+## 💡 Key Takeaways
 
 1. GuardDuty provides continuous threat detection using machine learning
 2. Inspector scans for vulnerabilities in EC2, containers, and Lambda
