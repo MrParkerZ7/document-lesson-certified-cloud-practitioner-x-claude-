@@ -1,0 +1,101 @@
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="Mozilla/5.0" etag="support-center" version="22.1.0" type="device">
+  <diagram name="AWS Support Center" id="support-center-diagram">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="🎫 AWS Support Center" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="10" width="320" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- What is Support Center -->
+        <mxCell id="what-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="1000" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="what-title" value="📋 What is AWS Support Center?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="400" y="65" width="280" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="purpose" value="🎯 Purpose&#xa;Create, manage, and&#xa;track support cases&#xa;Central hub for help" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="100" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="access" value="🌐 Access&#xa;AWS Console →&#xa;Support Center&#xa;Or support.aws.amazon.com" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="100" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="types" value="📝 Case Types&#xa;• Account &amp; billing&#xa;• Service limit increase&#xa;• Technical support" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="100" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="features" value="🔧 Features&#xa;Case history&#xa;Correspondence&#xa;Attachments" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="100" width="140" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Case Workflow -->
+        <mxCell id="workflow-container" value="" style="whiteSpace=wrap;html=1;fillColor=#E6F2FF;strokeColor=#232F3E;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="210" width="1000" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="workflow-title" value="📊 Support Case Workflow" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="420" y="215" width="240" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="step1" value="1️⃣ Create Case&#xa;Select type&#xa;Choose severity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="255" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="step2" value="2️⃣ Describe Issue&#xa;Subject, details&#xa;Add attachments" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="255" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="step3" value="3️⃣ Contact Method&#xa;Web, chat, phone&#xa;Based on plan" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="255" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="step4" value="4️⃣ Track Case&#xa;View status&#xa;Add updates" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="255" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="step5" value="5️⃣ Resolution&#xa;Issue resolved&#xa;Close case" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="255" width="120" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Arrows -->
+        <mxCell id="a1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="185" y="285" as="sourcePoint" />
+            <mxPoint x="235" y="285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="365" y="285" as="sourcePoint" />
+            <mxPoint x="415" y="285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a3" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="545" y="285" as="sourcePoint" />
+            <mxPoint x="595" y="285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a4" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="725" y="285" as="sourcePoint" />
+            <mxPoint x="775" y="285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Key Points -->
+        <mxCell id="key-container" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="360" width="1000" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="key-title" value="🎯 Exam Tips" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="480" y="365" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="tips1" value="Support Center = Create and manage support cases  |  Available to all accounts (Basic gets limited options)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="60" y="395" width="920" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tips2" value="Case severity determines response time (based on support plan)  |  Service limit increases = free for all plans" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="60" y="420" width="920" height="20" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

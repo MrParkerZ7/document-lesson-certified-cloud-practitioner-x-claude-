@@ -1,0 +1,88 @@
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="Mozilla/5.0" etag="ri-flexibility" version="22.1.0" type="device">
+  <diagram name="Reserved Instance Flexibility" id="ri-flexibility-diagram">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="📅 Reserved Instance Types &amp; Flexibility" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="10" width="480" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Standard vs Convertible -->
+        <mxCell id="types-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="1000" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="types-title" value="📊 Standard vs Convertible Reserved Instances" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="360" y="65" width="360" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="standard" value="Standard RI&#xa;Up to 72% discount&#xa;❌ Cannot change instance family&#xa;✅ Can change AZ, size (within family)&#xa;✅ Can sell on Marketplace" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="100" width="200" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="vs" value="vs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="500" y="125" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="convertible" value="Convertible RI&#xa;Up to 66% discount&#xa;✅ Can change instance family&#xa;✅ Can change OS, tenancy&#xa;❌ Cannot sell on Marketplace" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="100" width="200" height="85" as="geometry" />
+        </mxCell>
+
+        <!-- Payment Options -->
+        <mxCell id="payment-container" value="" style="whiteSpace=wrap;html=1;fillColor=#E6F2FF;strokeColor=#232F3E;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="220" width="500" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="payment-title" value="💵 Payment Options" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="220" y="225" width="140" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="all-upfront" value="All Upfront&#xa;💰💰💰 Pay 100% now&#xa;⭐ Maximum discount" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="265" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="partial-upfront" value="Partial Upfront&#xa;💰💰 Pay some now&#xa;⭐ Medium discount" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="265" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="no-upfront" value="No Upfront&#xa;💰 Pay monthly&#xa;⭐ Lowest discount" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="265" width="130" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="payment-note" value="More upfront = More discount" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#232F3E;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="160" y="335" width="200" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Savings Plans Comparison -->
+        <mxCell id="savings-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="220" width="480" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="savings-title" value="💵 Savings Plans Types" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="720" y="225" width="160" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="compute-sp" value="Compute Savings Plan&#xa;🔄 Most flexible&#xa;EC2, Lambda, Fargate&#xa;Any region, family, OS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="265" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ec2-sp" value="EC2 Instance SP&#xa;📍 More savings&#xa;Specific family/region&#xa;Flexible size, OS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="265" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sagemaker-sp" value="SageMaker SP&#xa;🤖 ML workloads&#xa;SageMaker only" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="265" width="120" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Key Points -->
+        <mxCell id="key-container" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="380" width="1000" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="key-title" value="🎯 Exam Tips" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="480" y="385" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="tips1" value="Standard RI = Best discount but locked to family  |  Convertible RI = Lower discount but changeable  |  Savings Plans = Flexible, $/hour commitment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="60" y="415" width="920" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tips2" value="All Upfront = Maximum savings  |  1-year vs 3-year = 3-year gives more discount" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="60" y="435" width="920" height="20" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

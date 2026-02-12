@@ -1,0 +1,188 @@
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="Mozilla/5.0" etag="relational-db" version="22.1.0" type="device">
+  <diagram name="Relational Databases" id="relational-diagram">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="🗄️ Amazon RDS &amp; Aurora" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="15" width="400" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- RDS Engines Section -->
+        <mxCell id="engines-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="65" width="520" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="engines-title" value="Supported Database Engines" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="180" y="70" width="240" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Open Source Engines -->
+        <mxCell id="mysql-box" value="MySQL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="105" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="postgres-box" value="PostgreSQL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="105" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mariadb-box" value="MariaDB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="105" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="opensource-label" value="Open Source (Free)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#1E8900;" vertex="1" parent="1">
+          <mxGeometry x="130" y="148" width="120" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Commercial Engines -->
+        <mxCell id="oracle-box" value="Oracle" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="175" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sqlserver-box" value="SQL Server" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="175" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="commercial-label" value="Commercial (BYOL)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#DD3522;" vertex="1" parent="1">
+          <mxGeometry x="90" y="218" width="120" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Aurora -->
+        <mxCell id="aurora-box" value="⭐ Aurora&#xa;(AWS Native)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=12;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="130" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aurora-perf" value="5x MySQL | 3x PostgreSQL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FF9900;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="195" width="150" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Multi-AZ Section -->
+        <mxCell id="multiaz-container" value="" style="whiteSpace=wrap;html=1;fillColor=#E6F2FF;strokeColor=#232F3E;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="65" width="460" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="multiaz-title" value="🛡️ Multi-AZ Deployment (High Availability)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="640" y="70" width="340" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- AZ-A -->
+        <mxCell id="aza-box" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="105" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="aza-label" value="AZ-A" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="650" y="110" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="primary-db" value="🗄️ PRIMARY&#xa;(Read/Write)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="625" y="140" width="110" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Sync Arrow -->
+        <mxCell id="sync-arrow" value="" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=3;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="165" as="sourcePoint" />
+            <mxPoint x="860" y="165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sync-label" value="Sync" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FF9900;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="145" width="40" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- AZ-B -->
+        <mxCell id="azb-box" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="105" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="azb-label" value="AZ-B" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="910" y="110" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="standby-db" value="🗄️ STANDBY&#xa;(Auto Failover)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#666666;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="885" y="140" width="110" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Read Replicas Section -->
+        <mxCell id="replicas-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="265" width="500" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="replicas-title" value="📖 Read Replicas (Read Scaling)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="150" y="270" width="240" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Primary for replicas -->
+        <mxCell id="rep-primary" value="PRIMARY&#xa;(Read/Write)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="310" width="100" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Async arrows -->
+        <mxCell id="async-arrow1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="335" as="sourcePoint" />
+            <mxPoint x="220" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="async-arrow2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="335" as="sourcePoint" />
+            <mxPoint x="220" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Read Replicas -->
+        <mxCell id="replica1" value="Read Replica" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="295" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="replica2" value="Read Replica" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="295" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="replica3" value="Read Replica" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="295" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="replica4" value="Read Replica" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="345" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="replica5" value="Read Replica" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="345" width="80" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="replica-note" value="Up to 5 (RDS) or 15 (Aurora)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#666666;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="60" y="395" width="180" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Aurora Architecture -->
+        <mxCell id="aurora-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;opacity=20;" vertex="1" parent="1">
+          <mxGeometry x="560" y="265" width="480" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="aurora-title" value="⭐ Aurora Architecture" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="720" y="270" width="160" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Aurora instances -->
+        <mxCell id="aurora-primary" value="Primary&#xa;Instance" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="305" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aurora-rep1" value="Aurora&#xa;Replica" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="305" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aurora-rep2" value="Aurora&#xa;Replica" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="305" width="70" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Shared storage -->
+        <mxCell id="storage-arrow" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="360" as="sourcePoint" />
+            <mxPoint x="750" y="385" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="shared-storage" value="💾 Shared Storage (6 copies across 3 AZs, auto-scales to 128TB)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="390" width="420" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Key comparison -->
+        <mxCell id="compare-container" value="" style="whiteSpace=wrap;html=1;fillColor=#E6F2FF;strokeColor=#232F3E;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="445" width="1000" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="compare-title" value="🎯 Key Differences:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="60" y="450" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="compare-text" value="Multi-AZ = HIGH AVAILABILITY (sync, auto-failover)  |  Read Replicas = READ SCALING (async, manual promotion)  |  Aurora = BEST PERFORMANCE (shared storage, 15 replicas)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="60" y="475" width="960" height="30" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

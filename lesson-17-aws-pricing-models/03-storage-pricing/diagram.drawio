@@ -1,0 +1,101 @@
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="Mozilla/5.0" etag="storage-pricing" version="22.1.0" type="device">
+  <diagram name="Storage Pricing" id="storage-pricing-diagram">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="💾 AWS Storage Pricing Models" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="10" width="400" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- S3 Pricing -->
+        <mxCell id="s3-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="520" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="s3-title" value="📦 Amazon S3 Pricing" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="220" y="65" width="160" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="s3-storage" value="💾 Storage&#xa;$/GB-month&#xa;Varies by class" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="100" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="s3-requests" value="📨 Requests&#xa;PUT, GET, LIST&#xa;Per 1000 requests" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="100" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="s3-retrieval" value="📥 Retrieval&#xa;Glacier classes&#xa;$/GB retrieved" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="100" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="s3-transfer" value="🌐 Transfer&#xa;Data OUT&#xa;(IN is free)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="100" width="100" height="55" as="geometry" />
+        </mxCell>
+
+        <mxCell id="s3-classes" value="Standard: $0.023/GB → Standard-IA: $0.0125/GB → Glacier: $0.004/GB → Deep Archive: $0.00099/GB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#232F3E;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="60" y="165" width="480" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="s3-note" value="💡 Use Intelligent-Tiering to auto-optimize costs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FF9900;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="140" y="190" width="320" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- EBS Pricing -->
+        <mxCell id="ebs-container" value="" style="whiteSpace=wrap;html=1;fillColor=#E6F2FF;strokeColor=#232F3E;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="60" width="460" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ebs-title" value="💿 Amazon EBS Pricing" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="730" y="65" width="160" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ebs-volume" value="💾 Volume&#xa;$/GB-month&#xa;gp3: $0.08/GB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="100" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ebs-iops" value="⚡ IOPS&#xa;Provisioned IOPS&#xa;io2: $0.065/IOPS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="100" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ebs-snapshot" value="📸 Snapshots&#xa;$/GB-month&#xa;$0.05/GB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="100" width="100" height="55" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ebs-types" value="gp3: $0.08/GB | io2: $0.125/GB + IOPS | st1: $0.045/GB | sc1: $0.015/GB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#232F3E;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="600" y="165" width="420" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Other Storage Pricing -->
+        <mxCell id="other-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="240" width="1000" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="other-title" value="📂 Other Storage Services Pricing" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="400" y="245" width="280" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="efs" value="EFS&#xa;$/GB-month&#xa;Pay for what you use&#xa;No provisioning" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="280" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fsx" value="FSx&#xa;$/GB-month&#xa;+ throughput&#xa;Provisioned capacity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="280" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="backup" value="AWS Backup&#xa;$/GB-month&#xa;Backup storage&#xa;+ restore requests" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="280" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="storage-gw" value="Storage Gateway&#xa;$/GB-month&#xa;+ requests&#xa;Hybrid storage" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="280" width="120" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Key Points -->
+        <mxCell id="key-container" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="360" width="1000" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="key-title" value="🎯 Exam Tips" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="480" y="365" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="tips1" value="S3: Storage class + requests + retrieval + transfer  |  EBS: Volume size + IOPS (for io2) + snapshots" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="60" y="395" width="920" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tips2" value="Glacier retrieval has costs  |  Data IN to AWS is FREE  |  EFS = Pay per use  |  Use lifecycle policies to reduce S3 costs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="60" y="420" width="920" height="20" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

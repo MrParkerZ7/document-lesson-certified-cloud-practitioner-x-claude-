@@ -1,0 +1,172 @@
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="Mozilla/5.0" etag="vpc-security" version="22.1.0" type="device">
+  <diagram name="VPC Security" id="vpc-security-diagram">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="🔐 VPC Security: Security Groups vs NACLs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="10" width="520" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Defense in Depth -->
+        <mxCell id="depth-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="480" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="depth-title" value="🛡️ Defense in Depth" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="200" y="65" width="160" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Internet -->
+        <mxCell id="internet" value="🌐 Internet&#xa;Traffic" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="130" width="70" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- NACL Layer -->
+        <mxCell id="nacl-layer" value="NACL&#xa;(Subnet)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="115" width="70" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- SG Layer -->
+        <mxCell id="sg-layer" value="Security&#xa;Group&#xa;(Instance)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="115" width="70" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- EC2 -->
+        <mxCell id="ec2" value="🖥️ EC2&#xa;Instance" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="130" width="70" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Arrows -->
+        <mxCell id="arrow1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="135" y="155" as="sourcePoint" />
+            <mxPoint x="165" y="155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="245" y="155" as="sourcePoint" />
+            <mxPoint x="275" y="155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow3" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="355" y="155" as="sourcePoint" />
+            <mxPoint x="385" y="155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="depth-note" value="Traffic must pass through NACL (subnet level) then Security Group (instance level)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#232F3E;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="100" y="210" width="360" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Comparison Section -->
+        <mxCell id="compare-container" value="" style="whiteSpace=wrap;html=1;fillColor=#E6F2FF;strokeColor=#232F3E;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="60" width="480" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="compare-title" value="⚖️ Key Differences" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="720" y="65" width="160" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Security Group Column -->
+        <mxCell id="sg-box" value="" style="whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="100" width="200" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="sg-title" value="Security Groups" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="620" y="105" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sg-features" value="✅ STATEFUL&#xa;✅ Instance level&#xa;✅ Allow rules only&#xa;✅ All rules evaluated&#xa;✅ Can reference other SGs" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="590" y="130" width="180" height="90" as="geometry" />
+        </mxCell>
+
+        <!-- NACL Column -->
+        <mxCell id="nacl-box" value="" style="whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="100" width="200" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="nacl-title" value="Network ACLs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="860" y="105" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nacl-features" value="❌ STATELESS&#xa;❌ Subnet level&#xa;✅ Allow AND Deny rules&#xa;❌ Rules processed in order&#xa;❌ Must allow return traffic" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="830" y="130" width="180" height="90" as="geometry" />
+        </mxCell>
+
+        <!-- Stateful vs Stateless -->
+        <mxCell id="state-container" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="1000" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="state-title" value="🔄 Stateful vs Stateless Explained" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="400" y="285" width="280" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Stateful Example -->
+        <mxCell id="stateful-box" value="" style="whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;rounded=0;shadow=1;opacity=80;" vertex="1" parent="1">
+          <mxGeometry x="60" y="320" width="440" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="stateful-title" value="STATEFUL (Security Groups)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="180" y="325" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="stateful-in" value="Request IN →" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="80" y="350" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="stateful-ec2" value="EC2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="350" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="stateful-out" value="← Response OUT&#xa;(Auto-allowed)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="340" y="350" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="stateful-arrow-in" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FFFFFF;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="360" as="sourcePoint" />
+            <mxPoint x="245" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="stateful-arrow-out" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#1E8900;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="315" y="380" as="sourcePoint" />
+            <mxPoint x="445" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Stateless Example -->
+        <mxCell id="stateless-box" value="" style="whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;rounded=0;shadow=1;opacity=80;" vertex="1" parent="1">
+          <mxGeometry x="560" y="320" width="460" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="stateless-title" value="STATELESS (NACLs)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="700" y="325" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="stateless-in" value="Request IN →&#xa;(Need inbound rule)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="580" y="350" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="stateless-ec2" value="EC2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="350" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="stateless-out" value="← Response OUT&#xa;(Need outbound rule!)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="860" y="350" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="stateless-arrow-in" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FFFFFF;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="360" as="sourcePoint" />
+            <mxPoint x="755" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="stateless-arrow-out" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FFFFFF;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="825" y="380" as="sourcePoint" />
+            <mxPoint x="995" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Key Insight -->
+        <mxCell id="insight-box" value="" style="whiteSpace=wrap;html=1;fillColor=#E6F2FF;strokeColor=#232F3E;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="440" width="1000" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="insight-text" value="🎯 Exam Tip: Security Groups are STATEFUL (return traffic auto-allowed), NACLs are STATELESS (must explicitly allow both directions). Use Security Groups as primary defense, NACLs for additional subnet-level protection." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="60" y="450" width="960" height="50" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

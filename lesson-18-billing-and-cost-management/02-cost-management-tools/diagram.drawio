@@ -1,0 +1,112 @@
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="Mozilla/5.0" etag="cost-management-tools" version="22.1.0" type="device">
+  <diagram name="AWS Cost Management Tools" id="cost-management-tools-diagram">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="📊 AWS Cost Management Tools" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="10" width="400" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Cost Explorer -->
+        <mxCell id="explorer-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="480" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="explorer-title" value="🔍 AWS Cost Explorer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="200" y="65" width="160" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="visualize" value="📊 Visualize&#xa;Graphs &amp; charts&#xa;Daily/monthly view" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="100" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="analyze" value="🔎 Analyze&#xa;Filter by service&#xa;Tag, account, region" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="100" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="forecast" value="🔮 Forecast&#xa;12-month prediction&#xa;ML-based" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="100" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="reports" value="📄 Reports&#xa;Saved reports&#xa;Custom views" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="100" width="80" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="explorer-note" value="Best for: Understanding past and present spending, forecasting future costs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#232F3E;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="100" y="175" width="360" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Cost & Usage Reports -->
+        <mxCell id="cur-container" value="" style="whiteSpace=wrap;html=1;fillColor=#E6F2FF;strokeColor=#232F3E;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="60" width="480" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="cur-title" value="📋 AWS Cost &amp; Usage Reports (CUR)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="680" y="65" width="240" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- CUR Flow -->
+        <mxCell id="cur-data" value="📊 Most detailed&#xa;billing data&#xa;Hourly/daily" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="105" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cur-s3" value="💾 Deliver to&#xa;S3 bucket&#xa;CSV/Parquet" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="105" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cur-analyze" value="📈 Analyze with&#xa;Athena, QuickSight&#xa;Redshift" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="105" width="100" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="cur-arrow1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="685" y="135" as="sourcePoint" />
+            <mxPoint x="705" y="135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cur-arrow2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="815" y="135" as="sourcePoint" />
+            <mxPoint x="835" y="135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="cur-note" value="Best for: Deep analysis, custom reporting, third-party integrations" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#232F3E;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="620" y="175" width="360" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Other Tools -->
+        <mxCell id="other-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="240" width="1000" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="other-title" value="🛠️ Additional Cost Management Tools" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="400" y="245" width="280" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="compute-opt" value="⚡ Compute Optimizer&#xa;ML recommendations&#xa;Right-size EC2, Lambda&#xa;EBS, Auto Scaling" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="280" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="trusted-advisor" value="✅ Trusted Advisor&#xa;Cost optimization checks&#xa;Idle resources&#xa;RI recommendations" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="280" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ri-coverage" value="📊 RI/SP Reports&#xa;Utilization reports&#xa;Coverage analysis&#xa;Recommendations" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="280" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="purchase-recs" value="💡 Purchase Recommendations&#xa;RI/Savings Plans&#xa;Based on usage" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="280" width="140" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Key Points -->
+        <mxCell id="key-container" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="380" width="1000" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="key-title" value="🎯 Exam Tips" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="480" y="385" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="tips1" value="Cost Explorer = Visualize and analyze costs  |  CUR = Most detailed data, exported to S3  |  Compute Optimizer = Right-sizing recommendations" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="60" y="415" width="920" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tips2" value="Cost Explorer can forecast 12 months ahead  |  Use CUR + Athena for custom cost analysis" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="60" y="435" width="920" height="20" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

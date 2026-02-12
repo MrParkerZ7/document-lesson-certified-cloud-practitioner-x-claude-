@@ -1,0 +1,89 @@
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="Mozilla/5.0" etag="support-plans" version="22.1.0" type="device">
+  <diagram name="AWS Support Plans" id="support-plans-diagram">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="🎫 AWS Support Plans" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="10" width="320" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Support Plans Comparison -->
+        <mxCell id="plans-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="1000" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="plans-title" value="📊 Support Plans Comparison" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="420" y="65" width="240" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Basic -->
+        <mxCell id="basic" value="🆓 Basic&#xa;FREE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=12;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="100" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="basic-features" value="✅ 24/7 Customer Service&#xa;✅ Documentation&#xa;✅ Whitepapers, Forums&#xa;✅ AWS Trusted Advisor (7 checks)&#xa;✅ AWS Personal Health Dashboard&#xa;❌ No technical support" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6F2FF;strokeColor=#232F3E;fontColor=#232F3E;fontSize=9;shadow=1;align=left;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="60" y="145" width="180" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Developer -->
+        <mxCell id="developer" value="👨‍💻 Developer&#xa;$29+/month" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=12;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="100" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="developer-features" value="✅ All Basic features&#xa;✅ Business hours email access&#xa;✅ 1 primary contact&#xa;✅ General guidance: &lt; 24 hrs&#xa;✅ System impaired: &lt; 12 hrs&#xa;✅ Trusted Advisor (7 checks)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6F2FF;strokeColor=#232F3E;fontColor=#232F3E;fontSize=9;shadow=1;align=left;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="260" y="145" width="180" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Business -->
+        <mxCell id="business" value="💼 Business&#xa;$100+/month" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=12;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="100" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="business-features" value="✅ All Developer features&#xa;✅ 24/7 phone, email, chat&#xa;✅ Unlimited contacts&#xa;✅ Production impaired: &lt; 4 hrs&#xa;✅ Production down: &lt; 1 hr&#xa;✅ Full Trusted Advisor&#xa;✅ Support API access" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6F2FF;strokeColor=#232F3E;fontColor=#232F3E;fontSize=9;shadow=1;align=left;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="460" y="145" width="180" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Enterprise On-Ramp -->
+        <mxCell id="enterprise-or" value="🏢 Enterprise On-Ramp&#xa;$5,500+/month" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;fontStyle=1;shadow=1;opacity=80;" vertex="1" parent="1">
+          <mxGeometry x="660" y="100" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eor-features" value="✅ All Business features&#xa;✅ Business-critical: &lt; 30 min&#xa;✅ Pool of TAMs&#xa;✅ Concierge Support Team&#xa;✅ Infrastructure Event Mgmt" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6F2FF;strokeColor=#232F3E;fontColor=#232F3E;fontSize=9;shadow=1;align=left;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="660" y="145" width="180" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Enterprise -->
+        <mxCell id="enterprise" value="🏛️ Enterprise&#xa;$15,000+/month" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;fontSize=12;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="100" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="enterprise-features" value="✅ All Enterprise On-Ramp&#xa;✅ Business-critical: &lt; 15 min&#xa;✅ Designated TAM&#xa;✅ Well-Architected Reviews&#xa;✅ Training, Game Days" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6F2FF;strokeColor=#232F3E;fontColor=#232F3E;fontSize=9;shadow=1;align=left;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="860" y="145" width="160" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Arrow -->
+        <mxCell id="cost-arrow" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#232F3E;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="270" as="sourcePoint" />
+            <mxPoint x="1020" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cost-label" value="Free → → → → → → → → → → → → → → → → → → → → → → → → More Features / Faster Response" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#232F3E;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="200" y="280" width="680" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Key Points -->
+        <mxCell id="key-container" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="360" width="1000" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="key-title" value="🎯 Exam Tips" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="480" y="365" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="tips1" value="Basic = Free, no technical support  |  Developer = Testing/dev, email only  |  Business = Production, 24/7, full Trusted Advisor" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="60" y="395" width="920" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tips2" value="Enterprise = Designated TAM, 15-min response  |  TAM = Technical Account Manager  |  Concierge = Billing &amp; account help" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="60" y="420" width="920" height="20" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

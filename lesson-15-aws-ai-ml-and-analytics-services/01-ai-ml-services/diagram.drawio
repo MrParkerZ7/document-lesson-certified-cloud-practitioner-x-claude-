@@ -1,0 +1,155 @@
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="Mozilla/5.0" etag="ai-ml-services" version="22.1.0" type="device">
+  <diagram name="AWS AI/ML Services" id="ai-ml-diagram">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="🤖 AWS AI/ML Services" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="10" width="360" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- SageMaker Section -->
+        <mxCell id="sagemaker-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="500" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="sagemaker-title" value="🧠 Amazon SageMaker (Build Custom ML Models)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="150" y="65" width="280" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- SageMaker Flow -->
+        <mxCell id="sm-prepare" value="📊 Prepare&#xa;Data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="105" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sm-build" value="🔨 Build&#xa;Model" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="105" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sm-train" value="🎓 Train&#xa;Model" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="105" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sm-deploy" value="🚀 Deploy&#xa;Endpoint" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="105" width="80" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Arrows -->
+        <mxCell id="sm-arrow1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="145" y="130" as="sourcePoint" />
+            <mxPoint x="165" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sm-arrow2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="255" y="130" as="sourcePoint" />
+            <mxPoint x="275" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sm-arrow3" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="365" y="130" as="sourcePoint" />
+            <mxPoint x="385" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="sm-features" value="✅ Jupyter Notebooks  |  ✅ Built-in Algorithms  |  ✅ Automatic Model Tuning  |  ✅ One-click Deployment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#232F3E;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="60" y="170" width="460" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Pre-trained AI Services -->
+        <mxCell id="ai-container" value="" style="whiteSpace=wrap;html=1;fillColor=#E6F2FF;strokeColor=#232F3E;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="60" width="480" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ai-title" value="⚡ Pre-trained AI Services (No ML expertise needed)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="660" y="65" width="280" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Vision Services -->
+        <mxCell id="vision-label" value="👁️ Vision" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="580" y="95" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rekognition" value="Rekognition&#xa;Image/Video" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="115" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="textract" value="Textract&#xa;OCR/Forms" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="115" width="70" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Language Services -->
+        <mxCell id="language-label" value="📝 Language" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="750" y="95" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="comprehend" value="Comprehend&#xa;NLP/Sentiment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="745" y="115" width="75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="translate" value="Translate&#xa;Languages" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="115" width="70" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Speech Services -->
+        <mxCell id="speech-label" value="🗣️ Speech" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="920" y="95" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="polly" value="Polly&#xa;Text→Speech" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="115" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="transcribe" value="Transcribe&#xa;Speech→Text" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="115" width="70" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Chatbot -->
+        <mxCell id="lex" value="🤖 Lex&#xa;Chatbots" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="170" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lex-note" value="Powers Amazon Alexa" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#DD3522;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="860" y="177" width="120" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Other ML Services -->
+        <mxCell id="other-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="240" width="1000" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="other-title" value="🔧 Specialized AI/ML Services" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="420" y="245" width="240" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="forecast" value="📈 Forecast&#xa;Time series" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="280" width="90" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="personalize" value="👤 Personalize&#xa;Recommendations" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="280" width="100" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="fraud" value="🛡️ Fraud&#xa;Detector" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="280" width="90" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="kendra" value="🔍 Kendra&#xa;ML Search" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="280" width="90" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="codeguru" value="💻 CodeGuru&#xa;Code Review" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="280" width="90" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="devops-guru" value="⚙️ DevOps&#xa;Guru" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="280" width="90" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="lookout" value="🏭 Lookout&#xa;Equipment/Vision" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="280" width="100" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="bedrock" value="🧱 Bedrock&#xa;Generative AI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="280" width="90" height="45" as="geometry" />
+        </mxCell>
+
+        <!-- Key Points -->
+        <mxCell id="key-container" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="360" width="1000" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="key-title" value="🎯 Exam Tips" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="480" y="365" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="tips" value="SageMaker = Build custom ML models  |  Rekognition = Image/video analysis  |  Lex = Chatbots (Alexa)  |  Polly = Text to speech  |  Comprehend = NLP/sentiment  |  Textract = Extract text from documents" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="60" y="395" width="920" height="25" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

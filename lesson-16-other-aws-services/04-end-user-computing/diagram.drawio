@@ -1,0 +1,134 @@
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="Mozilla/5.0" etag="end-user-computing" version="22.1.0" type="device">
+  <diagram name="End User Computing" id="euc-diagram">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="🖥️ End User Computing Services" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="10" width="440" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- WorkSpaces -->
+        <mxCell id="ws-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="520" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ws-title" value="🖥️ Amazon WorkSpaces (Virtual Desktops - VDI)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="160" y="65" width="300" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- WorkSpaces Flow -->
+        <mxCell id="user" value="👤 User&#xa;(Any device)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="110" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="internet" value="🌐 Internet" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="110" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="workspace" value="🖥️ WorkSpace&#xa;Windows/Linux&#xa;Desktop" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="100" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ad" value="🔐 Active&#xa;Directory" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="110" width="80" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- WorkSpaces Arrows -->
+        <mxCell id="ws-arrow1" value="" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="145" y="135" as="sourcePoint" />
+            <mxPoint x="185" y="135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ws-arrow2" value="" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="275" y="135" as="sourcePoint" />
+            <mxPoint x="315" y="135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ws-arrow3" value="" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="135" as="sourcePoint" />
+            <mxPoint x="445" y="135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="ws-features" value="✅ Persistent desktops  |  ✅ Windows or Linux  |  ✅ Pay monthly or hourly  |  ✅ AD integration" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#232F3E;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="60" y="185" width="480" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ws-usecase" value="Use case: Remote workers, BYOD, secure access to corporate apps" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FF9900;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="100" y="210" width="400" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- AppStream -->
+        <mxCell id="as-container" value="" style="whiteSpace=wrap;html=1;fillColor=#E6F2FF;strokeColor=#232F3E;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="60" width="460" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="as-title" value="📱 Amazon AppStream 2.0 (Application Streaming)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="680" y="65" width="280" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- AppStream Flow -->
+        <mxCell id="as-user" value="👤 User&#xa;Browser" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="110" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="as-stream" value="📡 Stream&#xa;Applications" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="110" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="as-apps" value="💻 Apps&#xa;AutoCAD, Office&#xa;Custom apps" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="100" width="100" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- AppStream Arrows -->
+        <mxCell id="as-arrow1" value="" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="675" y="135" as="sourcePoint" />
+            <mxPoint x="725" y="135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="as-arrow2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="825" y="135" as="sourcePoint" />
+            <mxPoint x="875" y="135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="as-features" value="✅ Stream apps to browser  |  ✅ No installation needed  |  ✅ Non-persistent  |  ✅ Pay per user/hour" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#232F3E;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="600" y="185" width="420" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="as-usecase" value="Use case: Stream specific apps (CAD, graphics) without full desktop" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FF9900;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="640" y="210" width="340" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Comparison -->
+        <mxCell id="compare-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="260" width="1000" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="compare-title" value="⚖️ WorkSpaces vs AppStream 2.0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="400" y="265" width="280" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ws-compare" value="WorkSpaces&#xa;Full desktop (VDI)&#xa;Persistent storage&#xa;Daily/hourly pricing" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="295" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vs" value="vs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="500" y="305" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="as-compare" value="AppStream 2.0&#xa;Stream apps only&#xa;Non-persistent&#xa;Per-user/session pricing" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="295" width="150" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Key Points -->
+        <mxCell id="key-container" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="370" width="1000" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="key-title" value="🎯 Exam Tips" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="480" y="375" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="tips" value="WorkSpaces = Full virtual desktops (VDI), persistent  |  AppStream = Stream specific applications, non-persistent  |  Both = Access from any device with browser" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="60" y="405" width="920" height="35" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

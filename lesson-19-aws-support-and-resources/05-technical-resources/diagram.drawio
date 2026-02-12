@@ -1,0 +1,87 @@
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="Mozilla/5.0" etag="technical-resources" version="22.1.0" type="device">
+  <diagram name="AWS Technical Resources" id="technical-resources-diagram">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="📚 AWS Technical Resources" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="10" width="400" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Documentation -->
+        <mxCell id="docs-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="480" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="docs-title" value="📖 Documentation &amp; Knowledge" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="180" y="65" width="200" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="docs" value="📄 AWS Docs&#xa;docs.aws.amazon.com&#xa;Service documentation&#xa;API references" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="100" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="whitepapers" value="📋 Whitepapers&#xa;Best practices&#xa;Architecture guides&#xa;Technical papers" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="100" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="knowledge" value="🔍 Knowledge Center&#xa;FAQs&#xa;Troubleshooting&#xa;How-to guides" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="100" width="120" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Community & Training -->
+        <mxCell id="community-container" value="" style="whiteSpace=wrap;html=1;fillColor=#E6F2FF;strokeColor=#232F3E;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="60" width="480" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="community-title" value="👥 Community &amp; Training" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="720" y="65" width="160" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="repost" value="💬 re:Post&#xa;(Forums)&#xa;Community Q&amp;A&#xa;Expert answers" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="100" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="training" value="🎓 AWS Training&#xa;Digital courses&#xa;Classroom training&#xa;Certifications" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="100" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="skillbuilder" value="🏗️ Skill Builder&#xa;Free/paid courses&#xa;Labs, quizzes&#xa;Learning paths" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="100" width="120" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Professional Services -->
+        <mxCell id="prof-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="220" width="1000" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="prof-title" value="👔 Professional Services &amp; Programs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="400" y="225" width="280" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="prof-services" value="👨‍💼 Professional Services&#xa;Expert consultants&#xa;Project-based help&#xa;Migration, optimization" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="260" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="solutions-arch" value="🏗️ Solutions Architects&#xa;Free consultations&#xa;Architecture reviews&#xa;Best practices" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="260" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="iq" value="🔧 AWS IQ&#xa;Third-party experts&#xa;Project marketplace&#xa;Certified consultants" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="260" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="managed" value="🔄 Managed Services&#xa;AWS operates for you&#xa;24/7 monitoring&#xa;Incident management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="260" width="150" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Key Points -->
+        <mxCell id="key-container" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="370" width="1000" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="key-title" value="🎯 Exam Tips" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="480" y="375" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="tips1" value="re:Post = Community forums (replaced AWS Forums)  |  Whitepapers = Best practices and architecture guidance" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="60" y="405" width="920" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tips2" value="AWS IQ = Marketplace for third-party experts  |  Professional Services = AWS consultants for projects" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="60" y="425" width="920" height="20" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

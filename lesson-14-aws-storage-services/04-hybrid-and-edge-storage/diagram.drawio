@@ -1,0 +1,147 @@
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="Mozilla/5.0" etag="hybrid-storage" version="22.1.0" type="device">
+  <diagram name="Hybrid and Edge Storage" id="hybrid-storage-diagram">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="🔄 Hybrid &amp; Edge Storage" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="10" width="400" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Storage Gateway -->
+        <mxCell id="gateway-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="560" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="gateway-title" value="🌉 AWS Storage Gateway" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="230" y="65" width="200" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- On-premises -->
+        <mxCell id="onprem" value="🏢 On-Premises&#xa;Data Center" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="120" width="100" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Gateway Types -->
+        <mxCell id="file-gw" value="S3 File&#xa;Gateway&#xa;(NFS/SMB → S3)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="100" width="80" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="fsx-gw" value="FSx File&#xa;Gateway&#xa;(SMB → FSx)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="100" width="80" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="vol-gw" value="Volume&#xa;Gateway&#xa;(iSCSI → EBS)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="100" width="80" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="tape-gw" value="Tape&#xa;Gateway&#xa;(VTL → Glacier)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="485" y="100" width="80" height="55" as="geometry" />
+        </mxCell>
+
+        <!-- AWS Cloud -->
+        <mxCell id="aws-cloud" value="☁️ AWS Cloud" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="180" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cloud-services" value="S3 / Glacier / FSx / EBS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#1E8900;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="225" width="180" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Arrows -->
+        <mxCell id="gw-arrow" value="" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="165" y="145" as="sourcePoint" />
+            <mxPoint x="195" y="145" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cloud-arrow" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="160" as="sourcePoint" />
+            <mxPoint x="380" y="175" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Snow Family -->
+        <mxCell id="snow-container" value="" style="whiteSpace=wrap;html=1;fillColor=#E6F2FF;strokeColor=#232F3E;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="60" width="420" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="snow-title" value="❄️ AWS Snow Family (Offline Data Transfer)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="700" y="65" width="260" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="snowcone" value="Snowcone&#xa;8-14 TB&#xa;Portable" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="105" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="snowball" value="Snowball Edge&#xa;42-80 TB&#xa;Compute option" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="105" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="snowmobile" value="Snowmobile&#xa;100 PB&#xa;Truck!" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="105" width="90" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Snow workflow -->
+        <mxCell id="snow-flow" value="1️⃣ Order device → 2️⃣ Load data → 3️⃣ Ship to AWS → 4️⃣ Import to S3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#232F3E;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="175" width="350" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="snow-note" value="Use when: Internet too slow, or no internet  |  Edge compute available on Snowball/Snowcone" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FF9900;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="640" y="210" width="380" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- DataSync -->
+        <mxCell id="datasync-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="1000" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="datasync-title" value="🚀 AWS DataSync (Online Fast Transfer)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="400" y="285" width="280" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ds-source" value="📂 Source&#xa;NFS, SMB, HDFS&#xa;On-premises" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="320" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ds-agent" value="DataSync&#xa;Agent" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="325" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ds-network" value="Internet or&#xa;Direct Connect" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="325" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ds-target" value="☁️ Target&#xa;S3, EFS, FSx" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="320" width="100" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ds-arrow1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="205" y="345" as="sourcePoint" />
+            <mxPoint x="275" y="345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ds-arrow2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="365" y="345" as="sourcePoint" />
+            <mxPoint x="435" y="345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ds-arrow3" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="545" y="345" as="sourcePoint" />
+            <mxPoint x="615" y="345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="ds-features" value="✅ Up to 10 Gbps&#xa;✅ Automatic encryption&#xa;✅ Integrity validation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="780" y="315" width="180" height="55" as="geometry" />
+        </mxCell>
+
+        <!-- Key Points -->
+        <mxCell id="key-container" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="400" width="1000" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="key-title" value="🎯 Exam Tips" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="480" y="405" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="tips" value="Storage Gateway = Bridge on-prem to cloud  |  Snow Family = Offline bulk transfer (no/slow internet)  |  DataSync = Fast online transfer  |  Snowball Edge = Has compute capability" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="60" y="435" width="920" height="25" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

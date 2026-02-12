@@ -1,0 +1,139 @@
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="Mozilla/5.0" etag="s3-storage" version="22.1.0" type="device">
+  <diagram name="Amazon S3 - Object Storage" id="s3-diagram">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="💾 Amazon S3 - Object Storage" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="10" width="440" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Storage Classes -->
+        <mxCell id="classes-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="1000" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="classes-title" value="📊 S3 Storage Classes (Cost vs Access Frequency)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="380" y="65" width="320" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Storage Class Boxes -->
+        <mxCell id="standard" value="S3 Standard&#xa;Frequent access&#xa;Low latency" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="100" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="it" value="Intelligent&#xa;Tiering&#xa;Auto-optimize" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;opacity=80;" vertex="1" parent="1">
+          <mxGeometry x="175" y="100" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sia" value="Standard-IA&#xa;Infrequent&#xa;Min 30 days" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="100" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="onezone" value="One Zone-IA&#xa;Single AZ&#xa;20% cheaper" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;opacity=80;" vertex="1" parent="1">
+          <mxGeometry x="405" y="100" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="glacier-instant" value="Glacier&#xa;Instant&#xa;Milliseconds" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="100" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="glacier-flex" value="Glacier&#xa;Flexible&#xa;1-12 hours" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;opacity=80;" vertex="1" parent="1">
+          <mxGeometry x="635" y="100" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="glacier-deep" value="Glacier Deep&#xa;Archive&#xa;12-48 hours" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="100" width="100" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Arrow showing cost/access tradeoff -->
+        <mxCell id="cost-arrow" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#232F3E;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="180" as="sourcePoint" />
+            <mxPoint x="850" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cost-labels" value="Frequent Access / Higher Cost → → → → → → → → → → → → → → → Rare Access / Lower Cost" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#232F3E;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="200" y="185" width="500" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Lifecycle info -->
+        <mxCell id="lifecycle-note" value="📋 Lifecycle Policies: Auto-transition objects between classes based on age" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#FF9900;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="210" width="460" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Key Features -->
+        <mxCell id="features-container" value="" style="whiteSpace=wrap;html=1;fillColor=#E6F2FF;strokeColor=#232F3E;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="260" width="480" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="features-title" value="⭐ Key S3 Features" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="200" y="265" width="160" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="f1" value="📦 Unlimited&#xa;Storage" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="300" width="80" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="f2" value="📄 Objects&#xa;up to 5TB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="300" width="80" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="f3" value="🔄 Versioning&#xa;Enabled" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="300" width="80" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="f4" value="🔐 Encryption&#xa;At-rest" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="300" width="80" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="f5" value="🌍 Cross-Region&#xa;Replication" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="300" width="80" height="45" as="geometry" />
+        </mxCell>
+
+        <mxCell id="durability" value="✅ 99.999999999% (11 9's) durability  |  ✅ 99.99% availability" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#1E8900;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="360" width="380" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Security & Access -->
+        <mxCell id="security-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="260" width="480" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="security-title" value="🔐 Security & Access Control" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="700" y="265" width="200" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="s1" value="🔑 Bucket Policies&#xa;Resource-based" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="300" width="100" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="s2" value="👤 IAM Policies&#xa;User-based" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="695" y="300" width="100" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="s3-box" value="🔒 ACLs&#xa;Object-level" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="300" width="100" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="s4" value="Block Public&#xa;Access" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="925" y="300" width="95" height="45" as="geometry" />
+        </mxCell>
+
+        <mxCell id="encryption-note" value="Encryption: SSE-S3 (S3 managed) | SSE-KMS (KMS keys) | SSE-C (customer keys)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#232F3E;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="590" y="360" width="420" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Key Points -->
+        <mxCell id="key-container" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="430" width="1000" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="key-title" value="🎯 Exam Tips" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="480" y="435" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="tip1" value="S3 = Object storage (not file system)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="60" y="460" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tip2" value="Bucket names globally unique" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="250" y="460" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tip3" value="Glacier = Archive, retrieval takes time" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="440" y="460" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tip4" value="CRR = DR across regions" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="630" y="460" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tip5" value="Versioning protects from deletion" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="800" y="460" width="180" height="30" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

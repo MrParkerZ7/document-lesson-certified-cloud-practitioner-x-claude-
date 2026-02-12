@@ -1,0 +1,150 @@
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="Mozilla/5.0" etag="amazon-vpc" version="22.1.0" type="device">
+  <diagram name="Amazon VPC Overview" id="vpc-diagram">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="🔗 Amazon VPC Architecture" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="10" width="400" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Region Container -->
+        <mxCell id="region-box" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="1000" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="region-label" value="🌍 AWS Region" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="50" y="65" width="120" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- VPC Container -->
+        <mxCell id="vpc-box" value="" style="whiteSpace=wrap;html=1;fillColor=#E6F2FF;strokeColor=#232F3E;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="100" width="960" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="vpc-label" value="☁️ VPC (10.0.0.0/16)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="70" y="105" width="150" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Internet Gateway -->
+        <mxCell id="igw" value="🌐 Internet&#xa;Gateway" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="60" width="80" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- AZ-A -->
+        <mxCell id="az-a" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;opacity=10;" vertex="1" parent="1">
+          <mxGeometry x="80" y="140" width="440" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="az-a-label" value="Availability Zone A" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="230" y="145" width="140" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Public Subnet A -->
+        <mxCell id="pub-a" value="" style="whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;rounded=0;shadow=1;opacity=70;" vertex="1" parent="1">
+          <mxGeometry x="100" y="175" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="pub-a-label" value="Public Subnet&#xa;10.0.1.0/24" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="140" y="180" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ec2-pub-a" value="🖥️ EC2&#xa;Web Server" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="220" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nat-gw" value="NAT&#xa;Gateway" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="220" width="70" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Private Subnet A -->
+        <mxCell id="priv-a" value="" style="whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;rounded=0;shadow=1;opacity=70;" vertex="1" parent="1">
+          <mxGeometry x="100" y="300" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="priv-a-label" value="Private Subnet&#xa;10.0.2.0/24" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="140" y="305" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ec2-priv-a" value="🗄️ EC2&#xa;Database" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="345" width="70" height="45" as="geometry" />
+        </mxCell>
+
+        <!-- AZ-B -->
+        <mxCell id="az-b" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;opacity=10;" vertex="1" parent="1">
+          <mxGeometry x="560" y="140" width="440" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="az-b-label" value="Availability Zone B" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="710" y="145" width="140" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Public Subnet B -->
+        <mxCell id="pub-b" value="" style="whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;rounded=0;shadow=1;opacity=70;" vertex="1" parent="1">
+          <mxGeometry x="580" y="175" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="pub-b-label" value="Public Subnet&#xa;10.0.3.0/24" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="620" y="180" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ec2-pub-b" value="🖥️ EC2&#xa;Web Server" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="220" width="70" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Private Subnet B -->
+        <mxCell id="priv-b" value="" style="whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;rounded=0;shadow=1;opacity=70;" vertex="1" parent="1">
+          <mxGeometry x="580" y="300" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="priv-b-label" value="Private Subnet&#xa;10.0.4.0/24" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="620" y="305" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ec2-priv-b" value="🗄️ EC2&#xa;Database" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="345" width="70" height="45" as="geometry" />
+        </mxCell>
+
+        <!-- Route Tables -->
+        <mxCell id="rt-pub" value="📋 Public RT&#xa;0.0.0.0/0 → IGW" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="200" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rt-priv" value="📋 Private RT&#xa;0.0.0.0/0 → NAT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="330" width="90" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- VPC Endpoint -->
+        <mxCell id="vpce" value="VPC&#xa;Endpoint" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="280" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s3" value="💾 S3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="285" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vpce-arrow" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="895" y="305" as="sourcePoint" />
+            <mxPoint x="915" y="305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Internet arrows -->
+        <mxCell id="internet-arrow" value="" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="55" as="sourcePoint" />
+            <mxPoint x="520" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="internet-label" value="🌐 Internet" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="490" y="0" width="70" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Key -->
+        <mxCell id="key-box" value="" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#232F3E;strokeWidth=1;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="475" width="1000" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="key-title" value="🎯 Key:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="50" y="485" width="40" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="key1" value="Public Subnet = Internet accessible via IGW" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#1E8900;" vertex="1" parent="1">
+          <mxGeometry x="100" y="485" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="key2" value="Private Subnet = No direct internet (uses NAT)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#DD3522;" vertex="1" parent="1">
+          <mxGeometry x="340" y="485" width="240" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="key3" value="VPC Endpoint = Private access to AWS services" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="600" y="485" width="250" height="25" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

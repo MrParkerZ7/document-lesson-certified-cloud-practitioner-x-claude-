@@ -1,0 +1,168 @@
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="Mozilla/5.0" etag="route53" version="22.1.0" type="device">
+  <diagram name="Amazon Route 53" id="route53-diagram">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="🌍 Amazon Route 53 - DNS Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="10" width="480" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- DNS Resolution Flow -->
+        <mxCell id="flow-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="1000" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-title" value="🔄 DNS Resolution Flow" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="450" y="65" width="180" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="user" value="👤 User&#xa;www.example.com" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="110" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="route53" value="🌍 Route 53&#xa;DNS Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="110" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ip-result" value="📍 IP Address&#xa;192.0.2.1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="110" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aws-resource" value="☁️ AWS Resource&#xa;(EC2, ALB, S3)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="110" width="100" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="175" y="135" as="sourcePoint" />
+            <mxPoint x="345" y="135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label1" value="1. Query" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="240" y="115" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="455" y="135" as="sourcePoint" />
+            <mxPoint x="625" y="135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label2" value="2. Response" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="510" y="115" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow3" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#1E8900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="735" y="135" as="sourcePoint" />
+            <mxPoint x="905" y="135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label3" value="3. Connect" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#1E8900;" vertex="1" parent="1">
+          <mxGeometry x="790" y="115" width="60" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Routing Policies -->
+        <mxCell id="policies-container" value="" style="whiteSpace=wrap;html=1;fillColor=#E6F2FF;strokeColor=#232F3E;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="210" width="660" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="policies-title" value="🎯 Routing Policies" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="280" y="215" width="140" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="simple" value="Simple&#xa;1 record → 1 resource" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="250" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="weighted" value="Weighted&#xa;Split traffic %" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="250" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="latency" value="Latency&#xa;Lowest latency" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="250" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="failover" value="Failover&#xa;Primary/Secondary" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="250" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="geolocation" value="Geolocation&#xa;By user location" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="250" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="multivalue" value="Multivalue&#xa;Up to 8 healthy" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="250" width="90" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Weighted Example -->
+        <mxCell id="weighted-example" value="Weighted: 70% → v2, 30% → v1 (Blue/Green)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FF9900;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="60" y="320" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="failover-example" value="Failover: If primary unhealthy → secondary" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#DD3522;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="360" y="320" width="280" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="health-check" value="✅ Health Checks monitor endpoints and trigger failover" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#232F3E;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="355" width="400" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Record Types -->
+        <mxCell id="records-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="210" width="320" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="records-title" value="📋 DNS Record Types" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="800" y="215" width="160" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="a-record" value="A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FF9900;fontSize=11;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="250" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a-desc" value="→ IPv4 address" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="785" y="250" width="100" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="aaaa-record" value="AAAA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FF9900;fontSize=11;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="285" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aaaa-desc" value="→ IPv6 address" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="785" y="285" width="100" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="cname-record" value="CNAME" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FF9900;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="320" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cname-desc" value="→ Another domain" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="785" y="320" width="100" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="alias-record" value="ALIAS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="250" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="alias-desc" value="→ AWS resources&#xa;   (FREE, zone apex)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="955" y="250" width="100" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="mx-record" value="MX" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FF9900;fontSize=11;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="295" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mx-desc" value="→ Email servers" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="955" y="295" width="100" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="alias-note" value="⭐ Alias = AWS-specific, works at zone apex (example.com)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FF9900;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="740" y="355" width="280" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Key Insight -->
+        <mxCell id="insight-box" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="410" width="1000" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="insight-title" value="🎯 Exam Tips" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="460" y="415" width="160" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="tip1" value="Route 53 = DNS + Domain Registration + Health Checks" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="60" y="445" width="300" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="tip2" value="Alias records are FREE and work at zone apex" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="360" y="445" width="280" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="tip3" value="Failover routing requires health checks" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="680" y="445" width="300" height="25" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

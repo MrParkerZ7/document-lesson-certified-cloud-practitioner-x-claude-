@@ -1,0 +1,168 @@
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="Mozilla/5.0" etag="elasticache" version="22.1.0" type="device">
+  <diagram name="In-Memory Databases - ElastiCache" id="elasticache-diagram">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="⚡ Amazon ElastiCache" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="15" width="400" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- How Caching Works -->
+        <mxCell id="caching-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="65" width="500" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="caching-title" value="🔄 How Caching Works" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="200" y="70" width="180" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Without Cache -->
+        <mxCell id="without-label" value="WITHOUT CACHE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#DD3522;" vertex="1" parent="1">
+          <mxGeometry x="60" y="100" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="app-no-cache" value="App" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="125" width="50" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-no-cache" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#DD3522;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="142" as="sourcePoint" />
+            <mxPoint x="190" y="142" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="db-no-cache" value="Database&#xa;50-100ms" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="125" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="slow-label" value="❌ Slow" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#DD3522;" vertex="1" parent="1">
+          <mxGeometry x="135" y="165" width="50" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- With Cache -->
+        <mxCell id="with-label" value="WITH CACHE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#1E8900;" vertex="1" parent="1">
+          <mxGeometry x="300" y="100" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="app-cache" value="App" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="125" width="50" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-to-cache" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#1E8900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="142" as="sourcePoint" />
+            <mxPoint x="410" y="142" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cache-box" value="Cache&#xa;&lt;1ms" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="125" width="60" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="fast-label" value="✅ Fast" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#1E8900;" vertex="1" parent="1">
+          <mxGeometry x="375" y="165" width="50" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Cache miss path -->
+        <mxCell id="miss-arrow" value="" style="endArrow=classic;html=1;strokeWidth=1;strokeColor=#666666;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="165" as="sourcePoint" />
+            <mxPoint x="450" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="db-cache" value="DB (miss only)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#666666;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="205" width="80" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Redis vs Memcached -->
+        <mxCell id="engines-container" value="" style="whiteSpace=wrap;html=1;fillColor=#E6F2FF;strokeColor=#232F3E;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="65" width="480" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="engines-title" value="🔧 Redis vs Memcached" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="710" y="70" width="180" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Redis -->
+        <mxCell id="redis-box" value="" style="whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="100" width="210" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="redis-title" value="REDIS (Feature Rich)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="615" y="105" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="redis-features" value="✅ Data structures (lists, sets)&#xa;✅ Persistence (snapshots)&#xa;✅ Replication &amp; HA&#xa;✅ Pub/Sub messaging&#xa;✅ Transactions&#xa;✅ Geospatial" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="590" y="130" width="180" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Memcached -->
+        <mxCell id="memcached-box" value="" style="whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="100" width="210" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="memcached-title" value="MEMCACHED (Simple)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="845" y="105" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="memcached-features" value="✅ Simple key-value&#xa;✅ Multi-threaded&#xa;✅ Horizontal scaling&#xa;❌ No persistence&#xa;❌ No replication&#xa;❌ Strings only" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="820" y="130" width="180" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Use Cases Section -->
+        <mxCell id="usecase-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="275" width="1000" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="usecase-title" value="🎯 Use Cases by Engine" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="440" y="280" width="180" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="redis-use-label" value="Choose Redis:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#DD3522;" vertex="1" parent="1">
+          <mxGeometry x="60" y="310" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="redis-use1" value="🎮 Gaming&#xa;Leaderboards" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="335" width="90" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="redis-use2" value="🔐 Session&#xa;Stores" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="335" width="90" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="redis-use3" value="📨 Pub/Sub&#xa;Messaging" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="335" width="90" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="redis-use4" value="🌍 Geospatial&#xa;Apps" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="335" width="90" height="45" as="geometry" />
+        </mxCell>
+
+        <mxCell id="memcached-use-label" value="Choose Memcached:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#1E8900;" vertex="1" parent="1">
+          <mxGeometry x="580" y="310" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="memcached-use1" value="📦 Simple&#xa;Caching" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="335" width="90" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="memcached-use2" value="🗄️ Database&#xa;Query Cache" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="335" width="90" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="memcached-use3" value="🔄 Multi-thread&#xa;Workloads" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="335" width="90" height="45" as="geometry" />
+        </mxCell>
+
+        <!-- Key Comparison -->
+        <mxCell id="compare-container" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="415" width="1000" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="compare-title" value="🎯 Key Points" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="460" y="420" width="140" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="point1" value="⚡ Microsecond&#xa;latency" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="450" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="point2" value="📉 Reduces&#xa;DB load" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="450" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="point3" value="⚙️ Requires&#xa;code changes" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="450" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="point4" value="🔄 Redis for&#xa;persistence" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="450" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="point5" value="⚡ Memcached&#xa;for simple cache" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="450" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="point6" value="🔀 DAX for&#xa;DynamoDB only" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="450" width="100" height="35" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

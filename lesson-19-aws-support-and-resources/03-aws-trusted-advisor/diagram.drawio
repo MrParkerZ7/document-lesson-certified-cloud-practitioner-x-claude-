@@ -1,0 +1,72 @@
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="Mozilla/5.0" etag="trusted-advisor" version="22.1.0" type="device">
+  <diagram name="AWS Trusted Advisor" id="trusted-advisor-diagram">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="✅ AWS Trusted Advisor" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="10" width="360" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Five Pillars -->
+        <mxCell id="pillars-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="1000" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="pillars-title" value="🏛️ Five Categories of Recommendations" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="380" y="65" width="320" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="cost" value="💰 Cost&#xa;Optimization&#xa;Reduce spending&#xa;Idle resources&#xa;Reserved instances" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="100" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="performance" value="⚡ Performance&#xa;&#xa;Improve speed&#xa;Overutilized resources&#xa;Provisioned throughput" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="100" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="security" value="🔐 Security&#xa;&#xa;Improve security&#xa;Open ports, MFA&#xa;IAM permissions" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="100" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fault" value="🛡️ Fault Tolerance&#xa;&#xa;Increase resilience&#xa;Single points of failure&#xa;Backups, replicas" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="100" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="limits" value="📊 Service Limits&#xa;&#xa;Check quotas&#xa;% of limit used&#xa;Request increases" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="100" width="140" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Plan Access -->
+        <mxCell id="access-container" value="" style="whiteSpace=wrap;html=1;fillColor=#E6F2FF;strokeColor=#232F3E;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="240" width="1000" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="access-title" value="🔑 Access by Support Plan" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="420" y="245" width="240" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="basic-access" value="🆓 Basic/Developer&#xa;7 Core Checks Only:&#xa;• S3 bucket permissions&#xa;• Security groups (ports)&#xa;• IAM use&#xa;• MFA on root&#xa;• EBS snapshots&#xa;• RDS snapshots&#xa;• Service limits" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;align=left;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="100" y="280" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="business-access" value="💼 Business/Enterprise&#xa;ALL Checks:&#xa;• Full cost optimization&#xa;• All performance checks&#xa;• All security checks&#xa;• Fault tolerance checks&#xa;• Programmatic access (API)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;align=left;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="400" y="280" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="checks-count" value="7 checks vs 50+ checks" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#DD3522;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="300" width="180" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Key Points -->
+        <mxCell id="key-container" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="380" width="1000" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="key-title" value="🎯 Exam Tips" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="480" y="385" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="tips1" value="Trusted Advisor = Automated best practices checks across 5 categories  |  Basic/Developer = 7 core checks only" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="60" y="415" width="920" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tips2" value="Business/Enterprise = ALL checks + API access  |  Categories: Cost, Performance, Security, Fault Tolerance, Service Limits" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="60" y="435" width="920" height="20" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

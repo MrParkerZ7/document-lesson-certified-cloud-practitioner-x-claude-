@@ -1,0 +1,137 @@
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="Mozilla/5.0" etag="ec2-vs-managed" version="22.1.0" type="device">
+  <diagram name="EC2-Hosted vs AWS-Managed Databases" id="ec2-vs-managed-diagram">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="⚖️ EC2-Hosted vs AWS-Managed Databases" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="15" width="560" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- EC2-Hosted Section -->
+        <mxCell id="ec2-container" value="" style="whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;rounded=0;shadow=1;opacity=15;" vertex="1" parent="1">
+          <mxGeometry x="40" y="70" width="480" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="ec2-title" value="🖥️ EC2-HOSTED (Self-Managed)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#DD3522;" vertex="1" parent="1">
+          <mxGeometry x="140" y="75" width="280" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- EC2 You Manage -->
+        <mxCell id="ec2-manage-box" value="" style="whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="115" width="200" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="ec2-manage-title" value="YOU MANAGE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="110" y="120" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ec2-manage-list" value="❌ OS patching&#xa;❌ DB installation&#xa;❌ DB patching&#xa;❌ Backups&#xa;❌ High availability&#xa;❌ Scaling&#xa;❌ Security config&#xa;❌ Monitoring setup" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="75" y="145" width="160" height="155" as="geometry" />
+        </mxCell>
+
+        <!-- EC2 Pros/Cons -->
+        <mxCell id="ec2-pros-box" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="115" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ec2-pros-title" value="✅ ADVANTAGES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#1E8900;" vertex="1" parent="1">
+          <mxGeometry x="330" y="120" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ec2-pros-list" value="• Full OS access&#xa;• Any database engine&#xa;• Custom configs&#xa;• Any version" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="295" y="145" width="180" height="55" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ec2-cons-box" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="220" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ec2-cons-title" value="❌ DISADVANTAGES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#DD3522;" vertex="1" parent="1">
+          <mxGeometry x="325" y="225" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ec2-cons-list" value="• High operational burden&#xa;• Need DBA expertise&#xa;• Manual HA setup&#xa;• More time on infra" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="295" y="250" width="180" height="55" as="geometry" />
+        </mxCell>
+
+        <!-- AWS-Managed Section -->
+        <mxCell id="rds-container" value="" style="whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;rounded=0;shadow=1;opacity=15;" vertex="1" parent="1">
+          <mxGeometry x="560" y="70" width="480" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="rds-title" value="☁️ AWS-MANAGED (RDS/Aurora)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#1E8900;" vertex="1" parent="1">
+          <mxGeometry x="660" y="75" width="280" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- RDS AWS Manages -->
+        <mxCell id="rds-manage-box" value="" style="whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="115" width="200" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="rds-manage-title" value="AWS MANAGES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="630" y="120" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rds-manage-list" value="✅ OS patching&#xa;✅ DB installation&#xa;✅ DB patching&#xa;✅ Automated backups&#xa;✅ Multi-AZ HA&#xa;✅ Easy scaling&#xa;✅ Security&#xa;✅ CloudWatch" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="595" y="145" width="160" height="155" as="geometry" />
+        </mxCell>
+
+        <!-- RDS Pros/Cons -->
+        <mxCell id="rds-pros-box" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="115" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rds-pros-title" value="✅ ADVANTAGES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#1E8900;" vertex="1" parent="1">
+          <mxGeometry x="850" y="120" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rds-pros-list" value="• Reduced operations&#xa;• Built-in HA&#xa;• Auto backups&#xa;• Focus on app" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="815" y="145" width="180" height="55" as="geometry" />
+        </mxCell>
+
+        <mxCell id="rds-cons-box" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="220" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rds-cons-title" value="❌ DISADVANTAGES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#DD3522;" vertex="1" parent="1">
+          <mxGeometry x="845" y="225" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rds-cons-list" value="• Limited OS access&#xa;• Supported engines only&#xa;• Some feature limits&#xa;• Less customization" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="815" y="250" width="180" height="55" as="geometry" />
+        </mxCell>
+
+        <!-- VS Arrow -->
+        <mxCell id="vs-arrow" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;fillColor=#FF9900;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="525" y="200" as="sourcePoint" />
+            <mxPoint x="555" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vs-label" value="VS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="525" y="165" width="30" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Decision Guide -->
+        <mxCell id="decision-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="350" width="1000" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="decision-title" value="🎯 When to Choose Each Option" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="400" y="355" width="280" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Choose EC2 -->
+        <mxCell id="choose-ec2-box" value="" style="whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;rounded=0;shadow=1;opacity=80;" vertex="1" parent="1">
+          <mxGeometry x="60" y="390" width="440" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="choose-ec2-title" value="CHOOSE EC2-HOSTED WHEN:" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="170" y="395" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="choose-ec2-list" value="• Need unsupported database engine&#xa;• Require full OS access&#xa;• Specific version or custom extension requirements&#xa;• Have strong DBA expertise and want full control" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="80" y="420" width="400" height="65" as="geometry" />
+        </mxCell>
+
+        <!-- Choose RDS -->
+        <mxCell id="choose-rds-box" value="" style="whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;rounded=0;shadow=1;opacity=80;" vertex="1" parent="1">
+          <mxGeometry x="580" y="390" width="440" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="choose-rds-title" value="CHOOSE AWS-MANAGED WHEN:" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="680" y="395" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="choose-rds-list" value="• Want to reduce operational burden&#xa;• Need built-in high availability and backups&#xa;• Using supported database engine&#xa;• Want to focus on application, not infrastructure" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="600" y="420" width="400" height="65" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

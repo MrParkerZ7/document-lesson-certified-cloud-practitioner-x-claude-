@@ -1,0 +1,123 @@
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="Mozilla/5.0" etag="pricing-calculator" version="22.1.0" type="device">
+  <diagram name="AWS Pricing Calculator" id="pricing-calculator-diagram">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="🧮 AWS Pricing Calculator" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="10" width="360" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- What It Is -->
+        <mxCell id="what-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="1000" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="what-title" value="🎯 What is AWS Pricing Calculator?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="400" y="65" width="280" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="purpose" value="📋 Purpose&#xa;Estimate costs BEFORE&#xa;deploying to AWS&#xa;Free to use" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="100" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="access" value="🌐 Access&#xa;calculator.aws&#xa;No account needed&#xa;Web-based tool" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="100" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="services" value="🔧 Services&#xa;100+ services&#xa;All major services&#xa;Regional pricing" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="100" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="output" value="📊 Output&#xa;Monthly estimates&#xa;Compare scenarios&#xa;Export/share links" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="100" width="140" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- How to Use -->
+        <mxCell id="how-container" value="" style="whiteSpace=wrap;html=1;fillColor=#E6F2FF;strokeColor=#232F3E;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="1000" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="how-title" value="📝 How to Use - Workflow" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="420" y="205" width="240" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Workflow -->
+        <mxCell id="step1" value="1️⃣ Add Service&#xa;Choose from&#xa;service list" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="245" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="step2" value="2️⃣ Configure&#xa;Specify region,&#xa;type, quantity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="245" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="step3" value="3️⃣ Add More&#xa;Build complete&#xa;architecture" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="245" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="step4" value="4️⃣ Review&#xa;See total&#xa;monthly cost" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="245" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="step5" value="5️⃣ Share&#xa;Export/share&#xa;estimate link" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="245" width="120" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Arrows -->
+        <mxCell id="arrow1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="185" y="275" as="sourcePoint" />
+            <mxPoint x="235" y="275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="365" y="275" as="sourcePoint" />
+            <mxPoint x="415" y="275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow3" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="545" y="275" as="sourcePoint" />
+            <mxPoint x="595" y="275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow4" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="725" y="275" as="sourcePoint" />
+            <mxPoint x="775" y="275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Use Cases -->
+        <mxCell id="use-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="350" width="1000" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="use-title" value="💼 Common Use Cases" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="440" y="355" width="200" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="use1" value="📊 Budget planning" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="390" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="use2" value="🔄 Migration estimates" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="390" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="use3" value="⚖️ Compare options" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="390" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="use4" value="📋 Proposals/quotes" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="390" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="use5" value="🎓 Learning costs" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="390" width="130" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Key Points -->
+        <mxCell id="key-container" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="460" width="1000" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="key-title" value="🎯 Exam Tips" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="480" y="465" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="tips" value="Pricing Calculator = Estimate costs BEFORE deployment  |  Free, no AWS account required  |  URL: calculator.aws  |  Create shareable estimates" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="60" y="495" width="920" height="25" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

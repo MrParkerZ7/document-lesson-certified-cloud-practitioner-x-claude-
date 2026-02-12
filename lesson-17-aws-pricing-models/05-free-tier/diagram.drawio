@@ -1,0 +1,96 @@
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="Mozilla/5.0" etag="free-tier" version="22.1.0" type="device">
+  <diagram name="AWS Free Tier" id="free-tier-diagram">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="🆓 AWS Free Tier" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="10" width="240" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Three Types -->
+        <mxCell id="types-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="1000" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="types-title" value="📊 Three Types of Free Tier Offers" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="400" y="65" width="280" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="always-free" value="♾️ Always Free&#xa;No expiration&#xa;Available to all accounts&#xa;Examples:&#xa;• Lambda: 1M requests/month&#xa;• DynamoDB: 25GB storage" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="100" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="12-month" value="📅 12 Months Free&#xa;First year only&#xa;New accounts only&#xa;Examples:&#xa;• EC2: 750 hrs/month (t2/t3.micro)&#xa;• S3: 5GB storage&#xa;• RDS: 750 hrs/month" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="100" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="trials" value="🎁 Short-term Trials&#xa;Limited time offers&#xa;Varies by service&#xa;Examples:&#xa;• SageMaker: 2 months&#xa;• Redshift: 2 months&#xa;• Inspector: 15-day trial" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="100" width="200" height="90" as="geometry" />
+        </mxCell>
+
+        <!-- Popular Free Tier Services -->
+        <mxCell id="services-container" value="" style="whiteSpace=wrap;html=1;fillColor=#E6F2FF;strokeColor=#232F3E;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="220" width="1000" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="services-title" value="⭐ Popular Free Tier Services (12-Month)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="380" y="225" width="320" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ec2-free" value="🖥️ EC2&#xa;750 hrs/month&#xa;t2.micro or t3.micro" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s3-free" value="💾 S3&#xa;5GB storage&#xa;20K GET, 2K PUT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rds-free" value="🗄️ RDS&#xa;750 hrs/month&#xa;db.t2.micro/t3.micro" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ebs-free" value="💿 EBS&#xa;30GB storage&#xa;gp2/gp3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="elb-free" value="⚖️ ELB&#xa;750 hrs/month&#xa;+ 15 LCU" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cloudwatch-free" value="📊 CloudWatch&#xa;10 metrics&#xa;5GB logs" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Always Free Services -->
+        <mxCell id="always-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="370" width="1000" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="always-title" value="♾️ Always Free (No Expiration)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="420" y="375" width="240" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="lambda-free" value="⚡ Lambda&#xa;1M requests/month" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="405" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dynamodb-free" value="🗄️ DynamoDB&#xa;25GB + 25 WCU/RCU" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="405" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sns-free" value="📢 SNS&#xa;1M publishes/month" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="405" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sqs-free" value="📬 SQS&#xa;1M requests/month" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="405" width="130" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Key Points -->
+        <mxCell id="key-container" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="470" width="1000" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="key-title" value="🎯 Exam Tips" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="480" y="475" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="tips1" value="12-month free tier = New accounts only (EC2, S3, RDS)  |  Always Free = Forever (Lambda, DynamoDB, SNS, SQS)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="60" y="505" width="920" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tips2" value="⚠️ Set up Billing Alerts to avoid unexpected charges when you exceed free tier limits!" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FF9900;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="525" width="680" height="20" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

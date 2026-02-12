@@ -1,0 +1,78 @@
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="Mozilla/5.0" etag="trust-safety" version="22.1.0" type="device">
+  <diagram name="AWS Trust and Safety Team" id="trust-safety-diagram">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="🛡️ AWS Trust &amp; Safety Team" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="10" width="400" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- What They Do -->
+        <mxCell id="what-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="1000" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="what-title" value="🎯 What is the Trust &amp; Safety Team?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="380" y="65" width="320" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="purpose" value="🎯 Purpose&#xa;Handle abuse reports&#xa;Investigate misuse of&#xa;AWS resources" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="100" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="contact" value="📧 Contact&#xa;abuse@amazonaws.com&#xa;Report form in console&#xa;24/7 response" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="100" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="scope" value="🌐 Scope&#xa;AWS infrastructure abuse&#xa;Not for support issues&#xa;Security/abuse only" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="100" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="outcome" value="⚖️ Actions&#xa;Investigate claims&#xa;May suspend accounts&#xa;Notify affected parties" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="100" width="140" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- Types of Abuse -->
+        <mxCell id="abuse-container" value="" style="whiteSpace=wrap;html=1;fillColor=#E6F2FF;strokeColor=#232F3E;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="220" width="1000" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="abuse-title" value="⚠️ Types of Abuse to Report" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="420" y="225" width="240" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="spam" value="📧 Spam&#xa;Unsolicited emails&#xa;from AWS resources" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="265" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="port-scanning" value="🔍 Port Scanning&#xa;Unauthorized probing&#xa;of systems" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="265" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dos" value="💥 DoS/DDoS&#xa;Denial of service&#xa;attacks" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="265" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="intrusion" value="🔓 Intrusion&#xa;Hacking attempts&#xa;from AWS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="265" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="malware" value="🦠 Malware&#xa;Hosting malicious&#xa;content" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="265" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="illegal" value="⚖️ Illegal Content&#xa;Prohibited material&#xa;hosted on AWS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="265" width="110" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Key Points -->
+        <mxCell id="key-container" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="380" width="1000" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="key-title" value="🎯 Exam Tips" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="480" y="385" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="tips1" value="Trust &amp; Safety = Report ABUSE of AWS resources (spam, attacks, illegal content)  |  Contact: abuse@amazonaws.com" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="60" y="415" width="920" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tips2" value="NOT for technical support or billing issues - only for reporting misuse/abuse of AWS infrastructure" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="60" y="435" width="920" height="20" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

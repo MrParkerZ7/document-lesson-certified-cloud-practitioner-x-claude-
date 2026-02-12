@@ -1,0 +1,155 @@
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="Mozilla/5.0" etag="backup-recovery" version="22.1.0" type="device">
+  <diagram name="Backup and Recovery" id="backup-recovery-diagram">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="💾 Backup and Disaster Recovery" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="10" width="480" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- RPO/RTO -->
+        <mxCell id="rpo-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="500" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="rpo-title" value="⏱️ RPO and RTO Explained" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="200" y="65" width="180" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Timeline -->
+        <mxCell id="timeline" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#232F3E;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="140" as="sourcePoint" />
+            <mxPoint x="520" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="backup-point" value="📸 Last&#xa;Backup" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="110" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="disaster-point" value="💥 Disaster" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="110" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="recovery-point" value="✅ Recovery&#xa;Complete" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="110" width="60" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="rpo-bracket" value="" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="165" as="sourcePoint" />
+            <mxPoint x="290" y="165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rpo-label" value="RPO = Data Loss" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FF9900;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="170" width="100" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="rto-bracket" value="" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=2;strokeColor=#232F3E;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="165" as="sourcePoint" />
+            <mxPoint x="450" y="165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rto-label" value="RTO = Downtime" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#232F3E;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="170" width="100" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- AWS Backup -->
+        <mxCell id="backup-container" value="" style="whiteSpace=wrap;html=1;fillColor=#E6F2FF;strokeColor=#232F3E;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="60" width="480" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="backup-title" value="💾 AWS Backup (Centralized)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="700" y="65" width="200" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="backup-plan" value="📋 Backup&#xa;Plan" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="100" width="70" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="backup-resources" value="📦 Resources&#xa;EC2, RDS, EFS&#xa;DynamoDB, S3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="95" width="90" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="backup-vault" value="🔐 Backup&#xa;Vault" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="100" width="70" height="45" as="geometry" />
+        </mxCell>
+
+        <mxCell id="backup-arrow1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="665" y="122" as="sourcePoint" />
+            <mxPoint x="695" y="122" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="backup-arrow2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="795" y="122" as="sourcePoint" />
+            <mxPoint x="825" y="122" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="backup-features" value="✅ Automated schedules  |  ✅ Cross-region copy  |  ✅ Lifecycle policies  |  ✅ Vault Lock (WORM)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#232F3E;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="590" y="160" width="420" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- DR Strategies -->
+        <mxCell id="dr-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="220" width="1000" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="dr-title" value="🛡️ Disaster Recovery Strategies (Cost vs Recovery Time)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="360" y="225" width="360" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="dr-backup" value="Backup &amp;&#xa;Restore" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="270" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dr-backup-desc" value="💰 Lowest cost&#xa;⏱️ Hours RTO&#xa;Restore from backups" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="70" y="335" width="120" height="45" as="geometry" />
+        </mxCell>
+
+        <mxCell id="dr-pilot" value="Pilot&#xa;Light" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;opacity=70;" vertex="1" parent="1">
+          <mxGeometry x="280" y="270" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dr-pilot-desc" value="💰 Low cost&#xa;⏱️ 10s of minutes&#xa;Core systems running" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="270" y="335" width="120" height="45" as="geometry" />
+        </mxCell>
+
+        <mxCell id="dr-warm" value="Warm&#xa;Standby" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="270" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dr-warm-desc" value="💰 Medium cost&#xa;⏱️ Minutes RTO&#xa;Scaled-down running" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="470" y="335" width="120" height="45" as="geometry" />
+        </mxCell>
+
+        <mxCell id="dr-active" value="Multi-Site&#xa;Active-Active" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="270" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dr-active-desc" value="💰 Highest cost&#xa;⏱️ Near-zero RTO&#xa;Full duplicate running" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="670" y="335" width="120" height="45" as="geometry" />
+        </mxCell>
+
+        <!-- Arrow -->
+        <mxCell id="cost-arrow" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#232F3E;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="300" as="sourcePoint" />
+            <mxPoint x="680" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cost-label" value="Lower Cost / Higher RTO → → → → → → → → → → → → Higher Cost / Lower RTO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#232F3E;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="200" y="275" width="460" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Key Points -->
+        <mxCell id="key-container" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="420" width="1000" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="key-title" value="🎯 Exam Tips" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="480" y="425" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="tips" value="RPO = How much data loss acceptable  |  RTO = How much downtime acceptable  |  AWS Backup = Centralized backup management  |  Multi-Site Active-Active = Best RTO but most expensive" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="60" y="455" width="920" height="25" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

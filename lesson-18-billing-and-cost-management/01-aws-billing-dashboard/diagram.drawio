@@ -1,0 +1,83 @@
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="Mozilla/5.0" etag="billing-dashboard" version="22.1.0" type="device">
+  <diagram name="AWS Billing Dashboard" id="billing-dashboard-diagram">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="💰 AWS Billing Dashboard" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="10" width="360" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Dashboard Overview -->
+        <mxCell id="dashboard-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="1000" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="dashboard-title" value="📊 Billing &amp; Cost Management Console" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="380" y="65" width="320" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Dashboard Components -->
+        <mxCell id="spend-summary" value="📈 Spend Summary&#xa;Month-to-date costs&#xa;Forecasted charges&#xa;Last month comparison" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="100" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="service-breakdown" value="📊 By Service&#xa;Cost per service&#xa;Top spending services&#xa;Trending costs" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="100" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="free-tier" value="🆓 Free Tier Usage&#xa;Usage vs limits&#xa;% consumed&#xa;Alerts when exceeding" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="100" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bills" value="📄 Bills&#xa;Monthly invoices&#xa;Payment history&#xa;Payment methods" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="100" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="credits" value="🎁 Credits&#xa;Promotional credits&#xa;Credit balance&#xa;Expiration dates" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="100" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="purchase-orders" value="📋 Purchase Orders&#xa;PO management&#xa;Enterprise billing" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="100" width="140" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="dashboard-note" value="Access: AWS Console → Billing and Cost Management (root user or IAM with billing access)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#232F3E;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="260" y="195" width="560" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Budgets & Alerts -->
+        <mxCell id="alerts-container" value="" style="whiteSpace=wrap;html=1;fillColor=#E6F2FF;strokeColor=#232F3E;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="250" width="1000" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="alerts-title" value="🔔 AWS Budgets &amp; Billing Alerts" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="400" y="255" width="280" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="cost-budget" value="💵 Cost Budgets&#xa;Set spending limit&#xa;Alert at threshold&#xa;(e.g., 80%, 100%)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="290" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="usage-budget" value="📊 Usage Budgets&#xa;Track usage units&#xa;EC2 hours, S3 GB&#xa;Service-specific" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="290" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ri-budget" value="📅 RI Utilization&#xa;Track RI coverage&#xa;Alert if underutilized" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="290" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="alert-actions" value="⚡ Actions&#xa;SNS notifications&#xa;Email alerts&#xa;Auto-remediation" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="290" width="140" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Key Points -->
+        <mxCell id="key-container" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="390" width="1000" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="key-title" value="🎯 Exam Tips" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="480" y="395" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="tips1" value="Billing Dashboard = View/pay bills, see cost breakdown  |  AWS Budgets = Set cost/usage thresholds and alerts" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="60" y="425" width="920" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tips2" value="⚠️ Enable IAM user access to billing in account settings  |  Use billing alerts to avoid unexpected charges" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="60" y="445" width="920" height="20" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

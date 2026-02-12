@@ -1,0 +1,121 @@
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="Mozilla/5.0" etag="cost-anomaly-detection" version="22.1.0" type="device">
+  <diagram name="AWS Cost Anomaly Detection" id="cost-anomaly-detection-diagram">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="🔍 AWS Cost Anomaly Detection" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="10" width="400" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- How It Works -->
+        <mxCell id="how-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="1000" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="how-title" value="⚙️ How Cost Anomaly Detection Works" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="380" y="65" width="320" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Flow -->
+        <mxCell id="spending" value="💵 Your Spending&#xa;AWS monitors&#xa;your usage" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="105" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ml" value="🤖 ML Analysis&#xa;Machine learning&#xa;learns patterns" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="105" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="detect" value="📊 Detect Anomaly&#xa;Unusual spending&#xa;spike detected" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="105" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="alert" value="🔔 Alert You&#xa;Email/SNS&#xa;notification" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="105" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="investigate" value="🔍 Root Cause&#xa;Analysis helps&#xa;identify cause" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="105" width="120" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Arrows -->
+        <mxCell id="a1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="185" y="135" as="sourcePoint" />
+            <mxPoint x="255" y="135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="385" y="135" as="sourcePoint" />
+            <mxPoint x="455" y="135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a3" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="585" y="135" as="sourcePoint" />
+            <mxPoint x="655" y="135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a4" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="785" y="135" as="sourcePoint" />
+            <mxPoint x="855" y="135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="how-note" value="Uses ML to automatically detect unusual spending - no need to set thresholds manually!" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#232F3E;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="280" y="175" width="520" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Configuration -->
+        <mxCell id="config-container" value="" style="whiteSpace=wrap;html=1;fillColor=#E6F2FF;strokeColor=#232F3E;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="230" width="500" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="config-title" value="🛠️ Monitor Types" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="220" y="235" width="140" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="by-service" value="📊 By Service&#xa;Monitor specific&#xa;AWS services" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="275" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="by-account" value="👤 By Account&#xa;Monitor linked&#xa;accounts" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="275" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="by-tag" value="🏷️ By Cost Tag&#xa;Monitor tagged&#xa;resources" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="275" width="120" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Benefits -->
+        <mxCell id="benefits-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="230" width="480" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="benefits-title" value="✅ Benefits" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="760" y="235" width="80" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="b1" value="🤖 ML-Powered&#xa;No manual thresholds&#xa;Learns your patterns" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="275" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b2" value="⚡ Near Real-time&#xa;Quick detection&#xa;Minimize impact" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="275" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b3" value="🔍 Root Cause&#xa;Identifies why&#xa;cost increased" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="275" width="130" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Key Points -->
+        <mxCell id="key-container" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="390" width="1000" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="key-title" value="🎯 Exam Tips" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="480" y="395" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="tips1" value="Cost Anomaly Detection = ML-powered unusual spending detection  |  No manual thresholds needed" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="60" y="425" width="920" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tips2" value="Alerts via Email or SNS  |  Includes root cause analysis  |  Different from AWS Budgets (which uses fixed thresholds)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="60" y="445" width="920" height="20" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

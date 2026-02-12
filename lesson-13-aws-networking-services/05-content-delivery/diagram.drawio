@@ -1,0 +1,175 @@
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="Mozilla/5.0" etag="content-delivery" version="22.1.0" type="device">
+  <diagram name="Content Delivery - CloudFront" id="cloudfront-diagram">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="⚡ Amazon CloudFront - Content Delivery Network" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="10" width="560" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Without CDN -->
+        <mxCell id="without-container" value="" style="whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;rounded=0;shadow=1;opacity=15;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="480" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="without-title" value="❌ Without CloudFront" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#DD3522;" vertex="1" parent="1">
+          <mxGeometry x="200" y="65" width="160" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="users-no-cdn" value="🌍 Global Users" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="110" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="origin-no-cdn" value="💾 Origin&#xa;(US Region)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="110" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-no-cdn" value="" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=2;strokeColor=#DD3522;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="155" y="130" as="sourcePoint" />
+            <mxPoint x="395" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="latency-no-cdn" value="High latency for distant users&#xa;Every request hits origin" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#DD3522;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="190" y="160" width="180" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- With CloudFront -->
+        <mxCell id="with-container" value="" style="whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;rounded=0;shadow=1;opacity=15;" vertex="1" parent="1">
+          <mxGeometry x="560" y="60" width="480" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="with-title" value="✅ With CloudFront" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#1E8900;" vertex="1" parent="1">
+          <mxGeometry x="720" y="65" width="160" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="users-cdn" value="🌍 Global Users" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="110" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="edge" value="⚡ Edge Location&#xa;(Nearby)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="755" y="100" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="origin-cdn" value="💾 Origin" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="110" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-user-edge" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#1E8900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="675" y="130" as="sourcePoint" />
+            <mxPoint x="750" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow-edge-origin" value="" style="endArrow=classic;html=1;strokeWidth=1;strokeColor=#666666;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="850" y="130" as="sourcePoint" />
+            <mxPoint x="925" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="latency-cdn" value="Low latency from cache&#xa;Origin only on cache miss" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#1E8900;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="710" y="165" width="180" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- How CloudFront Works -->
+        <mxCell id="flow-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="230" width="660" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-title" value="🔄 CloudFront Request Flow" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="280" y="235" width="180" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="step1" value="1️⃣ User&#xa;Request" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="280" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="step2" value="2️⃣ Route to&#xa;Nearest Edge" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="280" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="step3" value="3️⃣ Check&#xa;Cache" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="280" width="70" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="hit-box" value="✅ Cache HIT&#xa;Return from edge" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="265" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="miss-box" value="❌ Cache MISS&#xa;Fetch from origin" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="315" width="100" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="origin-flow" value="4️⃣ Origin&#xa;(S3, EC2, ALB)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="305" width="80" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="flow-arrow1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="135" y="305" as="sourcePoint" />
+            <mxPoint x="165" y="305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow-arrow2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="255" y="305" as="sourcePoint" />
+            <mxPoint x="285" y="305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow-arrow3" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#1E8900;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="365" y="290" as="sourcePoint" />
+            <mxPoint x="395" y="285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow-arrow4" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#DD3522;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="365" y="320" as="sourcePoint" />
+            <mxPoint x="395" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow-arrow5" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="505" y="335" as="sourcePoint" />
+            <mxPoint x="535" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- CloudFront Features -->
+        <mxCell id="features-container" value="" style="whiteSpace=wrap;html=1;fillColor=#E6F2FF;strokeColor=#232F3E;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="230" width="320" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="features-title" value="🛡️ CloudFront Security Features" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="780" y="235" width="200" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="shield" value="🛡️ AWS Shield&#xa;DDoS protection" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="270" width="90" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="waf" value="🔥 AWS WAF&#xa;Web App Firewall" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="845" y="270" width="90" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="https" value="🔐 HTTPS&#xa;SSL/TLS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="270" width="70" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="oac" value="🔑 OAC&#xa;Origin Access Control" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="330" width="110" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="signed" value="📝 Signed URLs&#xa;Private content" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="865" y="330" width="100" height="45" as="geometry" />
+        </mxCell>
+
+        <!-- Key Points -->
+        <mxCell id="key-container" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="420" width="1000" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="key-title" value="🎯 Exam Tips" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="480" y="425" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="tip1" value="CloudFront = CDN with 400+ edge locations globally" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="60" y="455" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tip2" value="Origins: S3, EC2, ALB, custom HTTP servers" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="300" y="455" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tip3" value="OAC restricts S3 access to CloudFront only" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="510" y="455" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tip4" value="Lambda@Edge for compute at edge" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="740" y="455" width="200" height="30" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

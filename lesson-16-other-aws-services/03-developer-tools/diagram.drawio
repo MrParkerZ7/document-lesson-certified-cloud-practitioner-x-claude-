@@ -1,0 +1,115 @@
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="Mozilla/5.0" etag="developer-tools" version="22.1.0" type="device">
+  <diagram name="AWS Developer Tools" id="developer-tools-diagram">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="🛠️ AWS Developer Tools (CI/CD)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="10" width="400" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- CI/CD Pipeline -->
+        <mxCell id="pipeline-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="1000" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="pipeline-title" value="🔄 AWS CI/CD Pipeline" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="440" y="65" width="200" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Pipeline Flow -->
+        <mxCell id="codecommit" value="📝 CodeCommit&#xa;Git Repository&#xa;Source control" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="105" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="codebuild" value="🔨 CodeBuild&#xa;Build &amp; Test&#xa;Compile code" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="105" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="codedeploy" value="🚀 CodeDeploy&#xa;Deploy&#xa;EC2/Lambda/ECS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="105" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="prod-env" value="🌐 Production&#xa;Environment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="105" width="100" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Pipeline Arrows -->
+        <mxCell id="pipe-arrow1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="185" y="135" as="sourcePoint" />
+            <mxPoint x="255" y="135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pipe-arrow2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="385" y="135" as="sourcePoint" />
+            <mxPoint x="455" y="135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pipe-arrow3" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="585" y="135" as="sourcePoint" />
+            <mxPoint x="655" y="135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- CodePipeline wrapper -->
+        <mxCell id="codepipeline" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FF9900;strokeWidth=3;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="95" width="720" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="codepipeline-label" value="📋 CodePipeline (Orchestrates the entire CI/CD flow)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#FF9900;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="178" width="360" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Additional Tools -->
+        <mxCell id="codestar" value="⭐ CodeStar&#xa;Unified UI&#xa;Project dashboard" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="100" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="codeartifact" value="📦 CodeArtifact&#xa;Artifact repo&#xa;npm/Maven/pip" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="100" width="100" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Other Developer Services -->
+        <mxCell id="other-container" value="" style="whiteSpace=wrap;html=1;fillColor=#E6F2FF;strokeColor=#232F3E;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="240" width="1000" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="other-title" value="🧰 Additional Developer Services" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="400" y="245" width="280" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="cloud9" value="☁️ Cloud9&#xa;Cloud IDE&#xa;Browser-based" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="280" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xray" value="🔍 X-Ray&#xa;Tracing&#xa;Debug distributed" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="280" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cfn" value="📋 CloudFormation&#xa;IaC&#xa;JSON/YAML templates" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="280" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cdk" value="🔧 CDK&#xa;IaC in code&#xa;TypeScript/Python" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="280" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sam" value="⚡ SAM&#xa;Serverless&#xa;Lambda framework" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="280" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="codeguru2" value="🤖 CodeGuru&#xa;ML code review&#xa;Recommendations" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="280" width="110" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Key Points -->
+        <mxCell id="key-container" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="360" width="1000" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="key-title" value="🎯 Exam Tips" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="480" y="365" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="tips1" value="CodeCommit = Git repos | CodeBuild = Build/test | CodeDeploy = Deploy to EC2/Lambda/ECS | CodePipeline = Orchestrate CI/CD" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="60" y="395" width="920" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tips2" value="CloudFormation = Infrastructure as Code (IaC) | X-Ray = Debug distributed apps | Cloud9 = Browser IDE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="60" y="420" width="920" height="20" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

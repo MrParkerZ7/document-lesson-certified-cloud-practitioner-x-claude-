@@ -1,0 +1,141 @@
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="Mozilla/5.0" etag="file-storage" version="22.1.0" type="device">
+  <diagram name="File Storage - EFS and FSx" id="file-storage-diagram">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="📂 File Storage - Amazon EFS &amp; FSx" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="10" width="480" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- EFS Section -->
+        <mxCell id="efs-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="520" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="efs-title" value="📂 Amazon EFS (Elastic File System)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="180" y="65" width="240" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- EFS Architecture -->
+        <mxCell id="efs-region" value="" style="whiteSpace=wrap;html=1;fillColor=#E6F2FF;strokeColor=#232F3E;strokeWidth=1;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="100" width="480" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="efs-az1" value="AZ-A" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="110" y="105" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="efs-az2" value="AZ-B" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="290" y="105" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="efs-az3" value="AZ-C" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="450" y="105" width="40" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ec2-1" value="🖥️ EC2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="130" width="50" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="ec2-2" value="🖥️ EC2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="130" width="50" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="ec2-3" value="🖥️ EC2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="130" width="50" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="ec2-4" value="🖥️ EC2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="435" y="130" width="50" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="mount1" value="Mount Target" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=8;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="180" width="70" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="mount2" value="Mount Target" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=8;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="180" width="70" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="mount3" value="Mount Target" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=8;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="180" width="70" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="efs-fs" value="📂 EFS File System (Auto-scaling, Petabyte scale)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="215" width="300" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="efs-note" value="🐧 Linux only (NFS v4)  |  Multi-AZ  |  Auto-scaling  |  Pay per use" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#232F3E;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="100" y="250" width="400" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- FSx Section -->
+        <mxCell id="fsx-container" value="" style="whiteSpace=wrap;html=1;fillColor=#E6F2FF;strokeColor=#232F3E;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="60" width="460" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="fsx-title" value="📁 Amazon FSx (Managed File Systems)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="680" y="65" width="260" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="fsx-windows" value="FSx for&#xa;Windows" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="100" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fsx-windows-desc" value="🪟 SMB protocol&#xa;Active Directory" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="600" y="155" width="90" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="fsx-lustre" value="FSx for&#xa;Lustre" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="100" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fsx-lustre-desc" value="⚡ HPC, ML&#xa;S3 integration" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="710" y="155" width="90" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="fsx-netapp" value="FSx for&#xa;NetApp" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="100" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fsx-netapp-desc" value="🔄 Multi-protocol&#xa;Enterprise features" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="820" y="155" width="90" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="fsx-openzfs" value="FSx for&#xa;OpenZFS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="100" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fsx-openzfs-desc" value="🐧 Linux&#xa;ZFS features" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="930" y="155" width="90" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="fsx-note" value="FSx = Third-party file systems fully managed by AWS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FF9900;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="660" y="200" width="300" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Comparison -->
+        <mxCell id="compare-container" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="1000" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="compare-title" value="⚖️ When to Use Each Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="420" y="285" width="240" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="use-efs" value="EFS&#xa;Linux (NFS)&#xa;Auto-scaling&#xa;Content mgmt" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="320" width="120" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="use-windows" value="FSx Windows&#xa;Windows (SMB)&#xa;Active Directory&#xa;.NET apps" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="320" width="120" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="use-lustre" value="FSx Lustre&#xa;HPC workloads&#xa;Machine learning&#xa;Big data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;opacity=80;" vertex="1" parent="1">
+          <mxGeometry x="380" y="320" width="120" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="use-netapp" value="FSx NetApp&#xa;Enterprise&#xa;Multi-protocol&#xa;Migrations" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=#FFFFFF;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="320" width="120" height="65" as="geometry" />
+        </mxCell>
+
+        <!-- Key Points -->
+        <mxCell id="key-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="420" width="1000" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="key-title" value="🎯 Exam Tips:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="60" y="430" width="100" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="tips" value="EFS = Linux (NFS), shared, auto-scaling  |  FSx Windows = Windows (SMB), Active Directory  |  FSx Lustre = HPC, sub-ms latency, S3 integration  |  All file storage = Multiple instances access same data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="60" y="455" width="960" height="30" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

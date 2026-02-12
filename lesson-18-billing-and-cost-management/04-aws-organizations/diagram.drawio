@@ -1,0 +1,111 @@
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="Mozilla/5.0" etag="aws-organizations" version="22.1.0" type="device">
+  <diagram name="AWS Organizations" id="aws-organizations-diagram">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="🏢 AWS Organizations" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="10" width="320" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Organization Structure -->
+        <mxCell id="org-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="580" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="org-title" value="📊 Organization Structure" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="240" y="65" width="180" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Root -->
+        <mxCell id="root" value="🏛️ Root&#xa;(Organization)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="100" width="100" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Management Account -->
+        <mxCell id="mgmt" value="⭐ Management Account&#xa;(Payer account)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="100" width="140" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- OUs -->
+        <mxCell id="ou-prod" value="📁 OU: Production" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="170" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="ou-dev" value="📁 OU: Development" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="170" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="ou-test" value="📁 OU: Testing" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="170" width="120" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Member Accounts -->
+        <mxCell id="acc1" value="👤 Account 1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="230" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="acc2" value="👤 Account 2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="230" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="acc3" value="👤 Account 3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="230" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="acc4" value="👤 Account 4" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="230" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="acc5" value="👤 Account 5" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="230" width="70" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Lines -->
+        <mxCell id="line1" value="" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#232F3E;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="145" as="sourcePoint" />
+            <mxPoint x="310" y="165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="line2" value="" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#232F3E;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="165" as="sourcePoint" />
+            <mxPoint x="480" y="165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Benefits -->
+        <mxCell id="benefits-container" value="" style="whiteSpace=wrap;html=1;fillColor=#E6F2FF;strokeColor=#232F3E;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="60" width="400" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="benefits-title" value="✅ Key Benefits" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="780" y="65" width="120" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="benefit1" value="💵 Consolidated Billing&#xa;Single payment method&#xa;Combined usage discounts&#xa;Volume pricing benefits" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="100" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="benefit2" value="🛡️ Service Control Policies&#xa;Restrict services/actions&#xa;Apply to OUs or accounts&#xa;Guardrails at scale" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="100" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="benefit3" value="📊 Centralized Management&#xa;Create/invite accounts&#xa;Apply policies at scale&#xa;Cross-account access" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="185" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="benefit4" value="🔗 Shared Resources&#xa;Reserved Instances&#xa;Savings Plans&#xa;Share across accounts" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="185" width="160" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Key Points -->
+        <mxCell id="key-container" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="320" width="1000" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="key-title" value="🎯 Exam Tips" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="480" y="325" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="tips1" value="Organizations = Multi-account management  |  Consolidated Billing = One bill, combined discounts  |  SCPs = Guardrails (deny policies)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="60" y="355" width="920" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tips2" value="RI/Savings Plans can be shared across accounts  |  Management account = Payer, can't have SCPs applied to it" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="60" y="380" width="920" height="20" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

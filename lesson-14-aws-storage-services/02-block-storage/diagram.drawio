@@ -1,0 +1,156 @@
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="Mozilla/5.0" etag="ebs-storage" version="22.1.0" type="device">
+  <diagram name="Amazon EBS - Block Storage" id="ebs-diagram">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="💾 Amazon EBS - Block Storage" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="10" width="440" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- EBS vs Instance Store -->
+        <mxCell id="compare-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="500" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="compare-title" value="🔄 EBS vs Instance Store" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="200" y="65" width="180" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- EBS -->
+        <mxCell id="ebs-box" value="" style="whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="100" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ebs-title" value="EBS (Network-Attached)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="80" y="105" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ebs-features" value="✅ Persistent storage&#xa;✅ Detach/attach&#xa;✅ Snapshots to S3&#xa;✅ Survives stop/termination" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="70" y="130" width="170" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Instance Store -->
+        <mxCell id="is-box" value="" style="whiteSpace=wrap;html=1;fillColor=#DD3522;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="100" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="is-title" value="Instance Store (Ephemeral)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="320" y="105" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="is-features" value="⚠️ Temporary storage&#xa;⚠️ Physically attached&#xa;⚠️ Lost on stop/terminate&#xa;⚡ Best I/O performance" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="310" y="130" width="170" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Volume Types -->
+        <mxCell id="types-container" value="" style="whiteSpace=wrap;html=1;fillColor=#E6F2FF;strokeColor=#232F3E;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="60" width="480" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="types-title" value="📊 EBS Volume Types" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="720" y="65" width="160" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- SSD -->
+        <mxCell id="ssd-label" value="SSD (IOPS)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="580" y="95" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="io2" value="io2/io1&#xa;Provisioned&#xa;IOPS SSD" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="120" width="70" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="gp3" value="gp3/gp2&#xa;General&#xa;Purpose" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;opacity=70;" vertex="1" parent="1">
+          <mxGeometry x="660" y="120" width="70" height="55" as="geometry" />
+        </mxCell>
+
+        <!-- HDD -->
+        <mxCell id="hdd-label" value="HDD (Throughput)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="820" y="95" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="st1" value="st1&#xa;Throughput&#xa;Optimized" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="120" width="70" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="sc1" value="sc1&#xa;Cold&#xa;HDD" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;opacity=70;" vertex="1" parent="1">
+          <mxGeometry x="860" y="120" width="70" height="55" as="geometry" />
+        </mxCell>
+
+        <mxCell id="type-note" value="gp3 = Default, boot volumes  |  io2 = High IOPS, databases  |  st1/sc1 = Sequential, big data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#232F3E;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="580" y="185" width="440" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Snapshots -->
+        <mxCell id="snap-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="240" width="1000" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="snap-title" value="📸 EBS Snapshots (Incremental Backups)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="400" y="245" width="280" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Snapshot Flow -->
+        <mxCell id="ebs-vol" value="📦 EBS&#xa;Volume" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="290" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="snap1" value="Snap 1&#xa;(Full)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="290" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="snap2" value="Snap 2&#xa;(Changed)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;opacity=80;" vertex="1" parent="1">
+          <mxGeometry x="330" y="290" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="snap3" value="Snap 3&#xa;(Changed)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="430" y="290" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s3-bucket" value="💾 S3&#xa;(Storage)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="290" width="80" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="snap-arrow1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="165" y="315" as="sourcePoint" />
+            <mxPoint x="225" y="315" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="snap-arrow2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF9900;flowAnimation=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="505" y="315" as="sourcePoint" />
+            <mxPoint x="565" y="315" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Snapshot features -->
+        <mxCell id="snap-f1" value="✅ Incremental&#xa;(only changed blocks)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="280" width="100" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="snap-f2" value="✅ Cross-region&#xa;copy" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="280" width="100" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="snap-f3" value="✅ Create volume&#xa;from snapshot" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="280" width="100" height="45" as="geometry" />
+        </mxCell>
+
+        <mxCell id="snap-note" value="💡 Use DLM (Data Lifecycle Manager) to automate snapshot creation and retention" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FF9900;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="300" y="350" width="480" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Key Points -->
+        <mxCell id="key-container" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="400" width="1000" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="key-title" value="🎯 Exam Tips" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="480" y="405" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="tip1" value="EBS = Persistent, network-attached" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="60" y="435" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="tip2" value="Instance Store = Ephemeral, fastest" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="250" y="435" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="tip3" value="gp3 = General purpose, boot vol" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="440" y="435" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="tip4" value="io2 = High IOPS databases" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="630" y="435" width="160" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="tip5" value="Snapshots = S3, incremental" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="810" y="435" width="180" height="25" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

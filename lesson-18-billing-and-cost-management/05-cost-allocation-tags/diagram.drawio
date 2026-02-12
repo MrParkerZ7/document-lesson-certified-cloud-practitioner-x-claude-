@@ -1,0 +1,87 @@
+<mxfile host="app.diagrams.net" modified="2024-01-01T00:00:00.000Z" agent="Mozilla/5.0" etag="cost-allocation-tags" version="22.1.0" type="device">
+  <diagram name="Cost Allocation Tags" id="cost-allocation-tags-diagram">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Title -->
+        <mxCell id="title" value="🏷️ Cost Allocation Tags" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#232F3E;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="10" width="320" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- What Are Tags -->
+        <mxCell id="what-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="1000" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="what-title" value="🏷️ What Are Cost Allocation Tags?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="400" y="65" width="280" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tag-structure" value="📋 Tag Structure&#xa;Key = Value&#xa;e.g., Environment = Production&#xa;Project = Marketing" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="100" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="purpose" value="🎯 Purpose&#xa;Track costs by project&#xa;Department, team&#xa;Environment, app" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="100" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="reports" value="📊 In Reports&#xa;Filter by tag in&#xa;Cost Explorer, CUR&#xa;Detailed breakdown" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="100" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="activation" value="⚡ Activation&#xa;Must activate in&#xa;Billing Console&#xa;Takes 24 hours" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="100" width="160" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- Tag Types -->
+        <mxCell id="types-container" value="" style="whiteSpace=wrap;html=1;fillColor=#E6F2FF;strokeColor=#232F3E;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="1000" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="types-title" value="📊 Types of Cost Allocation Tags" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="400" y="205" width="280" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="user-defined" value="👤 User-Defined Tags&#xa;You create and assign&#xa;Examples:&#xa;• Project = Website&#xa;• Owner = TeamA&#xa;• CostCenter = 12345" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="150" y="240" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="aws-generated" value="☁️ AWS-Generated Tags&#xa;Automatically created&#xa;Examples:&#xa;• aws:createdBy&#xa;• aws:cloudformation:stack-name&#xa;• Prefix: aws:" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="450" y="240" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vs" value="Both must be&#xa;activated!" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#DD3522;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="260" width="120" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Example -->
+        <mxCell id="example-container" value="" style="whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FF9900;strokeWidth=2;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="340" width="1000" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="example-title" value="💡 Example Usage" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#232F3E;" vertex="1" parent="1">
+          <mxGeometry x="460" y="345" width="160" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ec2-tagged" value="🖥️ EC2 Instance&#xa;Environment=Prod&#xa;Project=Website" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="375" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rds-tagged" value="🗄️ RDS Database&#xa;Environment=Prod&#xa;Project=Website" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="375" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow" value="→" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontColor=#FF9900;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="385" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="report" value="📊 Cost Report&#xa;Project: Website = $500/month&#xa;Environment: Prod = $450/month" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E8900;strokeColor=none;fontColor=#FFFFFF;fontSize=10;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="375" width="200" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Key Points -->
+        <mxCell id="key-container" value="" style="whiteSpace=wrap;html=1;fillColor=#232F3E;strokeColor=none;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="450" width="1000" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="key-title" value="🎯 Exam Tips" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF9900;" vertex="1" parent="1">
+          <mxGeometry x="480" y="455" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="tips" value="Tags = Track costs by project/dept/team  |  Must ACTIVATE tags in Billing Console  |  User-defined + AWS-generated  |  Use in Cost Explorer for filtering" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="60" y="485" width="920" height="25" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
