@@ -1,5 +1,15 @@
 # 🏪 AWS Marketplace Security Products
 
+## File Structure
+
+```
+lesson-08-security-resources-and-components/
+└── 02-aws-marketplace-security-products/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 AWS Marketplace is a digital catalog that offers thousands of software listings from independent software vendors. It includes a wide range of security products that can enhance your AWS security posture beyond native AWS services.

@@ -1,5 +1,15 @@
 # 📄 AWS Artifact
 
+## File Structure
+
+```
+lesson-06-security-governance-and-compliance/
+└── 02-aws-artifact/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 AWS Artifact is a self-service portal that provides on-demand access to AWS security and compliance reports and select online agreements. It is a critical service for organizations that need to demonstrate compliance to auditors, regulators, or internal stakeholders.

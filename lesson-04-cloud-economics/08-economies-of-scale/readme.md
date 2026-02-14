@@ -1,5 +1,15 @@
 # 📈 Economies of Scale
 
+## File Structure
+
+```
+lesson-04-cloud-economics/
+└── 08-economies-of-scale/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Overview
 
 **Economies of scale** refers to the cost advantages that AWS achieves through operating at massive scale. As AWS grows and serves more customers, it can negotiate better prices for hardware, power, and facilities - and AWS passes these savings on to customers through regular price reductions.

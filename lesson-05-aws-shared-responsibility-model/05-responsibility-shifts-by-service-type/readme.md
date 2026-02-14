@@ -1,5 +1,15 @@
 # 🔄 Responsibility Shifts by Service Type
 
+## File Structure
+
+```
+lesson-05-aws-shared-responsibility-model/
+└── 05-responsibility-shifts-by-service-type/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Overview
 
 One of the most important concepts in the AWS Shared Responsibility Model is understanding how security responsibilities **shift** based on the type of service used. As you move from Infrastructure as a Service (IaaS) to Platform as a Service (PaaS) to Software as a Service (SaaS), AWS assumes more responsibility and customers have less to manage.

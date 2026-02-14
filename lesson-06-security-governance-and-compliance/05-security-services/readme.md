@@ -1,5 +1,15 @@
 # 🛡️ AWS Security Services
 
+## File Structure
+
+```
+lesson-06-security-governance-and-compliance/
+└── 05-security-services/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 AWS provides a comprehensive suite of security services that help protect your infrastructure, data, and applications. Understanding these services is crucial for the Cloud Practitioner exam and for building secure cloud architectures.

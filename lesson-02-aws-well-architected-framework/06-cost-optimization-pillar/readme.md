@@ -1,5 +1,15 @@
 # 💰 Cost Optimization Pillar
 
+## File Structure
+
+```
+lesson-02-aws-well-architected-framework/
+└── 06-cost-optimization-pillar/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Overview
 
 The **Cost Optimization** pillar focuses on avoiding unnecessary costs, understanding where money is being spent, selecting the most appropriate resource types, analyzing spending over time, and scaling to meet business needs without overspending.

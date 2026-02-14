@@ -1,5 +1,15 @@
 # 🌍 Geographic and Industry Compliance
 
+## File Structure
+
+```
+lesson-06-security-governance-and-compliance/
+└── 03-geographic-and-industry-compliance/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 Different regions and industries have specific compliance requirements that organizations must meet when operating in the cloud. AWS provides services and certifications that help customers meet these diverse regulatory requirements across the globe.

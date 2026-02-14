@@ -1,5 +1,15 @@
 # 📊 Governance and Auditing Services
 
+## File Structure
+
+```
+lesson-06-security-governance-and-compliance/
+└── 06-governance-and-auditing-services/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 AWS provides comprehensive governance and auditing services that help organizations maintain control, ensure compliance, and track all activities within their AWS environment. These services are essential for security, compliance audits, and operational visibility.

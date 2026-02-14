@@ -1,5 +1,15 @@
 # Hybrid and Edge Storage
 
+## File Structure
+
+```
+lesson-14-aws-storage-services/
+└── 04-hybrid-and-edge-storage/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 AWS provides solutions for extending cloud storage capabilities to on-premises environments and edge locations. AWS Storage Gateway enables hybrid cloud storage, while the AWS Snow Family provides physical devices for edge computing and massive data transfers. These services are essential for migrations, hybrid architectures, and disconnected environments.

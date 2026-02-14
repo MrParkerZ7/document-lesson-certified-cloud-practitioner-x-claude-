@@ -1,5 +1,15 @@
 # 🌱 Sustainability Pillar
 
+## File Structure
+
+```
+lesson-02-aws-well-architected-framework/
+└── 07-sustainability-pillar/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Overview
 
 The **Sustainability** pillar focuses on minimizing the environmental impacts of running cloud workloads. This includes understanding impact, establishing goals, maximizing utilization, and adopting more efficient hardware and software.

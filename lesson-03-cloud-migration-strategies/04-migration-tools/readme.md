@@ -1,5 +1,15 @@
 # 🛠️ AWS Migration Tools
 
+## File Structure
+
+```
+lesson-03-cloud-migration-strategies/
+└── 04-migration-tools/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Overview
 
 AWS provides a comprehensive set of tools to help organizations migrate workloads to the cloud. These tools support various migration strategies and simplify the migration process from discovery to validation.

@@ -1,5 +1,15 @@
 # ⚖️ Differences and Trade-offs Between Pillars
 
+## File Structure
+
+```
+lesson-02-aws-well-architected-framework/
+└── 08-differences-and-trade-offs-between-pillars/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Overview
 
 The six pillars of the AWS Well-Architected Framework are interconnected, but they can sometimes have competing priorities. Understanding the **trade-offs** between pillars helps you make informed decisions that align with your business requirements.

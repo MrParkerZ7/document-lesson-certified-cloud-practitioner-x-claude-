@@ -1,5 +1,15 @@
 # Amazon S3 (Simple Storage Service)
 
+## File Structure
+
+```
+lesson-14-aws-storage-services/
+└── 01-object-storage/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 Amazon S3 is AWS's flagship object storage service, designed for unlimited scalability, high durability (99.999999999% - 11 nines), and availability. S3 stores data as objects within buckets and is ideal for storing any amount of data from anywhere on the web. Understanding S3 storage classes and features is essential for the AWS CCP exam.

@@ -1,5 +1,15 @@
 # 🔗 Ways to Access AWS Services
 
+## File Structure
+
+```
+lesson-09-deploying-and-operating-in-aws/
+└── 01-ways-to-access-aws-services/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 AWS provides multiple ways to access and manage your cloud resources. Understanding these access methods is essential for effectively working with AWS services. Each method has its own use cases and advantages.

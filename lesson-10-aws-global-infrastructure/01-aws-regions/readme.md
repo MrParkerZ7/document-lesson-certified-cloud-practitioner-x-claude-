@@ -1,5 +1,15 @@
 # 🌍 AWS Regions
 
+## File Structure
+
+```
+lesson-10-aws-global-infrastructure/
+└── 01-aws-regions/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 AWS Regions are physical locations around the world where AWS clusters data centers. Each AWS Region is a separate geographic area designed to be completely isolated from other AWS Regions. This design achieves the greatest possible fault tolerance and stability.

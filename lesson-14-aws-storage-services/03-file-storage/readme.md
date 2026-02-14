@@ -1,5 +1,15 @@
 # Amazon EFS and FSx (File Storage)
 
+## File Structure
+
+```
+lesson-14-aws-storage-services/
+└── 03-file-storage/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 AWS provides managed file storage services that allow multiple compute instances to access shared file systems simultaneously. Amazon EFS offers scalable NFS storage for Linux workloads, while Amazon FSx provides fully managed file systems for various use cases including Windows and high-performance computing.

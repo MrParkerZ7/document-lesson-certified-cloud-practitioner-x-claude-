@@ -1,5 +1,15 @@
 # 💰 Storage Pricing
 
+## File Structure
+
+```
+lesson-17-aws-pricing-models/
+└── 03-storage-pricing/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 AWS storage pricing varies significantly based on the service, storage class, access patterns, and data retrieval requirements. Understanding these pricing models is essential for optimizing storage costs while meeting performance and availability requirements.

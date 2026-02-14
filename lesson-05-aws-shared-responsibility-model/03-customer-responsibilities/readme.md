@@ -1,5 +1,15 @@
 # 👤 Customer Responsibilities - Security IN the Cloud
 
+## File Structure
+
+```
+lesson-05-aws-shared-responsibility-model/
+└── 03-customer-responsibilities/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Overview
 
 Customers are responsible for **"Security IN the Cloud"** - this encompasses everything that customers deploy, configure, and manage within AWS. The customer maintains complete control over their security configuration and must implement appropriate security measures.

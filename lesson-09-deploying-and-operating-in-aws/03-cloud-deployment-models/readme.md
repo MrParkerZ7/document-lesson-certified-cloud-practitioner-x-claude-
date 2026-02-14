@@ -1,5 +1,15 @@
 # ☁️ Cloud Deployment Models
 
+## File Structure
+
+```
+lesson-09-deploying-and-operating-in-aws/
+└── 03-cloud-deployment-models/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 Cloud deployment models describe how cloud infrastructure is deployed and managed, and who has access to it. Understanding these models is essential for choosing the right approach for your organization's needs, compliance requirements, and workload characteristics.

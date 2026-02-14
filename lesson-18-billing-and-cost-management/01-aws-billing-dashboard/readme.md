@@ -1,5 +1,15 @@
 # 💰 AWS Billing Dashboard
 
+## File Structure
+
+```
+lesson-18-billing-and-cost-management/
+└── 01-aws-billing-dashboard/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 The AWS Billing Dashboard is your central hub for managing all billing-related activities in your AWS account. It provides visibility into your current charges, payment methods, invoices, and credits. Understanding the Billing Dashboard is essential for managing costs and is frequently tested on the AWS Certified Cloud Practitioner exam.

@@ -1,5 +1,15 @@
 # 📍 Edge Locations and Points of Presence
 
+## File Structure
+
+```
+lesson-10-aws-global-infrastructure/
+└── 03-edge-locations-and-points-of-presence/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 AWS Edge Locations and Points of Presence (PoPs) are sites deployed in major cities and highly populated areas around the world. They are used to cache content closer to end users, reducing latency and improving the user experience for services like CloudFront and Route 53.

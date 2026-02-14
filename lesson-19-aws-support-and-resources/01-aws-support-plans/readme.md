@@ -1,5 +1,15 @@
 # 🆘 AWS Support Plans
 
+## File Structure
+
+```
+lesson-19-aws-support-and-resources/
+└── 01-aws-support-plans/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 AWS offers five different support plans designed to meet various customer needs, from individual developers to large enterprises running mission-critical workloads. Understanding the differences between these plans, including features, response times, and pricing, is essential for the AWS Certified Cloud Practitioner exam.

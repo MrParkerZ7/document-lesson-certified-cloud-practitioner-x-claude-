@@ -1,5 +1,15 @@
 # 🔑 AWS Authentication Methods
 
+## File Structure
+
+```
+lesson-07-aws-access-management/
+└── 04-authentication-methods/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 Authentication is the process of verifying identity - confirming that someone is who they claim to be. AWS provides multiple authentication methods to secure access to AWS resources through the console, CLI, and API.

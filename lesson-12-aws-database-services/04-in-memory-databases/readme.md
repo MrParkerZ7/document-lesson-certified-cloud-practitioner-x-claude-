@@ -1,5 +1,15 @@
 # ⚡ In-Memory Databases (Amazon ElastiCache)
 
+## File Structure
+
+```
+lesson-12-aws-database-services/
+└── 04-in-memory-databases/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 Amazon ElastiCache is a fully managed in-memory data store and cache service. It supports two popular open-source in-memory engines: Redis and Memcached. ElastiCache provides microsecond latency, making it ideal for caching, session management, and real-time applications.

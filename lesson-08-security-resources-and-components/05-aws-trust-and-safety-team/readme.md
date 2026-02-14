@@ -1,5 +1,15 @@
 # 🤝 AWS Trust and Safety Team
 
+## File Structure
+
+```
+lesson-08-security-resources-and-components/
+└── 05-aws-trust-and-safety-team/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 The AWS Trust and Safety Team is responsible for addressing abuse of AWS services and helping customers who are affected by or concerned about abusive activities. They work to maintain AWS as a safe and trustworthy platform.

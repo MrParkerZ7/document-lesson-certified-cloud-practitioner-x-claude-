@@ -1,5 +1,15 @@
 # ✅ AWS Trusted Advisor
 
+## File Structure
+
+```
+lesson-19-aws-support-and-resources/
+└── 03-aws-trusted-advisor/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 AWS Trusted Advisor is an automated service that analyzes your AWS environment and provides real-time recommendations to help you optimize your infrastructure. It inspects your resources across five key categories: Cost Optimization, Performance, Security, Fault Tolerance, and Service Limits. Understanding Trusted Advisor and its five pillars is crucial for the AWS Certified Cloud Practitioner exam.

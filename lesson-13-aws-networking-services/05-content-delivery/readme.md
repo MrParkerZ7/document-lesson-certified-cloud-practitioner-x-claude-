@@ -1,5 +1,15 @@
 # ⚡ Content Delivery and Edge Services
 
+## File Structure
+
+```
+lesson-13-aws-networking-services/
+└── 05-content-delivery/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 AWS provides services to deliver content to users with low latency by caching content at edge locations around the world. Amazon CloudFront is a Content Delivery Network (CDN) that caches content closer to users, while AWS Global Accelerator improves performance by routing traffic through AWS's global network.

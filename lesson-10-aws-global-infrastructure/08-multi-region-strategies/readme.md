@@ -1,5 +1,15 @@
 # 🌐 Multi-Region Strategies
 
+## File Structure
+
+```
+lesson-10-aws-global-infrastructure/
+└── 08-multi-region-strategies/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 Multi-region deployment strategies enable organizations to achieve high availability, disaster recovery, and low latency for global users. AWS provides tools and services to implement various multi-region architectures based on business requirements.

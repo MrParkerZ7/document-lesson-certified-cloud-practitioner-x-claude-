@@ -1,5 +1,15 @@
 # 🔗 Amazon VPC (Virtual Private Cloud)
 
+## File Structure
+
+```
+lesson-13-aws-networking-services/
+└── 01-amazon-vpc/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 Amazon VPC is the networking layer of AWS that lets you create your own isolated, private network within the AWS Cloud. It provides complete control over your virtual networking environment, including IP address ranges, subnets, route tables, and network gateways.

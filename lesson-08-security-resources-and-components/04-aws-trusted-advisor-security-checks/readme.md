@@ -1,5 +1,15 @@
 # ✅ AWS Trusted Advisor Security Checks
 
+## File Structure
+
+```
+lesson-08-security-resources-and-components/
+└── 04-aws-trusted-advisor-security-checks/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 AWS Trusted Advisor is a service that provides real-time guidance to help you optimize your AWS environment. It includes security checks that identify potential security vulnerabilities and recommend best practices.

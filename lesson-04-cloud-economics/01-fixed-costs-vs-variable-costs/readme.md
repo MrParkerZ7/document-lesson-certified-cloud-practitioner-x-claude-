@@ -1,5 +1,15 @@
 # 💰 Fixed Costs vs Variable Costs
 
+## File Structure
+
+```
+lesson-04-cloud-economics/
+└── 01-fixed-costs-vs-variable-costs/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Overview
 
 Understanding the difference between **fixed costs** and **variable costs** is fundamental to understanding cloud economics. AWS's cloud model fundamentally shifts IT spending from fixed costs to variable costs, providing significant financial flexibility.

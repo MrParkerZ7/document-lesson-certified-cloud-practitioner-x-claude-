@@ -1,5 +1,15 @@
 # 🏗️ AWS Cloud Adoption Framework (AWS CAF)
 
+## File Structure
+
+```
+lesson-03-cloud-migration-strategies/
+└── 01-aws-cloud-adoption-framework/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Overview
 
 The **AWS Cloud Adoption Framework (AWS CAF)** provides guidance that supports each unit in your organization as you digitally transform and accelerate your cloud journey. It helps you understand how cloud adoption transforms the way you work and provides structure to identify and address gaps in skills and processes.

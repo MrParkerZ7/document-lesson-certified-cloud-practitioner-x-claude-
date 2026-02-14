@@ -1,5 +1,15 @@
 # 🌐 Amazon Route 53
 
+## File Structure
+
+```
+lesson-13-aws-networking-services/
+└── 03-amazon-route-53/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 Amazon Route 53 is AWS's highly available and scalable Domain Name System (DNS) web service. It connects user requests to infrastructure running in AWS or on-premises, and can also be used to register domain names. The name "Route 53" refers to TCP/UDP port 53, which is used for DNS.

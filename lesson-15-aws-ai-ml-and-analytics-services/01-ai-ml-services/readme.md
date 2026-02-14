@@ -1,5 +1,15 @@
 # 🤖 AWS AI and Machine Learning Services
 
+## File Structure
+
+```
+lesson-15-aws-ai-ml-and-analytics-services/
+└── 01-ai-ml-services/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 AWS provides a comprehensive suite of artificial intelligence (AI) and machine learning (ML) services that enable developers to add intelligent capabilities to applications without requiring deep ML expertise. These services range from pre-trained AI services for common use cases to platforms for building custom ML models.

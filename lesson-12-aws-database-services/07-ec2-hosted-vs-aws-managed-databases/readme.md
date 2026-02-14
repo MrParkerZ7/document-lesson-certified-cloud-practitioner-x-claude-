@@ -1,5 +1,15 @@
 # ⚖️ EC2-Hosted vs AWS-Managed Databases
 
+## File Structure
+
+```
+lesson-12-aws-database-services/
+└── 07-ec2-hosted-vs-aws-managed-databases/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 When running databases on AWS, you have two main options: self-managing databases on EC2 instances or using AWS-managed database services like RDS. Understanding the trade-offs between these approaches is important for the Cloud Practitioner exam.

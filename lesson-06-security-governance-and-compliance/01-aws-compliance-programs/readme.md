@@ -1,5 +1,15 @@
 # 📋 AWS Compliance Programs
 
+## File Structure
+
+```
+lesson-06-security-governance-and-compliance/
+└── 01-aws-compliance-programs/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 AWS Compliance Programs provide the foundation for organizations to meet regulatory requirements and industry standards when using cloud services. Understanding these programs is essential for the AWS Certified Cloud Practitioner exam, as compliance is a shared responsibility between AWS and its customers.

@@ -1,5 +1,15 @@
 # 🔄 Cross-Account Access
 
+## File Structure
+
+```
+lesson-07-aws-access-management/
+└── 07-cross-account-access/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 Cross-account access allows users and services in one AWS account to access resources in another AWS account. This is essential for organizations that use multiple AWS accounts for different environments, teams, or purposes.

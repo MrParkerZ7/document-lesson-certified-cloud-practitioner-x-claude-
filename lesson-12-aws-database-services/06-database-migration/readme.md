@@ -1,5 +1,15 @@
 # 🔄 Database Migration (AWS DMS and SCT)
 
+## File Structure
+
+```
+lesson-12-aws-database-services/
+└── 06-database-migration/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 AWS provides powerful tools for migrating databases to the cloud. AWS Database Migration Service (DMS) and AWS Schema Conversion Tool (SCT) enable you to migrate databases quickly and securely while minimizing downtime.

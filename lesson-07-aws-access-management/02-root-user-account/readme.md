@@ -1,5 +1,15 @@
 # 👤 AWS Root User Account
 
+## File Structure
+
+```
+lesson-07-aws-access-management/
+└── 02-root-user-account/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 The AWS root user is the identity that has complete access to all AWS services and resources in an account. Understanding how to secure and when to use the root user is critical for AWS security and is frequently tested on the Cloud Practitioner exam.

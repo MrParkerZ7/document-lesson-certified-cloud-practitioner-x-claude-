@@ -1,5 +1,15 @@
 # 🌍 Benefits of Global Infrastructure
 
+## File Structure
+
+```
+lesson-01-benefits-of-the-aws-cloud/
+└── 02-benefits-of-global-infrastructure/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 AWS operates a massive global infrastructure that provides customers with the ability to deploy applications and services worldwide. This global presence is a key competitive advantage and a fundamental concept for the AWS Certified Cloud Practitioner exam.

@@ -1,5 +1,15 @@
 # ⚙️ Operational Excellence Pillar
 
+## File Structure
+
+```
+lesson-02-aws-well-architected-framework/
+└── 02-operational-excellence-pillar/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Overview
 
 The **Operational Excellence** pillar focuses on running and monitoring systems to deliver business value, and continually improving processes and procedures. It emphasizes **automating changes**, **responding to events**, and **defining standards** to manage daily operations.

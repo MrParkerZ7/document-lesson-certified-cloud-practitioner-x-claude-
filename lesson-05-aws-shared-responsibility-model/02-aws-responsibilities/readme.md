@@ -1,5 +1,15 @@
 # ☁️ AWS Responsibilities - Security OF the Cloud
 
+## File Structure
+
+```
+lesson-05-aws-shared-responsibility-model/
+└── 02-aws-responsibilities/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Overview
 
 AWS is responsible for **"Security OF the Cloud"** - this encompasses protecting the infrastructure that runs all services offered in the AWS Cloud. This includes hardware, software, networking, and facilities that run AWS Cloud services.

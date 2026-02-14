@@ -1,5 +1,15 @@
 # 🏗️ Introduction to AWS Well-Architected Framework
 
+## File Structure
+
+```
+lesson-02-aws-well-architected-framework/
+└── 01-introduction-to-well-architected-framework/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Overview
 
 The **AWS Well-Architected Framework** is a comprehensive guide developed by AWS to help cloud architects build secure, high-performing, resilient, and efficient infrastructure for their applications. It provides a consistent approach for evaluating architectures and implementing designs that will scale over time.

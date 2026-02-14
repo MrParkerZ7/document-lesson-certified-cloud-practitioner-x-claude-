@@ -1,5 +1,15 @@
 # 🖥️ Other AWS Compute Services
 
+## File Structure
+
+```
+lesson-11-aws-compute-services/
+└── 04-other-compute-services/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 Beyond EC2, containers, and Lambda, AWS offers additional compute services for specialized use cases including batch processing, edge computing, high-performance computing, and hybrid environments.

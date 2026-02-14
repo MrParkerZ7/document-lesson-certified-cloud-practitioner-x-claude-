@@ -1,5 +1,15 @@
 # 🖥️ Amazon EC2 (Elastic Compute Cloud)
 
+## File Structure
+
+```
+lesson-11-aws-compute-services/
+└── 01-amazon-ec2/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 Amazon EC2 provides secure, resizable compute capacity in the cloud. It is the backbone of AWS compute services, allowing you to launch virtual servers (instances) with your choice of operating systems, CPU, memory, storage, and networking capacity.

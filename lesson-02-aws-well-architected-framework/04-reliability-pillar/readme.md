@@ -1,5 +1,15 @@
 # ✅ Reliability Pillar
 
+## File Structure
+
+```
+lesson-02-aws-well-architected-framework/
+└── 04-reliability-pillar/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Overview
 
 The **Reliability** pillar focuses on ensuring a workload performs its intended function correctly and consistently when it's expected to. This includes the ability to operate and test the workload through its total lifecycle, recover from failures, and meet demand.

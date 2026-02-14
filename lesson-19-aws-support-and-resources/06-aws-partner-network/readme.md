@@ -1,5 +1,15 @@
 # 🤝 AWS Partner Network (APN)
 
+## File Structure
+
+```
+lesson-19-aws-support-and-resources/
+└── 06-aws-partner-network/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 The AWS Partner Network (APN) is a global community of partners that leverage AWS to build solutions and provide services to customers. Understanding the different partner types and how they can help organizations is relevant for the AWS Certified Cloud Practitioner exam, especially when discussing how to get help implementing AWS solutions.

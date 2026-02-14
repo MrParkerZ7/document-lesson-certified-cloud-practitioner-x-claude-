@@ -1,5 +1,15 @@
 # 💰 On-Premises vs Cloud Cost Comparison
 
+## File Structure
+
+```
+lesson-04-cloud-economics/
+└── 02-on-premises-vs-cloud-cost-comparison/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Overview
 
 Understanding the true cost comparison between on-premises infrastructure and AWS cloud is essential for making informed decisions. This comparison goes beyond just hardware costs to include the **Total Cost of Ownership (TCO)**.

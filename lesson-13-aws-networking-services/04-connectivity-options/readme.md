@@ -1,5 +1,15 @@
 # 🔗 AWS Connectivity Options
 
+## File Structure
+
+```
+lesson-13-aws-networking-services/
+└── 04-connectivity-options/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 AWS provides multiple ways to connect your VPCs together, to on-premises networks, and to the internet. Understanding these connectivity options is crucial for designing hybrid architectures and multi-VPC environments. This lesson covers VPC Peering, Transit Gateway, VPN, and Direct Connect.

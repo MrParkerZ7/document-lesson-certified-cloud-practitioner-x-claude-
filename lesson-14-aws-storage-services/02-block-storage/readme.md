@@ -1,5 +1,15 @@
 # Amazon EBS (Elastic Block Store)
 
+## File Structure
+
+```
+lesson-14-aws-storage-services/
+└── 02-block-storage/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 Amazon EBS provides persistent block storage volumes for use with Amazon EC2 instances. Block storage is essential for databases, file systems, and applications requiring low-latency access to data. Understanding EBS volume types and their use cases is crucial for the AWS CCP exam.

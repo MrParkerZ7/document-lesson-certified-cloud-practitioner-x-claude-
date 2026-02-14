@@ -1,5 +1,15 @@
 # 🎫 AWS Support Center
 
+## File Structure
+
+```
+lesson-19-aws-support-and-resources/
+└── 02-aws-support-center/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 The AWS Support Center is the central hub for creating and managing support cases, communicating with AWS support teams, and tracking the status of your issues. Understanding how to effectively use the Support Center, including severity levels and communication channels, is important for both real-world AWS usage and the AWS Certified Cloud Practitioner exam.

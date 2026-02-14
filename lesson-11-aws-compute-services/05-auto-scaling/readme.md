@@ -1,5 +1,15 @@
 # 📈 AWS Auto Scaling
 
+## File Structure
+
+```
+lesson-11-aws-compute-services/
+└── 05-auto-scaling/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 AWS Auto Scaling automatically adjusts the number of compute resources to maintain application performance at the lowest possible cost. It ensures you have the right amount of capacity to handle your application's current demand.

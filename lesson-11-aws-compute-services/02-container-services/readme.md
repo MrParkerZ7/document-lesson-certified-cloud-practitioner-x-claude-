@@ -1,5 +1,15 @@
 # 📦 AWS Container Services
 
+## File Structure
+
+```
+lesson-11-aws-compute-services/
+└── 02-container-services/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 Container services on AWS allow you to run containerized applications without managing the underlying infrastructure. AWS provides managed services for container orchestration, making it easier to deploy, manage, and scale containerized workloads.

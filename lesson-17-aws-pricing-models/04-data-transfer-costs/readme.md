@@ -1,5 +1,15 @@
 # 💰 Data Transfer Costs
 
+## File Structure
+
+```
+lesson-17-aws-pricing-models/
+└── 04-data-transfer-costs/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 Data transfer costs are often overlooked but can become a significant portion of your AWS bill. Understanding when data transfer is free, when it's charged, and how to minimize these costs is essential for optimizing your AWS spending.

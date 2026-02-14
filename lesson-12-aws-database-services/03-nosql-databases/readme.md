@@ -1,5 +1,15 @@
 # 🗄️ NoSQL Databases (Amazon DynamoDB)
 
+## File Structure
+
+```
+lesson-12-aws-database-services/
+└── 03-nosql-databases/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 Amazon DynamoDB is a fully managed, serverless, key-value and document NoSQL database designed to run high-performance applications at any scale. It is one of the most important services to understand for the AWS Cloud Practitioner exam.

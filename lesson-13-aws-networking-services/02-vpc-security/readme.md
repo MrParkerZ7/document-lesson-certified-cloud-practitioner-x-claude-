@@ -1,5 +1,15 @@
 # 🔐 VPC Security
 
+## File Structure
+
+```
+lesson-13-aws-networking-services/
+└── 02-vpc-security/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 Securing your VPC is critical to protecting your AWS resources. AWS provides multiple layers of security including Security Groups, Network Access Control Lists (NACLs), and VPC Flow Logs. Understanding how these work together is essential for both the exam and real-world implementations.

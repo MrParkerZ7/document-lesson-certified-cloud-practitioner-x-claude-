@@ -1,5 +1,15 @@
 # 📋 Licensing Strategies in AWS
 
+## File Structure
+
+```
+lesson-04-cloud-economics/
+└── 04-licensing-strategies/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Overview
 
 Software licensing in the cloud differs significantly from traditional on-premises licensing. AWS offers multiple licensing options that can help organizations **optimize costs** and **maintain compliance** when migrating or running workloads in the cloud.

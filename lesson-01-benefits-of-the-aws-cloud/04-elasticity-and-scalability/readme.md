@@ -1,5 +1,15 @@
 # 📈 Elasticity and Scalability
 
+## File Structure
+
+```
+lesson-01-benefits-of-the-aws-cloud/
+└── 04-elasticity-and-scalability/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 Elasticity and scalability are two fundamental concepts that distinguish cloud computing from traditional IT infrastructure. Understanding the difference between these concepts and how AWS implements them is essential for the AWS Certified Cloud Practitioner exam.

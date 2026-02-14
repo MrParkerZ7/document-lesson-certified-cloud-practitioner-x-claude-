@@ -1,5 +1,15 @@
 # 🏷️ Cost Allocation Tags
 
+## File Structure
+
+```
+lesson-18-billing-and-cost-management/
+└── 05-cost-allocation-tags/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 Cost allocation tags are labels that you attach to AWS resources to categorize and track costs. They are essential for understanding where your AWS spending is going, enabling chargebacks to departments, and optimizing costs by project or environment. The AWS Certified Cloud Practitioner exam frequently tests knowledge of how tags work for cost management.

@@ -1,5 +1,15 @@
 # 🧮 AWS Pricing Calculator
 
+## File Structure
+
+```
+lesson-18-billing-and-cost-management/
+└── 03-aws-pricing-calculator/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 Understanding AWS pricing before deploying resources is crucial for budget planning and cost optimization. AWS provides the AWS Pricing Calculator (and formerly the TCO Calculator) to help estimate costs and compare cloud versus on-premises expenses. The AWS Certified Cloud Practitioner exam frequently tests knowledge of these estimation tools.

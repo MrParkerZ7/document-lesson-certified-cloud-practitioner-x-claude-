@@ -1,5 +1,15 @@
 # 📱 AWS Frontend Web and Mobile Services
 
+## File Structure
+
+```
+lesson-16-other-aws-services/
+└── 05-frontend-web-and-mobile/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 AWS provides a suite of services designed to help developers build, deploy, and manage web and mobile applications. These services handle common frontend challenges such as hosting, authentication, APIs, and testing, allowing developers to focus on building features rather than infrastructure. For the AWS Cloud Practitioner exam, understanding the purpose and capabilities of these services is essential.

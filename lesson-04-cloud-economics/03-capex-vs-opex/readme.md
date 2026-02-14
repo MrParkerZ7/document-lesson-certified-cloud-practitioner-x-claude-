@@ -1,5 +1,15 @@
 # 💰 CapEx vs OpEx
 
+## File Structure
+
+```
+lesson-04-cloud-economics/
+└── 03-capex-vs-opex/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Overview
 
 Understanding the difference between **Capital Expenditure (CapEx)** and **Operational Expenditure (OpEx)** is fundamental to understanding how cloud computing changes IT financial management.

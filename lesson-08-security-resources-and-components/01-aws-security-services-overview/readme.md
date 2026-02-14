@@ -1,5 +1,15 @@
 # 🛡️ AWS Security Services Overview
 
+## File Structure
+
+```
+lesson-08-security-resources-and-components/
+└── 01-aws-security-services-overview/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 AWS provides a comprehensive suite of security services to help protect your cloud infrastructure, data, and applications. These services cover identity management, threat detection, data protection, compliance, and network security.

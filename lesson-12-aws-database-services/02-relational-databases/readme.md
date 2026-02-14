@@ -1,5 +1,15 @@
 # 🗄️ Relational Databases (Amazon RDS and Aurora)
 
+## File Structure
+
+```
+lesson-12-aws-database-services/
+└── 02-relational-databases/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 Amazon Relational Database Service (RDS) makes it easy to set up, operate, and scale relational databases in the cloud. Amazon Aurora is a MySQL and PostgreSQL-compatible relational database built for the cloud with performance and availability of commercial databases at a fraction of the cost.

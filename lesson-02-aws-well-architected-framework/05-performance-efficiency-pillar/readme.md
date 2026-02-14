@@ -1,5 +1,15 @@
 # ⚡ Performance Efficiency Pillar
 
+## File Structure
+
+```
+lesson-02-aws-well-architected-framework/
+└── 05-performance-efficiency-pillar/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Overview
 
 The **Performance Efficiency** pillar focuses on using computing resources efficiently to meet system requirements, and maintaining that efficiency as demand changes and technologies evolve.

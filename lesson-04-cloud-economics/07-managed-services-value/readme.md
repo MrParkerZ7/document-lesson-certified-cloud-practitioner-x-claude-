@@ -1,5 +1,15 @@
 # ☁️ Managed Services Value
 
+## File Structure
+
+```
+lesson-04-cloud-economics/
+└── 07-managed-services-value/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Overview
 
 **AWS Managed Services** allow you to offload infrastructure management tasks to AWS, enabling your team to focus on business value rather than undifferentiated heavy lifting. This represents a fundamental shift from managing infrastructure to building applications.

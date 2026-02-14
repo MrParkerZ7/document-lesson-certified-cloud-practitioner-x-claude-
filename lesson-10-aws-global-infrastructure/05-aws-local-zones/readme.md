@@ -1,5 +1,15 @@
 # 📍 AWS Local Zones
 
+## File Structure
+
+```
+lesson-10-aws-global-infrastructure/
+└── 05-aws-local-zones/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 AWS Local Zones are a type of infrastructure deployment that places compute, storage, and database services closer to large population centers, industries, and IT centers. They enable you to run applications that require single-digit millisecond latency to end users.

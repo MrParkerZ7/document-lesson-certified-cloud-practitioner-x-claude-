@@ -1,5 +1,15 @@
 # 📶 AWS Wavelength
 
+## File Structure
+
+```
+lesson-10-aws-global-infrastructure/
+└── 06-aws-wavelength/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 AWS Wavelength brings AWS compute and storage services to the edge of 5G networks, minimizing latency to connect to applications from mobile devices. Wavelength Zones are AWS infrastructure deployments embedded within telecommunications providers' data centers at the edge of 5G networks.

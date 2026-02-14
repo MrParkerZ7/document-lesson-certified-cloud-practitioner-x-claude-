@@ -1,5 +1,15 @@
 # ⚡ Serverless Computing
 
+## File Structure
+
+```
+lesson-11-aws-compute-services/
+└── 03-serverless-computing/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 Serverless computing allows you to build and run applications without thinking about servers. AWS manages the infrastructure, automatically scaling resources and handling server maintenance. You only pay for the compute time you consume.

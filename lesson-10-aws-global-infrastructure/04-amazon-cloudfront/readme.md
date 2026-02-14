@@ -1,5 +1,15 @@
 # ⚡ Amazon CloudFront
 
+## File Structure
+
+```
+lesson-10-aws-global-infrastructure/
+└── 04-amazon-cloudfront/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 Amazon CloudFront is a fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers globally with low latency and high transfer speeds. CloudFront integrates with AWS services and edge locations worldwide.

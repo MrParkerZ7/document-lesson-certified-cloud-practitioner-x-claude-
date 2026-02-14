@@ -1,5 +1,15 @@
 # 🔐 Encryption Options on AWS
 
+## File Structure
+
+```
+lesson-06-security-governance-and-compliance/
+└── 04-encryption-options/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 Encryption is a fundamental security control that protects data confidentiality. AWS provides comprehensive encryption capabilities for data at rest and data in transit, helping organizations meet security requirements and compliance mandates.

@@ -1,5 +1,15 @@
 # 📧 AWS Business Applications
 
+## File Structure
+
+```
+lesson-16-other-aws-services/
+└── 02-business-applications/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 AWS offers a range of business productivity and communication services that help organizations operate more efficiently. These services provide cloud-based alternatives to traditional on-premises productivity software, enabling remote work, customer engagement, and document collaboration. For the AWS Cloud Practitioner exam, understanding the purpose and use cases of these services is essential.

@@ -1,5 +1,15 @@
 # 🔐 AWS IAM Overview
 
+## File Structure
+
+```
+lesson-07-aws-access-management/
+└── 01-aws-iam-overview/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 AWS Identity and Access Management (IAM) is a foundational service that controls who can access your AWS resources and what actions they can perform. Understanding IAM is essential for the AWS Certified Cloud Practitioner exam and for securing any AWS environment.

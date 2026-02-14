@@ -1,5 +1,15 @@
 # ✅ High Availability
 
+## File Structure
+
+```
+lesson-01-benefits-of-the-aws-cloud/
+└── 03-high-availability/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 High Availability (HA) is the ability of a system to remain operational and accessible for a high percentage of time. AWS provides the infrastructure and services to build highly available applications that can withstand failures and continue serving users.

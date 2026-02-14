@@ -1,5 +1,15 @@
 # 🔐 AWS IAM Identity Center
 
+## File Structure
+
+```
+lesson-07-aws-access-management/
+└── 05-aws-iam-identity-center/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 AWS IAM Identity Center (formerly AWS Single Sign-On or AWS SSO) is the recommended service for managing workforce access to multiple AWS accounts and business applications. It provides a single place to create or connect workforce identities and manage their access centrally.

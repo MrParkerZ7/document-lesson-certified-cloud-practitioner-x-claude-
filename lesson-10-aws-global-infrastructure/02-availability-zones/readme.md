@@ -1,5 +1,15 @@
 # 🏢 Availability Zones
 
+## File Structure
+
+```
+lesson-10-aws-global-infrastructure/
+└── 02-availability-zones/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 Availability Zones (AZs) are distinct locations within an AWS Region that are engineered to be isolated from failures in other Availability Zones. They provide inexpensive, low-latency network connectivity to other Availability Zones in the same Region.

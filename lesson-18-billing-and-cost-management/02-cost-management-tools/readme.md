@@ -1,5 +1,15 @@
 # 📊 Cost Management Tools
 
+## File Structure
+
+```
+lesson-18-billing-and-cost-management/
+└── 02-cost-management-tools/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 AWS provides a suite of powerful cost management tools to help you understand, analyze, and control your AWS spending. For the AWS Certified Cloud Practitioner exam, you need to understand the key differences between Cost Explorer, AWS Budgets, and Cost and Usage Reports, as well as when to use each tool.

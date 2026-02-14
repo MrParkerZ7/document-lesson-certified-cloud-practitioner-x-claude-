@@ -1,5 +1,15 @@
 # ⚖️ Elastic Load Balancing (ELB)
 
+## File Structure
+
+```
+lesson-11-aws-compute-services/
+└── 06-elastic-load-balancing/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 Elastic Load Balancing automatically distributes incoming application traffic across multiple targets, such as EC2 instances, containers, and IP addresses. It improves the availability and fault tolerance of your applications.

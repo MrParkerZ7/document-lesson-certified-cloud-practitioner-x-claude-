@@ -1,5 +1,15 @@
 # 🏢 AWS Organizations
 
+## File Structure
+
+```
+lesson-18-billing-and-cost-management/
+└── 04-aws-organizations/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 AWS Organizations is a service that enables you to centrally manage and govern multiple AWS accounts. It provides consolidated billing, hierarchical account management, and policy-based controls. Understanding AWS Organizations is critical for the AWS Certified Cloud Practitioner exam, particularly for questions about multi-account management and cost optimization.

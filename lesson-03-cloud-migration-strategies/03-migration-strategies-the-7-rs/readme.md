@@ -1,5 +1,15 @@
 # 🔄 Migration Strategies - The 7 R's
 
+## File Structure
+
+```
+lesson-03-cloud-migration-strategies/
+└── 03-migration-strategies-the-7-rs/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Overview
 
 AWS defines **7 migration strategies** (commonly called the "7 R's") for moving applications to the cloud. Each strategy has different use cases, benefits, and trade-offs. Understanding these strategies is essential for the Cloud Practitioner exam.

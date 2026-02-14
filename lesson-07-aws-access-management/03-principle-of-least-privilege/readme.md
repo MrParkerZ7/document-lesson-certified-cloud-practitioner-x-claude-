@@ -1,5 +1,15 @@
 # 🔒 Principle of Least Privilege
 
+## File Structure
+
+```
+lesson-07-aws-access-management/
+└── 03-principle-of-least-privilege/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 The principle of least privilege (PoLP) is a fundamental security concept that states users, applications, and systems should only have the minimum permissions necessary to perform their intended functions. This principle is crucial for AWS security and is a key topic for the Cloud Practitioner exam.

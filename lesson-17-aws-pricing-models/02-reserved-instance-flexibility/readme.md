@@ -1,5 +1,15 @@
 # 💰 Reserved Instance Flexibility
 
+## File Structure
+
+```
+lesson-17-aws-pricing-models/
+└── 02-reserved-instance-flexibility/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 Reserved Instances (RIs) offer significant discounts compared to On-Demand pricing, but they come with different levels of flexibility. Understanding the differences between Standard and Convertible RIs, regional vs zonal scope, and payment options is crucial for optimizing your AWS costs while maintaining the flexibility your workloads require.

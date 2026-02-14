@@ -1,5 +1,15 @@
 # 🏗️ AWS Outposts
 
+## File Structure
+
+```
+lesson-10-aws-global-infrastructure/
+└── 07-aws-outposts/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 AWS Outposts brings native AWS services, infrastructure, and operating models to virtually any data center, co-location space, or on-premises facility. You can use the same AWS APIs, tools, and infrastructure on-premises as you use in the AWS cloud.

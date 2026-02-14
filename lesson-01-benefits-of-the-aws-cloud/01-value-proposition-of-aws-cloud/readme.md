@@ -1,5 +1,15 @@
 # ☁️ Value Proposition of AWS Cloud
 
+## File Structure
+
+```
+lesson-01-benefits-of-the-aws-cloud/
+└── 01-value-proposition-of-aws-cloud/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 The AWS Cloud value proposition represents the core benefits and advantages that AWS provides to organizations compared to traditional on-premises infrastructure. Understanding this value proposition is fundamental to the AWS Certified Cloud Practitioner exam.

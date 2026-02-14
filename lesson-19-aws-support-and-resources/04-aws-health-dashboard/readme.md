@@ -1,5 +1,15 @@
 # 💚 AWS Health Dashboard
 
+## File Structure
+
+```
+lesson-19-aws-support-and-resources/
+└── 04-aws-health-dashboard/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 AWS Health Dashboard provides personalized information about the health of AWS services that affect your resources and accounts. It includes two main components: the Personal Health Dashboard (account-specific) and the Service Health Dashboard (all AWS services). Understanding the difference between these dashboards is essential for the AWS Certified Cloud Practitioner exam.

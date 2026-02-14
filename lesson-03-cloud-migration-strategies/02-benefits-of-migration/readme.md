@@ -1,5 +1,15 @@
 # ✅ Benefits of Cloud Migration
 
+## File Structure
+
+```
+lesson-03-cloud-migration-strategies/
+└── 02-benefits-of-migration/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Overview
 
 Migrating to AWS provides numerous benefits that can transform how organizations operate, innovate, and compete. Understanding these benefits is crucial for building a compelling business case for cloud adoption.

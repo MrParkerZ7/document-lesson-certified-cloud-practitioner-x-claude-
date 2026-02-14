@@ -1,5 +1,15 @@
 # 🗄️ Other AWS Database Services
 
+## File Structure
+
+```
+lesson-12-aws-database-services/
+└── 05-other-database-services/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 AWS offers purpose-built databases for specific workloads beyond relational and key-value databases. Understanding these specialized services and their use cases is important for the Cloud Practitioner exam.

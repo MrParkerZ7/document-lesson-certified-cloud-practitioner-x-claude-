@@ -1,5 +1,15 @@
 # 📊 Right-Sizing Resources
 
+## File Structure
+
+```
+lesson-04-cloud-economics/
+└── 05-right-sizing-resources/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Overview
 
 **Right-sizing** is the process of matching instance types and sizes to workload performance and capacity requirements at the lowest possible cost. It is one of the most effective ways to reduce AWS costs while maintaining optimal performance.

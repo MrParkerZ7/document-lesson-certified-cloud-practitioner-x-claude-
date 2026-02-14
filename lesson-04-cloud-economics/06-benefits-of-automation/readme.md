@@ -1,5 +1,15 @@
 # ⚙️ Benefits of Automation
 
+## File Structure
+
+```
+lesson-04-cloud-economics/
+└── 06-benefits-of-automation/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Overview
 
 **Automation** is one of the core principles of cloud economics and operational excellence. AWS provides powerful automation tools that reduce manual errors, accelerate deployments, ensure consistency, and ultimately **reduce operational costs**.

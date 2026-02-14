@@ -1,5 +1,15 @@
 # 🆓 AWS Free Tier
 
+## File Structure
+
+```
+lesson-17-aws-pricing-models/
+└── 05-free-tier/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 The AWS Free Tier enables you to explore and try AWS services free of charge up to specified limits. Understanding the different types of free tier offerings helps you learn AWS without unexpected costs while building proof-of-concept applications.

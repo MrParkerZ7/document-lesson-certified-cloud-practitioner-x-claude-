@@ -1,5 +1,15 @@
 # ⚡ Agility and Flexibility
 
+## File Structure
+
+```
+lesson-01-benefits-of-the-aws-cloud/
+└── 05-agility-and-flexibility/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 Agility and flexibility are key benefits of cloud computing that enable organizations to innovate faster, respond to market changes quickly, and adapt their IT resources to meet evolving business needs. These concepts are fundamental to understanding the value of AWS.

@@ -1,5 +1,15 @@
 # 🗄️ Database Types Overview
 
+## File Structure
+
+```
+lesson-12-aws-database-services/
+└── 01-database-types-overview/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 Understanding database types is fundamental to choosing the right AWS database service for your application. AWS offers purpose-built databases for different workloads, and the Cloud Practitioner exam expects you to understand when to use relational vs NoSQL databases, and OLTP vs OLAP systems.

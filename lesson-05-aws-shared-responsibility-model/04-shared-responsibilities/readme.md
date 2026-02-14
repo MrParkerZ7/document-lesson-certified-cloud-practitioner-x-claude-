@@ -1,5 +1,15 @@
 # 🤝 Shared Responsibilities - Areas of Joint Accountability
 
+## File Structure
+
+```
+lesson-05-aws-shared-responsibility-model/
+└── 04-shared-responsibilities/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Overview
 
 While the Shared Responsibility Model clearly divides most responsibilities between AWS and customers, there are certain areas where **both parties share accountability**. These areas require cooperation and complementary efforts from AWS and customers to achieve complete security.

@@ -1,5 +1,15 @@
 # 🛡️ AWS Trust and Safety Team
 
+## File Structure
+
+```
+lesson-19-aws-support-and-resources/
+└── 07-aws-trust-and-safety-team/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 The AWS Trust and Safety Team is responsible for addressing abuse issues related to AWS resources. This team handles reports of suspected abusive, illegal, or harmful activities originating from AWS infrastructure. Understanding when and how to contact this team, as well as compliance resources, is important for the AWS Certified Cloud Practitioner exam.

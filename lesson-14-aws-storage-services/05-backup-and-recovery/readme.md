@@ -1,5 +1,15 @@
 # Backup and Recovery
 
+## File Structure
+
+```
+lesson-14-aws-storage-services/
+└── 05-backup-and-recovery/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 AWS provides comprehensive backup and disaster recovery solutions to protect your data and ensure business continuity. AWS Backup offers centralized, policy-driven backup management, while various replication and DR strategies help organizations meet their recovery objectives. Understanding these services is essential for the AWS CCP exam.

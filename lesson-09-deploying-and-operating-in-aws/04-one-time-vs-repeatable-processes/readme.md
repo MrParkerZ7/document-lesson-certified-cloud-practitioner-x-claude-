@@ -1,5 +1,15 @@
 # 🔄 One-Time vs Repeatable Processes
 
+## File Structure
+
+```
+lesson-09-deploying-and-operating-in-aws/
+└── 04-one-time-vs-repeatable-processes/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 Understanding the difference between one-time and repeatable processes is crucial for effective cloud operations. AWS provides tools and services that help automate and standardize processes, reducing manual effort and ensuring consistency across deployments.

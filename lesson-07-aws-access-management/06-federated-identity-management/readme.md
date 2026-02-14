@@ -1,5 +1,15 @@
 # 🔗 Federated Identity Management
 
+## File Structure
+
+```
+lesson-07-aws-access-management/
+└── 06-federated-identity-management/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 Federation allows users to access AWS resources using existing identities from external identity providers (IdPs) without creating separate IAM users. This enables organizations to use their existing corporate directories and identity systems to control access to AWS.

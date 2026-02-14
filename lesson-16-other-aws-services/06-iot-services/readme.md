@@ -1,5 +1,15 @@
 # 📡 AWS IoT Services
 
+## File Structure
+
+```
+lesson-16-other-aws-services/
+└── 06-iot-services/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 The Internet of Things (IoT) connects physical devices to the cloud, enabling data collection, monitoring, and control at scale. AWS provides a comprehensive set of IoT services that help organizations connect, manage, and analyze data from billions of devices. For the AWS Cloud Practitioner exam, understanding the core IoT services and their use cases is essential.

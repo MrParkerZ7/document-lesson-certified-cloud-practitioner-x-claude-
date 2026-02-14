@@ -1,5 +1,15 @@
 # 💻 AWS Developer Tools
 
+## File Structure
+
+```
+lesson-16-other-aws-services/
+└── 03-developer-tools/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 AWS provides a comprehensive suite of developer tools that enable teams to build, test, deploy, and monitor applications in the cloud. These services support DevOps practices including continuous integration (CI), continuous delivery (CD), and infrastructure as code. Understanding these tools is essential for the AWS Cloud Practitioner exam as they represent how modern applications are developed and deployed on AWS.

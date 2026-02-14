@@ -1,5 +1,15 @@
 # 🛡️ Understanding the AWS Shared Responsibility Model
 
+## File Structure
+
+```
+lesson-05-aws-shared-responsibility-model/
+└── 01-understanding-the-shared-responsibility-model/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Overview
 
 The **AWS Shared Responsibility Model** is a fundamental security and compliance framework that clearly delineates the security responsibilities between AWS and the customer. This model is critical for understanding who is accountable for what aspects of security when using AWS services.

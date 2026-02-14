@@ -1,5 +1,15 @@
 # 🖥️ AWS End User Computing
 
+## File Structure
+
+```
+lesson-16-other-aws-services/
+└── 04-end-user-computing/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 AWS End User Computing services enable organizations to provide secure, managed desktop and application experiences to their users from anywhere. These services eliminate the need for traditional on-premises desktop infrastructure while providing the flexibility, security, and scalability of the cloud. For the AWS Cloud Practitioner exam, understanding the differences between these services and their use cases is important.

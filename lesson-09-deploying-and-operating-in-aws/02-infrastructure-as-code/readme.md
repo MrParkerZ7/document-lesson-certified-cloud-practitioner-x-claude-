@@ -1,5 +1,15 @@
 # 📝 Infrastructure as Code (IaC)
 
+## File Structure
+
+```
+lesson-09-deploying-and-operating-in-aws/
+└── 02-infrastructure-as-code/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 Infrastructure as Code (IaC) is the practice of managing and provisioning infrastructure through machine-readable definition files rather than manual processes. AWS provides several IaC tools that enable consistent, repeatable, and automated infrastructure deployment.

@@ -1,5 +1,15 @@
 # 📚 AWS Security Information Resources
 
+## File Structure
+
+```
+lesson-08-security-resources-and-components/
+└── 03-aws-security-information-resources/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 AWS provides extensive security documentation, resources, and guidance to help customers build secure applications and understand AWS security capabilities. These resources are essential for learning best practices and staying informed about security updates.

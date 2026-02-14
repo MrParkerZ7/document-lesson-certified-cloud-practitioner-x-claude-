@@ -1,5 +1,15 @@
 # 📚 AWS Technical Resources
 
+## File Structure
+
+```
+lesson-19-aws-support-and-resources/
+└── 05-technical-resources/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 AWS provides a comprehensive library of technical resources to help customers learn, troubleshoot, and implement solutions. These resources include official documentation, whitepapers, AWS re:Post community forums, and the Knowledge Center. Understanding where to find information is essential for both real-world AWS usage and the AWS Certified Cloud Practitioner exam.

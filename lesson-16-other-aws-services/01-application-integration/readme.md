@@ -1,5 +1,15 @@
 # 🔗 AWS Application Integration Services
 
+## File Structure
+
+```
+lesson-16-other-aws-services/
+└── 01-application-integration/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 AWS Application Integration services enable different applications, microservices, and distributed systems to communicate with each other. These services help decouple application components, making systems more resilient, scalable, and easier to maintain. Understanding these services is essential for the AWS Cloud Practitioner exam as they represent foundational building blocks for modern cloud architectures.

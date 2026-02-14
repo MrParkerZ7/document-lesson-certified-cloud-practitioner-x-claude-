@@ -13,6 +13,166 @@ A comprehensive lesson plan for preparing for the AWS Certified Cloud Practition
 
 ---
 
+## Project Structure
+
+```
+document-lesson-certified-cloud-practitioner-x-claude/
+├── README.md
+├── CLAUDE.md
+├── .gitignore
+├── lesson-01-benefits-of-the-aws-cloud/
+│   ├── 01-value-proposition-of-aws-cloud/
+│   │   ├── readme.md
+│   │   ├── diagram.drawio
+│   │   └── diagram.png
+│   ├── 02-benefits-of-global-infrastructure/
+│   │   ├── readme.md
+│   │   ├── diagram.drawio
+│   │   └── diagram.png
+│   ├── 03-high-availability/
+│   │   ├── readme.md
+│   │   ├── diagram.drawio
+│   │   └── diagram.png
+│   ├── 04-elasticity-and-scalability/
+│   │   ├── readme.md
+│   │   ├── diagram.drawio
+│   │   └── diagram.png
+│   └── 05-agility-and-flexibility/
+│       ├── readme.md
+│       ├── diagram.drawio
+│       └── diagram.png
+├── lesson-02-aws-well-architected-framework/
+│   ├── 01-introduction-to-well-architected-framework/
+│   ├── 02-operational-excellence-pillar/
+│   ├── 03-security-pillar/
+│   ├── 04-reliability-pillar/
+│   ├── 05-performance-efficiency-pillar/
+│   ├── 06-cost-optimization-pillar/
+│   ├── 07-sustainability-pillar/
+│   └── 08-differences-and-trade-offs-between-pillars/
+├── lesson-03-cloud-migration-strategies/
+│   ├── 01-aws-cloud-adoption-framework/
+│   ├── 02-benefits-of-migration/
+│   ├── 03-migration-strategies-the-7-rs/
+│   └── 04-migration-tools/
+├── lesson-04-cloud-economics/
+│   ├── 01-fixed-costs-vs-variable-costs/
+│   ├── 02-on-premises-vs-cloud-cost-comparison/
+│   ├── 03-capex-vs-opex/
+│   ├── 04-licensing-strategies/
+│   ├── 05-right-sizing-resources/
+│   ├── 06-benefits-of-automation/
+│   ├── 07-managed-services-value/
+│   └── 08-economies-of-scale/
+├── lesson-05-aws-shared-responsibility-model/
+│   ├── 01-understanding-the-shared-responsibility-model/
+│   ├── 02-aws-responsibilities/
+│   ├── 03-customer-responsibilities/
+│   ├── 04-shared-responsibilities/
+│   └── 05-responsibility-shifts-by-service-type/
+├── lesson-06-security-governance-and-compliance/
+│   ├── 01-aws-compliance-programs/
+│   ├── 02-aws-artifact/
+│   ├── 03-geographic-and-industry-compliance/
+│   ├── 04-encryption-options/
+│   ├── 05-security-services/
+│   └── 06-governance-and-auditing-services/
+├── lesson-07-aws-access-management/
+│   ├── 01-aws-iam-overview/
+│   ├── 02-root-user-account/
+│   ├── 03-principle-of-least-privilege/
+│   ├── 04-authentication-methods/
+│   ├── 05-aws-iam-identity-center/
+│   ├── 06-federated-identity-management/
+│   ├── 07-cross-account-access/
+│   └── 08-credential-management/
+├── lesson-08-security-resources-and-components/
+│   ├── 01-aws-security-services-overview/
+│   ├── 02-aws-marketplace-security-products/
+│   ├── 03-aws-security-information-resources/
+│   ├── 04-aws-trusted-advisor-security-checks/
+│   └── 05-aws-trust-and-safety-team/
+├── lesson-09-deploying-and-operating-in-aws/
+│   ├── 01-ways-to-access-aws-services/
+│   ├── 02-infrastructure-as-code/
+│   ├── 03-cloud-deployment-models/
+│   └── 04-one-time-vs-repeatable-processes/
+├── lesson-10-aws-global-infrastructure/
+│   ├── 01-aws-regions/
+│   ├── 02-availability-zones/
+│   ├── 03-edge-locations-and-points-of-presence/
+│   ├── 04-amazon-cloudfront/
+│   ├── 05-aws-local-zones/
+│   ├── 06-aws-wavelength/
+│   ├── 07-aws-outposts/
+│   └── 08-multi-region-strategies/
+├── lesson-11-aws-compute-services/
+│   ├── 01-amazon-ec2/
+│   ├── 02-container-services/
+│   ├── 03-serverless-computing/
+│   ├── 04-other-compute-services/
+│   ├── 05-auto-scaling/
+│   └── 06-elastic-load-balancing/
+├── lesson-12-aws-database-services/
+│   ├── 01-database-types-overview/
+│   ├── 02-relational-databases/
+│   ├── 03-nosql-databases/
+│   ├── 04-in-memory-databases/
+│   ├── 05-other-database-services/
+│   ├── 06-database-migration/
+│   └── 07-ec2-hosted-vs-aws-managed-databases/
+├── lesson-13-aws-networking-services/
+│   ├── 01-amazon-vpc/
+│   ├── 02-vpc-security/
+│   ├── 03-amazon-route-53/
+│   ├── 04-connectivity-options/
+│   └── 05-content-delivery/
+├── lesson-14-aws-storage-services/
+│   ├── 01-object-storage/
+│   ├── 02-block-storage/
+│   ├── 03-file-storage/
+│   ├── 04-hybrid-and-edge-storage/
+│   └── 05-backup-and-recovery/
+├── lesson-15-aws-ai-ml-and-analytics-services/
+│   ├── 01-ai-ml-services/
+│   └── 02-analytics-services/
+├── lesson-16-other-aws-services/
+│   ├── 01-application-integration/
+│   ├── 02-business-applications/
+│   ├── 03-developer-tools/
+│   ├── 04-end-user-computing/
+│   ├── 05-frontend-web-and-mobile/
+│   └── 06-iot-services/
+├── lesson-17-aws-pricing-models/
+│   ├── 01-compute-purchasing-options/
+│   ├── 02-reserved-instance-flexibility/
+│   ├── 03-storage-pricing/
+│   ├── 04-data-transfer-costs/
+│   └── 05-free-tier/
+├── lesson-18-billing-and-cost-management/
+│   ├── 01-aws-billing-dashboard/
+│   ├── 02-cost-management-tools/
+│   ├── 03-aws-pricing-calculator/
+│   ├── 04-aws-organizations/
+│   ├── 05-cost-allocation-tags/
+│   └── 06-aws-cost-anomaly-detection/
+└── lesson-19-aws-support-and-resources/
+    ├── 01-aws-support-plans/
+    ├── 02-aws-support-center/
+    ├── 03-aws-trusted-advisor/
+    ├── 04-aws-health-dashboard/
+    ├── 05-technical-resources/
+    ├── 06-aws-partner-network/
+    └── 07-aws-trust-and-safety-team/
+
+Each topic folder contains:
+├── readme.md      # Study content
+├── diagram.drawio # Editable diagram
+└── diagram.png    # Diagram image
+```
+
+---
+
 ## Domain Breakdown
 
 | Domain | Weight | Lessons |

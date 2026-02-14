@@ -1,5 +1,15 @@
 # ⚠️ AWS Cost Anomaly Detection
 
+## File Structure
+
+```
+lesson-18-billing-and-cost-management/
+└── 06-aws-cost-anomaly-detection/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 AWS Cost Anomaly Detection is a service that uses machine learning to identify unusual spending patterns and alert you to unexpected cost increases. It helps prevent surprise bills by detecting cost anomalies early. Understanding this service is valuable for the AWS Certified Cloud Practitioner exam, particularly for questions about cost monitoring and optimization.

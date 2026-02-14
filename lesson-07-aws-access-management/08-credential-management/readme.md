@@ -1,5 +1,15 @@
 # 🔑 Credential Management
 
+## File Structure
+
+```
+lesson-07-aws-access-management/
+└── 08-credential-management/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 Proper credential management is critical for AWS security. This includes managing passwords, access keys, certificates, and secrets. AWS provides several services and best practices to help secure and manage credentials throughout their lifecycle.

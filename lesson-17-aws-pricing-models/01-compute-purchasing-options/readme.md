@@ -1,5 +1,15 @@
 # 💰 Compute Purchasing Options
 
+## File Structure
+
+```
+lesson-17-aws-pricing-models/
+└── 01-compute-purchasing-options/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 AWS offers multiple purchasing options for compute services, primarily EC2. Understanding these options is essential for optimizing costs while meeting your workload requirements. Each purchasing option offers different levels of flexibility, commitment, and savings.

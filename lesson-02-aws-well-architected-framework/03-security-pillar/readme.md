@@ -1,5 +1,15 @@
 # 🔐 Security Pillar
 
+## File Structure
+
+```
+lesson-02-aws-well-architected-framework/
+└── 03-security-pillar/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Overview
 
 The **Security** pillar focuses on protecting information, systems, and assets while delivering business value through risk assessments and mitigation strategies. Security is a foundational element that must be integrated into every aspect of your architecture.

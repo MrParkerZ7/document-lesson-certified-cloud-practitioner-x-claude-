@@ -1,5 +1,15 @@
 # 📊 AWS Analytics Services
 
+## File Structure
+
+```
+lesson-15-aws-ai-ml-and-analytics-services/
+└── 02-analytics-services/
+    ├── readme.md
+    ├── diagram.drawio
+    └── diagram.png
+```
+
 ## Introduction
 
 AWS provides a comprehensive suite of analytics services that enable organizations to collect, process, analyze, and visualize data at any scale. From serverless query engines to petabyte-scale data warehouses, these services help transform raw data into actionable insights without managing infrastructure.
